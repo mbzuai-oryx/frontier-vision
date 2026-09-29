@@ -1,0 +1,198 @@
+/* Blog post: reading layout on top of the shared site styles (style.css) */
+
+.post-shell { width: min(calc(100% - 40px), 880px); margin: 0 auto; }
+.post-wide { width: min(calc(100% - 40px), 1040px); margin: 44px auto; }
+
+/* Hero: left-aligned in the text column (same style as blogv1) */
+.post-hero { position: relative; overflow: hidden; padding: 128px 0 64px; text-align: left; }
+.eyebrow-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0;
+  font-size: 12.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--tide);
+}
+.eyebrow-row span { white-space: nowrap; }
+.eyebrow-row .sep { width: 4px; height: 4px; border-radius: 50%; background: var(--tide); opacity: .55; }
+.post-title { font-size: clamp(34px, 5vw, 58px); line-height: 1.05; color: var(--abyss); margin: 16px 0 0; text-wrap: balance; }
+.post-title .grad { white-space: normal; }
+.post-title .title-lead, .post-sub { display: block; }
+.post-sub { margin-top: .3em; font-size: .5em; line-height: 1.2; color: var(--abyss); }
+.post-meta { margin: 22px 0 0; font-size: 14.5px; color: var(--muted); line-height: 1.6; }
+.post-meta span { display: block; font-size: 14px; color: var(--muted); }
+
+/* Body text */
+.post { padding: 28px 0 80px; }
+.post p { margin: 0 0 1.35em; font-size: 18.5px; line-height: 1.78; color: #1f3246; }
+/* Run-in section title at the start of a paragraph */
+.post .run-in { font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1; white-space: normal; margin-right: .2em; }
+/* Key question in the opening paragraph: bold, in the title's blue gradient */
+.post .key-q {
+  font-weight: 700; white-space: normal; hyphens: manual; -webkit-hyphens: manual;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.post .lead-p::first-letter {
+  float: left; font-family: var(--display); font-size: 3.4em; line-height: .86; margin: .06em .1em 0 0;
+  background: linear-gradient(160deg, var(--rq-blue), var(--lagoon)); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.post a { color: var(--rq-blue); }
+
+/* Study stats */
+.post-stats { display: grid; grid-template-columns: repeat(4, 1fr); margin: 8px 0 36px; padding: 0; }
+.post-stats div { text-align: center; padding: 6px 8px; }
+.post-stats div + div { border-left: 1px solid var(--line-2); }
+.post-stats dt { font-family: var(--display); font-size: 40px; line-height: 1; color: var(--abyss); }
+.post-stats dd { margin: 6px 0 0; font-size: 13.5px; color: var(--muted); }
+
+
+/* Chart cards */
+
+/* Range chart: six-model range vs. the human reference */
+
+/* Lead chart */
+
+/* Pull quote */
+.pull {
+  position: relative; margin: 10px 0 40px; padding: 8px 0 0 58px;
+  font-family: var(--display); font-size: clamp(24px, 3vw, 31px); line-height: 1.25; color: var(--abyss);
+}
+.pull::before {
+  content: "\201C"; position: absolute; left: 0; top: -14px; font-size: 96px; line-height: 1;
+  background: linear-gradient(160deg, var(--rq-blue), var(--lagoon)); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.pull em { font-style: normal; color: var(--rq-blue); }
+
+/* Contrast examples */
+.contrast-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.contrast-grid figure { margin: 0; }
+.contrast-grid .compare, .contrast-grid img.plain {
+  display: block; width: 100%; aspect-ratio: 3 / 2; border-radius: 14px; overflow: hidden; object-fit: cover;
+  box-shadow: 0 8px 24px rgba(10, 26, 47, .08);
+}
+.contrast-grid figcaption { margin-top: 10px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.contrast-grid figcaption b { color: var(--abyss); }
+/* Pathology: nucleus boundaries over the square crop, cropped with the image ("slice" matches object-fit: cover) */
+.compare .c-base { position: absolute; inset: 0; pointer-events: none; }
+.compare .overlay { height: 100%; }
+
+/* Closing call to action */
+.post-cta {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 28px;
+  margin-top: 56px; padding: 26px 28px; border-radius: 20px;
+  background: linear-gradient(135deg, #ffffff 45%, #f1f6fc); box-shadow: 0 10px 30px rgba(10, 26, 47, .06);
+}
+.post-cta h2 { font-size: 22px; color: var(--abyss); }
+.post-cta p { margin: 6px 0 0; font-size: 15.5px; color: var(--ink-2); }
+.post-cta-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.post-cta .btn-primary { color: #fff; }
+.post-cta .btn:not(.btn-primary) { color: var(--ink); }
+
+@media (max-width: 720px) {
+  .post-hero { padding: 104px 0 72px; }
+  .eyebrow-row { font-size: 11.5px; letter-spacing: .08em; }
+  .post .run-in { font-size: 20px; }
+  .post p { font-size: 17px; line-height: 1.72; }
+  .post-stats { grid-template-columns: repeat(2, 1fr); row-gap: 18px; }
+  .post-stats div:nth-child(3) { border-left: 0; }
+  .contrast-grid { grid-template-columns: 1fr; }
+  .pull { padding-left: 44px; }
+  .pull::before { font-size: 76px; }
+}
+.post-hero .post-shell { position: relative; } /* keep the text above the background blobs */
+.post-meta .authors-line { display: block; font-size: inherit; color: var(--ink-2); }
+.post-meta .nm { display: inline; white-space: nowrap; font-size: inherit; color: inherit; }
+.post-meta sup { font-size: .68em; color: var(--muted); margin-left: 1px; }
+.post-meta .affil-line { display: block; margin-top: 4px; font-size: 14px; color: var(--ink-2); }
+/* Author block: authors / affiliations + equal contribution / date, one line each.
+   Font scales with the viewport so each line stays whole down to tablet portrait. */
+.post-meta { max-width: none; }
+.post-meta .authors-line { font-size: clamp(12px, calc((100vw - 48px) / 57), 15px); white-space: nowrap; }
+.post-meta .affil-line { font-size: clamp(11px, calc((100vw - 48px) / 60), 14px); white-space: nowrap; }
+.post-meta .affil-line > span, .post-meta .authors-line > span { display: inline; }
+@media (max-width: 640px) {
+  /* Too narrow for single lines at a readable size: wrap evenly, never inside a name */
+  .post-meta .authors-line, .post-meta .affil-line { white-space: normal; text-wrap: balance; }
+  .post-meta .authors-line { font-size: 14px; }
+  .post-meta .affil-line { font-size: 12.5px; }
+}
+@media (max-width: 640px) {
+  .post-meta .affil-line > .nm:first-child { display: block; }
+  .post-meta .affil-line > .sep:nth-child(2) { display: none; }
+}
+/* Figures break out to the site width; body text is justified */
+.post-wide { width: min(calc(100% - 40px), var(--max)); margin: 40px auto; }
+.post p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.contrast-grid { gap: 18px; }
+
+/* Figure card with bar panels (ported from blogv1.css) */
+.fig {
+  margin: 22px 0 32px; padding: 18px 20px 14px;
+  background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 1px 0 rgba(10, 26, 47, .03);
+}
+.fig-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 10px 24px; margin-bottom: 14px; }
+.fig-head > div:first-child { flex: 1 1 380px; min-width: 0; }
+.fig-title { font-family: var(--display); font-size: 17px; line-height: 1.25; color: var(--abyss); }
+.fig-sub { margin-top: 4px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; font-size: 13px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.legend i { width: 11px; height: 11px; border-radius: 50%; }
+.legend i.dash { width: 18px; height: 0; border-radius: 0; border-top: 2px dashed var(--c); }
+.bpanels { display: grid; gap: 10px; }
+.bpanels.cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.bpanels.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.bpanel { padding: 12px 12px 10px; border: 1px solid var(--line); border-radius: 12px; background: #fff; min-width: 0; }
+.bp-head { min-height: 34px; }
+.bp-head b { display: block; font-size: 13px; line-height: 1.25; color: var(--abyss); cursor: default; }
+.bp-hplot { position: relative; margin-top: 6px; padding-top: 16px; display: grid; row-gap: 5px; }
+.hrow { display: grid; grid-template-columns: 16px 1fr 34px; align-items: center; gap: 6px; cursor: default; }
+.hrow img { width: 15px; height: 15px; object-fit: contain; opacity: .85; }
+.hrow .track { position: relative; height: 12px; background: #f0f3f6; border-radius: 3px; }
+.hrow .track i { display: block; height: 100%; width: var(--w); background: #b9c5d1; border-radius: 3px; transform: scaleX(0); transform-origin: left; transition: transform .8s var(--ease); }
+.hrow.astra .track i { background: #0055be; }
+.hrow .v { font-size: 11px; line-height: 1; text-align: right; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.hrow.astra .v { color: var(--abyss); font-weight: 700; }
+.hrow.na .v { color: var(--muted); }
+.fig.in .hrow .track i { transform: scaleX(1); }
+.rlines { position: absolute; z-index: 1; top: 16px; bottom: 0; left: 22px; right: 40px; pointer-events: none; }
+.hrline { position: absolute; top: 0; bottom: 0; left: var(--x); width: 0; border-left: 2px dashed var(--c); }
+.hrline span { position: absolute; top: -15px; left: 0; transform: translateX(-50%); font-size: 10px; line-height: 1; font-weight: 700; color: var(--c); white-space: nowrap; }
+.bp-metric { margin-top: 8px; font-size: 11px; color: var(--muted); text-align: center; }
+/* Detection / segmentation examples: one card, three panels in a row */
+.grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+.grid3 figure { margin: 0; }
+.grid3 figcaption { margin-top: 7px; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+.grid3 figcaption b { color: var(--abyss); }
+/* All six panels share one 4:3 frame */
+.media { position: relative; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; }
+.media img { width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: auto !important; }
+.grid3 .mask-stack { aspect-ratio: 4 / 3; }
+/* Detection / 3D examples sit a little wider than the text column */
+.post-shell.fig-wide, .post-wide.fig-wide { width: min(calc(100% - 40px), 1020px); }
+/* Card without the white panel */
+.fig.fig-plain { padding: 0; background: none; border: 0; box-shadow: none; }
+/* Mode switch on the left, colour key on the right */
+.fig-controls { flex: 1; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; }
+.grid3-row2 { margin-top: 12px; }
+/* Soft shadow and hover lift */
+.grid3 .media, .grid3 .mask-stack, .grid3 .compare.d43, .grid3 img.d43 {
+  box-shadow: 0 6px 18px rgba(10, 26, 47, .08); transition: transform .5s var(--ease), box-shadow .5s var(--ease);
+}
+.grid3 figure:hover .media, .grid3 figure:hover .mask-stack, .grid3 figure:hover .compare.d43, .grid3 figure:hover img.d43 {
+  transform: translateY(-3px); box-shadow: 0 12px 26px rgba(10, 26, 47, .14);
+}
+.grid3 .compare.d43 { aspect-ratio: 4 / 3; border-radius: 12px; }
+.grid3 img.d43 { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; display: block; }
+@media (max-width: 900px) {
+  /* Portrait: two panels per row; an odd last panel is centred instead of leaving a gap */
+  .bpanels.cols-5, .bpanels.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .bpanels .bpanel { grid-column: span 2; }
+  .bpanels .bpanel:last-child:nth-child(odd) { grid-column: 2 / span 2; }
+  /* Two reference lines: labels point away from each other so they never overlap */
+  .hrline.lo span { transform: translateX(calc(-100% - 3px)); }
+  .hrline.hi span { transform: translateX(3px); }
+}
+@media (max-width: 640px) {
+  .fig { padding: 16px 14px 12px; }
+  .grid3 { grid-template-columns: 1fr; }
+  /* Phone portrait: one chart per row */
+  .bpanels .bpanel, .bpanels .bpanel:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .bp-head { min-height: 0; }
+  .bp-head br { display: none; }
+}

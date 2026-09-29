@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7fafc">
+  <meta name="description" content="A systematic study of six frontier general-purpose systems across 34 capabilities and 55 benchmarks spanning nine areas of computer vision.">
+  <title>Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision</title>
+  <link rel="preload" href="assets/fonts/optimistic-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/data.js"></script>
+  <script defer src="js/boxes.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/sections.js"></script>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="MBZUAI – back to top">
+        <img src="assets/brand/mbzuai.svg" alt="MBZUAI">
+      </a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#overview">Overview</a>
+        <a href="#questions">Questions</a>
+        <a href="#landscape">Landscape</a>
+        <a href="#results">Results</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#rq1">Findings</a>
+        <a href="#citation">Citation</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="side-nav" aria-label="Page sections">
+    <a href="#overview" aria-label="Overview"><span class="label">Overview</span></a>
+    <a href="#questions" aria-label="Questions"><span class="label">Questions</span></a>
+    <a href="#landscape" aria-label="Landscape"><span class="label">Landscape</span></a>
+    <a href="#results" aria-label="Results"><span class="label">Results</span></a>
+    <a href="#gallery" aria-label="Gallery"><span class="label">Gallery</span></a>
+    <a href="#rq1" aria-label="Findings"><span class="label">Findings</span></a>
+    <a href="#citation" aria-label="Citation"><span class="label">Citation</span></a>
+  </nav>
+
+  <main id="top">
+    <!-- Hero ------------------------------------------------------------ -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob b1"></span><span class="blob b2"></span>
+        <svg class="waves" viewBox="0 0 1440 160" preserveAspectRatio="none">
+          <path class="w1" d="M0 90 C 240 40 480 140 720 90 S 1200 40 1440 90 V160 H0Z"/>
+          <path class="w2" d="M0 110 C 260 70 520 150 760 110 S 1220 70 1440 110 V160 H0Z"/>
+        </svg>
+      </div>
+
+      <div class="shell hero-inner">
+        <h1 class="title reveal">
+          <span class="grad title-lead">Hard Vision, Easy Vision</span> <span class="title-rest">What GPT-6 Astra Reveals Across<br>Computer Vision</span>
+        </h1>
+
+        <div class="authors reveal">
+          <p>
+          <span><a href="https://scholar.google.com/citations?user=yhDdEuEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Hanoona Rasheed</a><sup>1,†</sup></span>
+          <span><a href="https://scholar.google.com/citations?user=GJp0keYAAAAJ&amp;hl=en" target="_blank" rel="noopener">Mohammed Irfan K</a><sup>1,†</sup></span>
+          <span><a href="https://amazingren.github.io/" target="_blank" rel="noopener">Bin Ren</a><sup>1</sup></span>
+          <span><a href="https://scholar.google.com/citations?hl=en&amp;user=bZ3YBRcAAAAJ" target="_blank" rel="noopener">Hisham Cholakkal</a><sup>1</sup></span>
+          <span><a href="https://sites.google.com/view/fahadkhans/home?pli=1&amp;authuser=0" target="_blank" rel="noopener">Fahad Shahbaz Khan</a><sup>1,2</sup></span>
+          <span><a href="https://salman-h-khan.github.io/" target="_blank" rel="noopener">Salman Khan</a><sup>1,2</sup></span>
+          </p>
+        </div>
+        <p class="affils reveal">
+          <span><sup>1</sup>Mohamed bin Zayed University of Artificial Intelligence</span>
+          <span><sup>2</sup>Apertix</span>
+          <span class="muted"><sup>†</sup>Equal contribution</span>
+        </p>
+
+        <div class="actions reveal">
+          <a class="btn btn-primary" href="#">
+            <svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+            Report
+          </a>
+          <a class="btn" href="blog/">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+            Blog
+          </a>
+          <a class="btn" href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener">
+            <svg class="solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <dl class="stats reveal">
+          <div><dt data-count="6">6</dt><dd>frontier systems</dd></div>
+          <div><dt data-count="34">34</dt><dd>capabilities</dd></div>
+          <div><dt data-count="55">55</dt><dd>benchmarks</dd></div>
+          <div><dt data-count="9">9</dt><dd>areas of vision</dd></div>
+        </dl>
+
+        <ul class="model-strip reveal" data-model-strip aria-label="Evaluated systems"></ul>
+      </div>
+    </section>
+
+    <!-- Abstract ------------------------------------------------------------ -->
+    <section class="section section-abstract" id="abstract" data-nav="overview">
+      <div class="shell">
+        <div class="abstract reveal">
+          <p class="eyebrow">Abstract</p>
+          <p>
+            Frontier general-purpose systems are expanding beyond visual understanding into tasks traditionally
+            handled by dedicated vision models. <strong>How much of computer vision is now accessible through a
+            general-purpose system, and where do dedicated models remain necessary?</strong> We evaluate GPT-6 Astra
+            alongside five frontier systems across 34 capabilities and 55 benchmarks spanning nine areas of computer
+            vision. Semantic understanding, reasoning, and object-centric prediction increasingly approach specialist
+            or human reference levels, while precise geometry, faithful reconstruction, temporal consistency, and
+            specialized visual knowledge remain challenging.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero figure ------------------------------------------------------- -->
+    <section class="section section-tint" id="overview">
+      <div class="shell">
+        <div class="section-head reveal">
+          <h2 class="one-line">Mapping the changing landscape of general-purpose vision</h2>
+          <p class="lede">
+            34 capabilities across nine areas of computer vision, drawn from 55 benchmarks.<br>
+            Hover a task to see how the
+            six systems score against specialist models and humans.
+          </p>
+        </div>
+
+        <div class="mosaic-toolbar reveal">
+          <label class="switch">
+            <input type="checkbox" data-tier-toggle checked>
+            <span class="switch-track"><span class="switch-thumb"></span></span>
+            Color by maturity tier
+          </label>
+          <ul class="tier-legend" data-tier-legend></ul>
+        </div>
+
+        <div class="mosaic" data-mosaic></div>
+      </div>
+    </section>
+
+    <!-- Abstract + questions ------------------------------------------------ -->
+    <section class="section" id="questions">
+      <div class="shell">
+        <div class="section-head reveal">
+          <h2>Four research questions</h2>
+        </div>
+
+        <div class="rq-grid">
+          <a class="rq-card reveal" href="#rq1">
+            <span class="rq-num">Q1</span>
+            <h3>How broad is the visual coverage of current frontier systems relative to human and specialist reference performances?</h3>
+            <p>Across 34 capabilities and 55 benchmarks covered in this study, we notice that the frontier has broadened dramatically. However, breadth is not uniform in maturity.</p>
+          </a>
+          <a class="rq-card reveal" href="#rq2">
+            <span class="rq-num">Q2</span>
+            <h3>Where do frontier systems converge, and where do they still differ substantially?</h3>
+            <p>Generalists are strongest at semantic interpretation and reasoning; gaps concentrate in metric precision, fidelity, temporal consistency, and specialized fine-grained discrimination.</p>
+          </a>
+          <a class="rq-card reveal" href="#rq3">
+            <span class="rq-num">Q3</span>
+            <h3>For which task types is specialist-level performance available through a general-purpose interface? What task properties predict the remaining gap?</h3>
+            <p>Specialist-level performance is emerging in semantic and object-centric tasks, while gaps persist in tasks requiring geometric precision, temporal consistency, fine-grained reconstruction, or domain expertise.</p>
+          </a>
+          <a class="rq-card reveal" href="#rq4">
+            <span class="rq-num">Q4</span>
+            <h3>Can added reasoning, explicit tool use, or open specialist-as-tool pipelines close these gaps, and at what cost?</h3>
+            <p>More reasoning and tool use can close selected specialist gaps, but gains are task-dependent and often come with substantially higher inference cost.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tier bands ---------------------------------------------------------- -->
+    <section class="section section-tint" id="landscape">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="eyebrow">Where does general-purpose vision stand?</p>
+          <h2>Four maturity tiers</h2>
+          <p class="lede two-line">
+            To understand how far frontier visual capabilities have progressed, we consider how close their performance is
+            to established reference levels.<br>For each capability, we compare the best generalist score as a percentage of
+            the reference, <span class="ref-chip ref-S">S</span> for specialist and <span class="ref-chip ref-H">H</span> for human.
+          </p>
+        </div>
+
+        <div class="tier-filter reveal" role="group" aria-label="Filter by tier" data-tier-filter></div>
+
+        <div class="tier-card reveal">
+          <div class="tier-chart" data-tier-chart></div>
+          <div class="tier-axis" data-tier-axis></div>
+          <p class="axis-caption">Best generalist as a percentage of the best available reference</p>
+        </div>
+        <p class="section-note reveal">
+          Some capabilities approach reference levels, while substantial gaps remain in tasks requiring precision, fidelity, or specialized expertise. The choice of reference also affects how we interpret these results: matching a
+          specialist does not necessarily mean reaching human performance or solving the task.
+        </p>
+      </div>
+    </section>
+
+    <!-- Results table ------------------------------------------------------- -->
+    <section class="section" id="results">
+      <div class="shell">
+        <div class="section-head reveal">
+          <h2 class="one-line">Frontier visual capability:<br>Shared strengths, differences, and remaining headroom</h2>
+          <p class="lede one-line">
+            6 frontier general-purpose systems across 34 capabilities spanning 9 broad areas of computer&nbsp;vision.
+          </p>
+        </div>
+
+        <div class="table-toolbar reveal">
+          <div class="chips" data-area-filter></div>
+          <div class="toolbar-right">
+            <label class="switch">
+              <input type="checkbox" data-heat-toggle checked>
+              <span class="switch-track"><span class="switch-thumb"></span></span>
+              Shading
+            </label>
+            <div class="scale-legend" aria-hidden="true"><span>Lowest</span><i></i><span>Highest</span></div>
+          </div>
+        </div>
+
+        <div class="table-card reveal">
+          <div class="table-scroll">
+            <table class="results" data-results></table>
+          </div>
+          <p class="table-notes">
+            <b>Reference Model</b> reports either a <i>dedicated specialist</i>, trained or designed specifically for the task,
+            or a <i>prior generalist SOTA</i>, an earlier general-purpose model with the strongest reported result on the benchmark.
+            <b>Human</b> is based on benchmark-reported human performance where available. The last two columns summarize
+            complementary aspects of the capability landscape: Best model vs. ref. measures how far the best generalist exceeds
+            or trails the strongest available model or human reference, indicating the remaining headroom (RQ3); Best vs. 2nd best
+            reports its margin over the next-best generalist, highlighting where a particular system stands out (RQ2).
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Gallery --------------------------------------------------------------- -->
+    <section class="section section-tint" id="gallery">
+      <div class="shell">
+        <div class="section-head reveal">
+          <h2>Qualitative examples</h2>
+          <p class="lede">Frontier models now tackle tasks once handled only by specialist models.</p>
+        </div>
+
+        <div class="tabs reveal" role="tablist" data-tabs>
+          <button role="tab" data-tab="det" aria-selected="true">2D detection &amp; segmentation</button>
+          <button role="tab" data-tab="3d" aria-selected="false">3D perception</button>
+          <button role="tab" data-tab="video" aria-selected="false">Video segmentation</button>
+          <button role="tab" data-tab="medical" aria-selected="false">Medical &amp; pathology</button>
+          <button role="tab" data-tab="remote" aria-selected="false">Remote sensing</button>
+          <button role="tab" data-tab="restoration" aria-selected="false">Restoration</button>
+        </div>
+
+        <div class="panels reveal">
+          <!-- Detection & segmentation -->
+          <div class="panel" role="tabpanel" data-panel="det">
+            <div class="panel-bar">
+              <div class="seg" data-box-mode>
+                <button data-mode="gt">Ground truth</button>
+                <button data-mode="pred">GPT-6 Astra</button>
+                <button data-mode="both" aria-pressed="true">Both</button>
+              </div>
+              <div class="key"><span class="sw sw-gt"></span>Ground truth <span class="sw sw-pred"></span>Prediction</div>
+            </div>
+            <div class="grid-3">
+              <figure class="boxfig" data-boxes="det_parking"><img src="assets/gallery/det_parking.jpg" alt="Aerial parking lot with densely packed cars"><figcaption>2D Detection · 146 densely packed “cars”</figcaption></figure>
+              <figure class="boxfig" data-boxes="det_buns"><img src="assets/gallery/det_buns.jpg" alt="Tray of steamed buns"><figcaption>2D Detection · crowded “buns”</figcaption></figure>
+              <figure class="maskfig">
+                <div class="mask-stack">
+                  <img src="assets/gallery/seg_rabbit.jpg" alt="Rabbit tattoo on a woman's back">
+                  <img class="mask gt" src="assets/gallery/seg_rabbit_gt.png" alt="">
+                  <img class="mask pred" src="assets/gallery/seg_rabbit_pred.png" alt="">
+                  <img class="mask gt-edge" src="assets/gallery/seg_rabbit_gt_edge.png" alt="">
+                </div>
+                <figcaption>Segmentation · “the rabbit on the woman's back”</figcaption>
+              </figure>
+            </div>
+            <p class="panel-cap one-line">GPT-6 Astra detects objects in crowded scenes and segments intricate shapes, extending general-purpose vision to tasks traditionally handled by specialist models.</p>
+          </div>
+
+          <!-- 3D -->
+          <div class="panel" role="tabpanel" data-panel="3d" hidden>
+            <div class="grid-3">
+              <figure>
+                <div class="compare" data-compare>
+                  <img src="assets/gallery/depth_pred.jpg" alt="Predicted depth map">
+                  <div class="c-top"><img src="assets/gallery/depth_gt.jpg" alt="Ground-truth depth map"></div>
+                  <span class="c-tag l">Ground truth</span><span class="c-tag r">GPT-6 Astra</span>
+                  <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare ground truth and prediction">
+                  <span class="c-handle" aria-hidden="true"></span>
+                </div>
+                <figcaption>Depth estimation · Layout captured, fine detail smoothed</figcaption>
+              </figure>
+              <figure><img src="assets/gallery/ground3d.jpg" alt="3D visual grounding of a blackboard in a point cloud"><figcaption>3D visual grounding · “the thin, 4-meter blackboard”</figcaption></figure>
+              <figure><img src="assets/gallery/det3d.jpg" alt="3D bounding boxes on a street scene"><figcaption>3D object detection · Coherent 3D boxes</figcaption></figure>
+            </div>
+            <p class="panel-cap">General-purpose models show emerging strengths in 3D grounding and detection, while gaps remain in precise object geometry, depth estimation, and geometrically consistent reconstruction.</p>
+          </div>
+
+          <!-- Video -->
+          <div class="panel" role="tabpanel" data-panel="video" hidden>
+            <div class="grid-4" data-video-grid></div>
+            <p class="panel-cap wide">GPT-6 Astra shows substantial progress in video segmentation, capturing main object shapes and distinguishing multiple instances.<br>Precise boundaries, small structures, and separation of nearby objects remain challenging.</p>
+          </div>
+
+          <!-- Medical -->
+          <div class="panel" role="tabpanel" data-panel="medical" hidden>
+            <div class="panel-bar">
+              <div class="seg" data-poly-mode>
+                <button data-mode="gt">Ground truth</button>
+                <button data-mode="pred">GPT-6 Astra</button>
+                <button data-mode="both" aria-pressed="true">Both</button>
+              </div>
+              <div class="key"><span class="sw sw-gtd"></span>Ground truth <span class="sw" style="--sw:#ff3b30"></span>GPT-6 Astra <span class="sw" style="--sw:#0a84ff"></span>Qwen 3.8-Max <span class="sw" style="--sw:#00e05a"></span>GT nucleus boundary <span class="sw" style="--sw:#ffd600"></span>Predicted boundary</div>
+            </div>
+            <div class="med-row">
+              <figure class="med-ct">
+                <div class="ct-views">
+                  <img src="assets/gallery/med_pancreas_axial.jpg" alt="Axial CT view with pancreas boxes">
+                  <img src="assets/gallery/med_pancreas_sagittal.jpg" alt="Sagittal CT view with pancreas boxes">
+                  <img src="assets/gallery/med_pancreas_coronal.jpg" alt="Coronal CT view with pancreas boxes">
+                </div>
+                <figcaption>3D medical grounding · “pancreas”</figcaption>
+              </figure>
+              <figure class="med-cxr">
+                <img src="assets/gallery/med_cxr.jpg" alt="Chest X-ray with consolidation boxes">
+                <figcaption>2D medical grounding · “patchy consolidation in the mid left lung”</figcaption>
+              </figure>
+              <figure class="polyfig" data-puma="full"><img src="assets/gallery/puma_full.jpg" alt="Pathology region of interest"><figcaption>Microscopy &amp; pathology · full region</figcaption></figure>
+              <figure class="polyfig" data-puma="zoom"><img src="assets/gallery/puma_zoom.jpg" alt="Zoomed pathology crop"><figcaption>Zoom-in (dashed box)</figcaption></figure>
+            </div>
+            <p class="panel-cap">Organs and findings can be localized in CT and X-ray. In pathology, nuclei are localized and delineated accurately, yet assigning the correct nucleus type remains substantially harder.</p>
+          </div>
+
+          <!-- Remote sensing -->
+          <div class="panel" role="tabpanel" data-panel="remote" hidden>
+            <div class="panel-bar">
+              <div class="key"><span class="sw sw-gt"></span>Ground truth <span class="sw" style="--sw:#ff3b30"></span>GPT-6 Astra <span class="sw" style="--sw:#ff9500"></span>Fable 5 <span class="sw" style="--sw:#e6b800"></span>Kimi K3</div>
+            </div>
+            <div class="grid-4">
+              <figure><img src="assets/gallery/rs_455__Astra.jpg" alt=""><figcaption>“sidewalk” · GPT-6 Astra</figcaption></figure>
+              <figure><img src="assets/gallery/rs_455__Kimi.jpg" alt=""><figcaption>“sidewalk” · Kimi K3</figcaption></figure>
+              <figure><img src="assets/gallery/rs_335__Astra.jpg" alt=""><figcaption>“car driving on the road” · GPT-6 Astra</figcaption></figure>
+              <figure><img src="assets/gallery/rs_335__Fable.jpg" alt=""><figcaption>“car driving on the road” · Fable 5</figcaption></figure>
+            </div>
+            <p class="panel-cap one-line">General-purpose models show strong remote-sensing <b>understanding</b>, but accurately <b>grounding</b> fine-scale objects remains challenging.</p>
+          </div>
+
+          <!-- Restoration -->
+          <div class="panel" role="tabpanel" data-panel="restoration" hidden>
+            <div class="panel-bar">
+              <div class="seg" data-rest-case>
+                <button data-case="enhance" aria-pressed="true">Low-light (LOL-v1)</button>
+                <button data-case="denoise">Denoising (BSD68, σ=25)</button>
+              </div>
+              <div class="rest-pick">
+                <select data-rest-left aria-label="Left image"></select>
+                <span>vs.</span>
+                <select data-rest-right aria-label="Right image"></select>
+              </div>
+            </div>
+            <div class="rest-grid">
+              <div class="compare big" data-compare data-rest-compare>
+                <img alt="">
+                <div class="c-top"><img alt=""></div>
+                <span class="c-tag l"></span><span class="c-tag r"></span>
+                <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare restorations">
+                <span class="c-handle" aria-hidden="true"></span>
+              </div>
+              <div class="crops" data-rest-crops></div>
+            </div>
+            <p class="panel-cap">Restorations can look plausible but hallucinate content: in the low-light case, four bowling pins become five, extra pins appear on an empty lane, and the banner text changes, while the specialist (MIRAGE) stays faithful. PSNR/SSIM are computed on full images; the crops enlarge the red box 4×.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q1 ------------------------------------------------------------------ -->
+    <section class="section rq" id="rq1" data-nav="rq1">
+      <div class="shell">
+        <div class="rq-head reveal">
+          <span class="rq-num big">Q1</span>
+          <div>
+            <h2>How broad is the visual coverage of current frontier systems relative to human and specialist references?</h2>
+          </div>
+        </div>
+
+        <div class="finding-list">
+          <article class="finding reveal" style="--c:var(--g1)">
+            <h3>Recognition, Perception, and Visual Reading vs. Visual Reasoning</h3>
+            <p>Strong recognition, counting, and visual reading extend across all six models. OCR approaches human performance, while document, chart, and infographic understanding exceeds the human score. Mathematical reasoning reaches human levels, while visual logic remains harder.</p>
+          </article>
+          <article class="finding reveal" style="--c:var(--g4)">
+            <h3>Localization, 3D Perception, and Video Understanding</h3>
+            <p>2D localization and object-centric 3D understanding are emerging strengths, approaching or exceeding specialist performance on several tasks. Video understanding is also competitive, while precise geometry and consistent segmentation across frames remain challenging.</p>
+          </article>
+          <article class="finding reveal" style="--c:var(--g7)">
+            <h3>Image Generation, Editing, and Restoration</h3>
+            <p>Image generation, editing, and quality assessment approach specialist levels, with Astra exceeding the evaluated references. Faithful image restoration remains a shared weakness across all six models.</p>
+          </article>
+          <article class="finding reveal" style="--c:#c9822b">
+            <h3>Robotics and Expert-Domain Vision</h3>
+            <p>Driving-scene, embodied, medical, and remote-sensing understanding approach or exceed specialist performance. Astra also demonstrates successful navigation, while fine-grained pathology recognition and grounding small remote-sensing targets remain challenging.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q2 ------------------------------------------------------------------ -->
+    <section class="section section-tint rq" id="rq2" data-nav="rq1">
+      <div class="shell">
+        <div class="rq-head reveal">
+          <span class="rq-num big">Q2</span>
+          <div>
+            <h2>Where do frontier systems converge, and where do they still differ substantially?</h2>
+          </div>
+        </div>
+
+        <div class="callouts">
+          <div class="callout reveal" style="--c:#6fa8e6">
+            <h3>Converge on shared strengths</h3>
+            <p>Visual reading shows the clearest convergence. Recognition, scientific reasoning, image generation
+              and editing, and embodied understanding are increasingly becoming shared strengths across frontier models.</p>
+          </div>
+          <div class="callout reveal" style="--c:#3f86d6">
+            <h3>Converge on shared limitations</h3>
+            <p>All six models struggle with faithful image restoration and fine-grained pathology recognition.
+              Understanding an image or locating a structure does not guarantee accurate reconstruction or identification.</p>
+          </div>
+          <div class="callout reveal" style="--c:#1a6bc9">
+            <h3>Emerging capabilities remain uneven</h3>
+            <p>Strong detection and video understanding are concentrated in selected models. Performance varies
+              substantially across 3D tasks and medical grounding, with different models showing strengths on different subtasks.</p>
+          </div>
+          <div class="callout reveal" style="--c:#0055be">
+            <h3>Astra advances reasoning and structured prediction</h3>
+            <p>Astra shows substantial advances in visual logic and spatial reasoning, alongside large gains in
+              video segmentation, pose estimation, image segmentation, and 3D grounding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q3 ------------------------------------------------------------------ -->
+    <section class="section rq" id="rq3" data-nav="rq1">
+      <div class="shell">
+        <div class="rq-head rq-head-wide reveal">
+          <span class="rq-num big">Q3</span>
+          <div>
+            <h2>For which task types is specialist-level performance available,<br>and what task properties predict the remaining gap?</h2>
+          </div>
+        </div>
+
+        <h3 class="sub reveal">Task properties associated with the remaining gap</h3>
+        <div class="gap-grid" data-gap-grid></div>
+      </div>
+    </section>
+
+    <!-- Q4 ------------------------------------------------------------------ -->
+    <section class="section section-tint rq" id="rq4" data-nav="rq1">
+      <div class="shell">
+        <div class="rq-head rq-head-wide reveal">
+          <span class="rq-num big">Q4</span>
+          <div>
+            <h2>Can added reasoning, explicit tool use, or open specialist&#8209;as&#8209;tool<br>pipelines close those gaps, and at what cost?</h2>
+          </div>
+        </div>
+        <div class="effort-card reveal" data-effort>
+          <div class="ef-bar-top">
+            <div class="ef-legend" data-effort-legend></div>
+          </div>
+          <div class="ef-grid" data-effort-grid></div>
+          <p class="ef-note">
+            Effect of reasoning effort and tool use on GPT-6 Astra. Above each bar: <b>score ratio</b> and
+            <span class="ef-costc">inference-cost ratio</span>, relative to <i>low</i> effort (left three) or to the run without tools
+            at <code>xhigh</code> effort (right).
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Citation -------------------------------------------------------------- -->
+    <section class="section" id="citation">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="eyebrow">Citation</p>
+          <h2>BibTeX</h2>
+          <p class="lede one-line">If you find this work useful, please cite it. The entry will be updated once the arXiv version is available.</p>
+        </div>
+        <div class="bib reveal">
+          <button class="copy" type="button" data-copy>Copy</button>
+<pre><code data-bib>@article{rasheed2026frontiervision,
+  title   = {Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision},
+  author  = {Rasheed, Hanoona and Kurpath, Mohammed Irfan and Ren, Bin and Cholakkal, Hisham and Khan, Fahad Shahbaz and Khan, Salman},
+  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  year    = {2026}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <img src="assets/brand/mbzuai.svg" alt="MBZUAI">
+      <p>Mohamed bin Zayed University of Artificial Intelligence · Apertix</p>
+      <nav>
+        <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>Report</a>
+        <a href="blog/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>Blog</a>
+        <a href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener"><svg class="solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub</a>
+        <a href="#citation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h4v4H8a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V9a2 2 0 0 1 2-2zm9 0h4v4h-3a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V9a2 2 0 0 1 2-2z"/></svg>Citation</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="tip" data-tip role="tooltip" hidden></div>
+</body>
+</html>

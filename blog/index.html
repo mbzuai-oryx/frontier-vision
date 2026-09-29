@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fa">
+  <meta name="description" content="How much of computer vision is now accessible through a general-purpose interface, and where do dedicated models remain necessary?">
+  <title>Hard Vision, Easy Vision · Blog</title>
+  <link rel="preload" href="../assets/fonts/optimistic-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <script defer src="../js/data.js"></script>
+  <script defer src="../js/boxes.js"></script>
+  <script defer src="../js/blog.js"></script>
+</head>
+<body class="blog">
+  <header class="site-header" data-header>
+    <div class="nav-wrap">
+      <a class="brand" href="../" aria-label="Back to the project page">
+        <img src="../assets/brand/mbzuai.svg" alt="MBZUAI">
+      </a>
+      <nav class="site-nav" aria-label="Links">
+        <a href="../">Project page</a>
+        <a href="../#results">Results</a>
+        <a href="#">Report</a>
+        <a href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <header class="post-hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob b1"></span><span class="blob b2"></span>
+        <svg class="waves" viewBox="0 0 1440 160" preserveAspectRatio="none">
+          <path class="w1" d="M0 90 C 240 40 480 140 720 90 S 1200 40 1440 90 V160 H0Z"/>
+          <path class="w2" d="M0 110 C 260 70 520 150 760 110 S 1220 70 1440 110 V160 H0Z"/>
+        </svg>
+      </div>
+      <div class="post-shell">
+        <p class="eyebrow-row reveal"><span>Blog</span><span class="sep"></span><span>September 2026</span><span class="sep"></span><span>4 min read</span></p>
+        <h1 class="post-title reveal">
+          <span class="grad title-lead">Hard Vision, Easy Vision</span>
+          <span class="post-sub">What GPT-6 Astra reveals across computer vision.</span>
+        </h1>
+        <p class="post-meta reveal">
+          <span class="authors-line"><span class="nm">Hanoona Rasheed<sup>1,†</sup></span>, <span class="nm">Mohammed Irfan K<sup>1,†</sup></span>, <span class="nm">Bin Ren<sup>1</sup></span>, <span class="nm">Hisham Cholakkal<sup>1</sup></span>, <span class="nm">Fahad Shahbaz Khan<sup>1,2</sup></span>, <span class="nm">Salman Khan<sup>1,2</sup></span></span>
+          <span class="affil-line"><span class="nm"><sup>1</sup>Mohamed bin Zayed University of Artificial Intelligence</span><span class="sep"> · </span><span class="nm"><sup>2</sup>Apertix</span><span class="sep"> · </span><span class="nm"><sup>†</sup>Equal contribution</span></span>
+        </p>
+      </div>
+    </header>
+
+    <article class="post">
+      <div class="post-shell">
+        <p class="lead-p">With each new generation, frontier models are changing our expectations of what a general-purpose system can do in computer vision. The range of visual tasks they can handle keeps growing, and it now includes tasks we once thought only specialist models could do well. For computer vision researchers, this raises a question about the field as a whole: <strong class="grad key-q">how much of computer vision is now accessible through a general-purpose interface, and where do dedicated models remain necessary?</strong> The evidence exists, but it is scattered across benchmarks, papers and model comparisons. Quantifying the whole landscape in one place is something the field has wanted for a while. As capabilities expand, that broader view becomes essential for understanding which strengths are established, where new capabilities are emerging, and what remains difficult.</p>
+
+        <p><strong class="grad run-in">The study.</strong> We organized our study around 34 capabilities across nine broad areas of computer vision, drawing on 55 benchmarks. We compare six frontier models with one another to identify shared strengths and emerging differences; with specialist models, built specifically for individual tasks, to assess how well general-purpose models perform on tasks traditionally handled by dedicated models; and with reported human performance to put their progress into perspective.</p>
+
+        <dl class="post-stats reveal">
+          <div><dt>6</dt><dd>frontier models</dd></div>
+          <div><dt>34</dt><dd>capabilities</dd></div>
+          <div><dt>55</dt><dd>benchmarks</dd></div>
+          <div><dt>9</dt><dd>areas of vision</dd></div>
+        </dl>
+
+        <p><strong class="grad run-in">Frontier visual capability.</strong> The breadth of this expansion is striking. Frontier models are moving beyond recognizing and describing images into object detection, image and video segmentation, and 3D perception, including depth estimation and reconstruction. Their reach also extends to tasks requiring domain expertise, such as medical-image understanding and grounding, and remote sensing. Add embodied understanding and navigation, image generation and editing, and a much broader picture begins to emerge of what a general-purpose model can take on.</p>
+      </div>
+
+      <div class="post-shell fig-wide">
+        <figure class="fig fig-plain reveal" data-fig="boxes">
+          <div class="fig-head">
+            <div class="fig-controls">
+              <div class="seg" data-box-mode>
+                <button type="button" data-mode="gt">Ground truth</button>
+                <button type="button" data-mode="pred">GPT-6 Astra</button>
+                <button type="button" data-mode="both" aria-pressed="true">Both</button>
+              </div>
+              <div class="key"><span class="sw sw-gt"></span>Ground truth <span class="sw sw-pred"></span>GPT-6 Astra</div>
+            </div>
+          </div>
+          <div class="grid3" data-mode-show="both">
+            <figure class="boxfig" data-boxes="det_parking">
+              <img src="../assets/gallery/det_parking.jpg" alt="Aerial view of a parking lot with detection boxes on every car">
+              <figcaption><b>2D detection</b> · 146 densely packed “cars”</figcaption>
+            </figure>
+            <figure class="boxfig" data-boxes="det_buns">
+              <img src="../assets/gallery/det_buns.jpg" alt="Tray of steamed buns with detection boxes">
+              <figcaption><b>2D detection</b> · crowded “buns”</figcaption>
+            </figure>
+            <figure class="maskfig">
+              <div class="mask-stack">
+                <img src="../assets/gallery/seg_rabbit.jpg" alt="Rabbit tattoo on a woman's back">
+                <img class="mask gt" src="../assets/gallery/seg_rabbit_gt.png" alt="">
+                <img class="mask pred" src="../assets/gallery/seg_rabbit_pred.png" alt="">
+                <img class="mask gt-edge" src="../assets/gallery/seg_rabbit_gt_edge.png" alt="">
+              </div>
+              <figcaption><b>Segmentation</b> · “the rabbit on the woman's back”</figcaption>
+            </figure>
+          </div>
+          <div class="grid3 grid3-row2">
+            <figure>
+              <div class="compare d43" data-compare>
+                <img src="../assets/gallery/depth_pred.jpg" alt="Predicted depth map">
+                <div class="c-top"><img src="../assets/gallery/depth_gt.jpg" alt="Ground-truth depth map"></div>
+                <span class="c-tag l">Ground truth</span><span class="c-tag r">GPT-6 Astra</span>
+                <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare ground-truth and predicted depth">
+                <span class="c-handle" aria-hidden="true"></span>
+              </div>
+              <figcaption><b>Depth estimation</b> · layout captured, fine detail smoothed</figcaption>
+            </figure>
+            <figure><img class="d43" src="../assets/gallery/ground3d.jpg" alt="3D visual grounding of a blackboard in a point cloud"><figcaption><b>3D visual grounding</b> · “the thin, 4-meter blackboard”</figcaption></figure>
+            <figure><img class="d43" src="../assets/gallery/det3d.jpg" alt="3D bounding boxes on a street scene"><figcaption><b>3D object detection</b> · coherent 3D boxes</figcaption></figure>
+          </div>
+        </figure>
+      </div>
+
+      <div class="post-shell">
+        <p><strong class="grad run-in">Established strengths.</strong> Some capabilities are already becoming established strengths across frontier models. Recognition, visual reading, and knowledge-based reasoning stand out for their consistency across the six models we evaluated. These models combine visual understanding with world knowledge to read documents and charts, interpret scientific content, and solve visual mathematics problems. On the evaluated benchmarks, OCR approaches human performance, while all six models surpass the reported human reference in document, chart, and infographic understanding, as well as visual mathematical reasoning.</p>
+
+        <figure class="fig reveal" data-fig="established">
+          <div class="fig-head">
+            <div>
+              <div class="fig-title">Consistent across all six models</div>
+              <div class="fig-sub">Scores of the six frontier models, with the reported human and specialist references as dashed lines.</div>
+            </div>
+            <div class="legend"><span><i style="background:#0055be"></i>GPT-6 Astra</span><span><i style="background:#b9c5d1"></i>Other five models</span><span><i class="dash" style="--c:var(--ref-H)"></i>Human</span><span><i class="dash" style="--c:var(--ref-S)"></i>Specialist</span></div>
+          </div>
+          <div class="bpanels cols-5" data-bars="established"></div>
+        </figure>
+
+        <p><strong class="grad run-in">Emerging capabilities.</strong> Other capabilities are only now emerging at this level, with Astra showing how far a general-purpose model can go. On the evaluated benchmarks, it surpasses specialist models in object detection and image segmentation, tasks long associated with dedicated vision models. It also opens up substantial leads over the next-best frontier model in visual logical reasoning (+13.6 points), pose estimation (+22.7), video segmentation (+26.6), and 3D medical grounding (+27.9). In 2D spatial reasoning, it reaches the reported human performance. These strengths are not yet shared consistently across frontier models, but they expand our picture of what is becoming possible.</p>
+
+        <figure class="fig reveal" data-fig="emerging">
+          <div class="fig-head">
+            <div>
+              <div class="fig-title">Strong in one model, not yet across the frontier</div>
+              <div class="fig-sub">Scores of the six frontier models against the specialist or human reference.</div>
+            </div>
+            <div class="legend"><span><i style="background:#0055be"></i>GPT-6 Astra</span><span><i style="background:#b9c5d1"></i>Other five models</span><span><i class="dash" style="--c:var(--ref-S)"></i>Specialist</span><span><i class="dash" style="--c:var(--ref-H)"></i>Human</span></div>
+          </div>
+          <div class="bpanels cols-4" data-bars="emerging"></div>
+        </figure>
+
+        <p><strong class="grad run-in">Semantic competence versus perceptual precision.</strong> Across these advances, we see an ongoing competition between semantic competence and perceptual precision. Frontier models are increasingly good at understanding what an image means and reasoning about its contents. Greater difficulty remains when they need to measure geometry accurately, preserve fine details, or maintain precise predictions across video frames.</p>
+
+        <blockquote class="pull reveal">An ongoing competition between <em>semantic competence</em> and <em>perceptual precision</em>.</blockquote>
+
+        <p>The contrasts are revealing when we look at related tasks. In 3D perception, models can locate an object from a description, yet still struggle to estimate depth accurately or reconstruct the surrounding scene. In image generation and editing, they can produce visually appealing results, but tasks like restoration are more demanding because they require faithful recovery of the original details. In video segmentation, although Astra leads the next-best frontier model by 26.6 points, it still faces significant challenges with precise boundaries, small structures, and consistency across frames. In medical imaging, similarly strong understanding and reasoning can coexist with gaps in specialized visual expertise. Models can draw on medical knowledge to interpret an image and even locate fine structures such as individual nuclei, yet struggle to distinguish nucleus types, which requires recognizing subtle visual differences, particularly in rare or less familiar categories.</p>
+      </div>
+
+      <div class="post-shell fig-wide">
+        <figure class="fig fig-plain reveal" data-fig="contrasts">
+          <div class="grid3">
+            <figure>
+              <div class="compare d43" data-compare>
+                <img src="../assets/gallery/vos_gold-fish_pred.jpg" alt="Predicted video segmentation">
+                <div class="c-top"><img src="../assets/gallery/vos_gold-fish_gt.jpg" alt="Ground-truth video segmentation"></div>
+                <span class="c-tag l">Ground truth</span><span class="c-tag r">GPT-6 Astra</span>
+                <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare video segmentation">
+                <span class="c-handle" aria-hidden="true"></span>
+              </div>
+              <figcaption><b>Video segmentation</b> · instances are separated; boundaries and small parts drift</figcaption>
+            </figure>
+            <figure>
+              <div class="compare d43" data-compare>
+                <img src="../assets/gallery/rest_enhance_gt.png" alt="Ground-truth image">
+                <div class="c-top"><img src="../assets/gallery/rest_enhance_astra_sunburst.png" alt="Restored image"></div>
+                <span class="c-tag l">GPT-6 Astra + image model</span><span class="c-tag r">Ground truth</span>
+                <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare restoration and ground truth">
+                <span class="c-handle" aria-hidden="true"></span>
+              </div>
+              <figcaption><b>Restoration</b> · plausible, but not faithful: pins, lanes and banner text change</figcaption>
+            </figure>
+            <figure>
+              <div class="compare d43" data-compare data-puma="zoom">
+                <img src="../assets/gallery/puma_zoom.jpg" alt="Zoomed pathology crop with GPT-6 Astra nucleus boundaries">
+                <div class="c-top"><img src="../assets/gallery/puma_zoom.jpg" alt="Zoomed pathology crop with ground-truth nucleus boundaries"></div>
+                <span class="c-tag l">Ground truth</span><span class="c-tag r">GPT-6 Astra</span>
+                <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare ground-truth and predicted nucleus boundaries">
+                <span class="c-handle" aria-hidden="true"></span>
+              </div>
+              <figcaption><b>Pathology</b> · nuclei are easy to locate; telling their types apart is the hard part</figcaption>
+            </figure>
+          </div>
+        </figure>
+      </div>
+
+      <div class="post-shell">
+        <p>This blog only scratches the surface. In the <a href="#">paper</a>, we dig into four questions: how broad frontier visual capability really is, where the models agree and where they differ, where specialist-level performance is emerging, and whether a bit more reasoning or a few tools can close the remaining gaps (and what that costs). We hope you enjoy the read!</p>
+
+        <aside class="post-cta reveal">
+          <div>
+            <h2>Explore the full landscape</h2>
+            <p>Interactive results for all 34 capabilities, the maturity tiers, and more qualitative examples.</p>
+          </div>
+          <div class="post-cta-links">
+            <a class="btn btn-primary" href="../">Project page</a>
+            <a class="btn" href="#">Report</a>
+            <a class="btn" href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </aside>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <img src="../assets/brand/mbzuai.svg" alt="MBZUAI">
+      <p>Mohamed bin Zayed University of Artificial Intelligence · Apertix</p>
+      <nav><a href="../">Project page</a><a href="#">Report</a><a href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener">GitHub</a></nav>
+    </div>
+  </footer>
+  <div class="tip" data-tip role="tooltip" hidden></div>
+</body>
+</html>
