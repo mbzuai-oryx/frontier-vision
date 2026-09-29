@@ -29,7 +29,7 @@
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
 }
 .post .lead-p::first-letter {
-  float: left; font-family: var(--display); font-size: 3.4em; line-height: .86; margin: .06em .1em 0 0;
+  font-family: var(--display); font-size: 2em; line-height: 1;
   background: linear-gradient(160deg, var(--rq-blue), var(--lagoon)); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .post a { color: var(--rq-blue); }
