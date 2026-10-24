@@ -24,9 +24,9 @@
 
 **🔥 [Oct 2026]**
 
-- [x] 📊 **Benchmark-level results are out!** Scores of all six systems on every benchmark. [Explore them →](https://mbzuai-oryx.github.io/frontier-vision/benchmarks/)
-- [x] 🚀 **We release our evaluation details!** The exact prompts and model settings behind our evaluation. [See below ↓](#evaluation-details)
-- [x] 🎬 **Watch GPT-6 Astra reason!** New videos show it building detections, masks and depth maps step by step. [Check out the gallery →](https://mbzuai-oryx.github.io/frontier-vision/#gallery)
+- [x] 📊 **Benchmark-level results are out!** Scores of all six systems on every benchmark. [Explore them](https://mbzuai-oryx.github.io/frontier-vision/benchmarks/)
+- [x] 🚀 **We release our evaluation details!** The exact prompts and model settings behind our evaluation. [See below](#evaluation-details)
+- [x] 🎬 **Watch GPT-6 Astra reason!** New videos show it building detections, masks and depth maps step by step. [Check out the gallery](https://mbzuai-oryx.github.io/frontier-vision/#gallery)
 
 <p align="center">
   <img src="assets/hero.png" alt="Overview of the 34 capabilities across nine areas of computer vision covered in the study" width="100%">
