@@ -1,0 +1,25 @@
+# GenEval2: inference settings per model
+gpt-6-astra:
+  reasoning_effort: "max"
+  max_output_tokens: 8192
+  image_detail: "not applicable"
+  tools: "image generation tool"
+  image_model: "GPT Image 2.5 Sunburst (quality high, 1024x1024, png)"
+qwen3.8-max:
+  reasoning_effort: "high"
+  max_output_tokens: 8192
+  image_detail: "not applicable"
+  tools: "image generation tool"
+  image_model: "Qwen Image 3 Pro (1K, aspect 1:1)"
+gemini-3.1-pro:
+  reasoning_effort: "high"
+  max_output_tokens: 8192
+  image_detail: "not applicable"
+  tools: "image generation tool"
+  image_model: "Gemini 3.1 Flash Image (1K, aspect 1:1)"
+muse-spark-1.3:
+  reasoning_effort: "high"
+  max_output_tokens: 8192
+  image_detail: "not applicable"
+  tools: "image generation tool"
+  image_model: "Muse Image"

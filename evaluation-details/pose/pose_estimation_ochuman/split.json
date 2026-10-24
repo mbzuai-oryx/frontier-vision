@@ -1,0 +1,2514 @@
+{
+ "benchmark": "OCHuman",
+ "split": "test-500",
+ "source": {
+  "dataset": "https://github.com/liruilong940607/OCHumanApi",
+  "file": "ochuman_coco_format_test_range_0.00_1.00.json",
+  "people_in_source": 3819,
+  "id_field": "COCO annotation id (one person)"
+ },
+ "seed": 42,
+ "count": 500,
+ "items": [
+  {
+   "annotation_id": 2,
+   "image_id": 1,
+   "file_name": "000975.jpg"
+  },
+  {
+   "annotation_id": 12,
+   "image_id": 8,
+   "file_name": "001261.jpg"
+  },
+  {
+   "annotation_id": 27,
+   "image_id": 17,
+   "file_name": "001790.jpg"
+  },
+  {
+   "annotation_id": 38,
+   "image_id": 24,
+   "file_name": "002573.jpg"
+  },
+  {
+   "annotation_id": 42,
+   "image_id": 27,
+   "file_name": "002296.jpg"
+  },
+  {
+   "annotation_id": 44,
+   "image_id": 28,
+   "file_name": "004690.jpg"
+  },
+  {
+   "annotation_id": 52,
+   "image_id": 33,
+   "file_name": "003940.jpg"
+  },
+  {
+   "annotation_id": 55,
+   "image_id": 35,
+   "file_name": "003624.jpg"
+  },
+  {
+   "annotation_id": 56,
+   "image_id": 35,
+   "file_name": "003624.jpg"
+  },
+  {
+   "annotation_id": 59,
+   "image_id": 37,
+   "file_name": "002948.jpg"
+  },
+  {
+   "annotation_id": 64,
+   "image_id": 40,
+   "file_name": "004811.jpg"
+  },
+  {
+   "annotation_id": 68,
+   "image_id": 42,
+   "file_name": "004376.jpg"
+  },
+  {
+   "annotation_id": 78,
+   "image_id": 48,
+   "file_name": "004386.jpg"
+  },
+  {
+   "annotation_id": 88,
+   "image_id": 53,
+   "file_name": "002581.jpg"
+  },
+  {
+   "annotation_id": 97,
+   "image_id": 58,
+   "file_name": "005061.jpg"
+  },
+  {
+   "annotation_id": 100,
+   "image_id": 59,
+   "file_name": "004453.jpg"
+  },
+  {
+   "annotation_id": 105,
+   "image_id": 62,
+   "file_name": "001024.jpg"
+  },
+  {
+   "annotation_id": 106,
+   "image_id": 62,
+   "file_name": "001024.jpg"
+  },
+  {
+   "annotation_id": 126,
+   "image_id": 74,
+   "file_name": "004251.jpg"
+  },
+  {
+   "annotation_id": 130,
+   "image_id": 76,
+   "file_name": "000956.jpg"
+  },
+  {
+   "annotation_id": 135,
+   "image_id": 79,
+   "file_name": "004494.jpg"
+  },
+  {
+   "annotation_id": 150,
+   "image_id": 88,
+   "file_name": "002247.jpg"
+  },
+  {
+   "annotation_id": 151,
+   "image_id": 89,
+   "file_name": "000780.jpg"
+  },
+  {
+   "annotation_id": 167,
+   "image_id": 99,
+   "file_name": "002693.jpg"
+  },
+  {
+   "annotation_id": 174,
+   "image_id": 103,
+   "file_name": "000671.jpg"
+  },
+  {
+   "annotation_id": 189,
+   "image_id": 113,
+   "file_name": "004128.jpg"
+  },
+  {
+   "annotation_id": 190,
+   "image_id": 114,
+   "file_name": "001807.jpg"
+  },
+  {
+   "annotation_id": 203,
+   "image_id": 121,
+   "file_name": "002521.jpg"
+  },
+  {
+   "annotation_id": 214,
+   "image_id": 127,
+   "file_name": "002990.jpg"
+  },
+  {
+   "annotation_id": 215,
+   "image_id": 128,
+   "file_name": "003483.jpg"
+  },
+  {
+   "annotation_id": 226,
+   "image_id": 134,
+   "file_name": "004459.jpg"
+  },
+  {
+   "annotation_id": 231,
+   "image_id": 138,
+   "file_name": "003226.jpg"
+  },
+  {
+   "annotation_id": 232,
+   "image_id": 139,
+   "file_name": "002010.jpg"
+  },
+  {
+   "annotation_id": 233,
+   "image_id": 140,
+   "file_name": "003975.jpg"
+  },
+  {
+   "annotation_id": 236,
+   "image_id": 142,
+   "file_name": "000722.jpg"
+  },
+  {
+   "annotation_id": 241,
+   "image_id": 144,
+   "file_name": "001965.jpg"
+  },
+  {
+   "annotation_id": 270,
+   "image_id": 159,
+   "file_name": "003395.jpg"
+  },
+  {
+   "annotation_id": 277,
+   "image_id": 162,
+   "file_name": "004439.jpg"
+  },
+  {
+   "annotation_id": 280,
+   "image_id": 164,
+   "file_name": "004696.jpg"
+  },
+  {
+   "annotation_id": 281,
+   "image_id": 164,
+   "file_name": "004696.jpg"
+  },
+  {
+   "annotation_id": 286,
+   "image_id": 167,
+   "file_name": "002069.jpg"
+  },
+  {
+   "annotation_id": 291,
+   "image_id": 170,
+   "file_name": "002451.jpg"
+  },
+  {
+   "annotation_id": 319,
+   "image_id": 187,
+   "file_name": "004387.jpg"
+  },
+  {
+   "annotation_id": 322,
+   "image_id": 188,
+   "file_name": "003109.jpg"
+  },
+  {
+   "annotation_id": 329,
+   "image_id": 192,
+   "file_name": "002917.jpg"
+  },
+  {
+   "annotation_id": 339,
+   "image_id": 198,
+   "file_name": "000813.jpg"
+  },
+  {
+   "annotation_id": 343,
+   "image_id": 201,
+   "file_name": "004188.jpg"
+  },
+  {
+   "annotation_id": 346,
+   "image_id": 203,
+   "file_name": "000086.jpg"
+  },
+  {
+   "annotation_id": 350,
+   "image_id": 205,
+   "file_name": "004592.jpg"
+  },
+  {
+   "annotation_id": 354,
+   "image_id": 207,
+   "file_name": "004925.jpg"
+  },
+  {
+   "annotation_id": 363,
+   "image_id": 212,
+   "file_name": "004096.jpg"
+  },
+  {
+   "annotation_id": 369,
+   "image_id": 216,
+   "file_name": "001553.jpg"
+  },
+  {
+   "annotation_id": 377,
+   "image_id": 220,
+   "file_name": "003529.jpg"
+  },
+  {
+   "annotation_id": 379,
+   "image_id": 221,
+   "file_name": "000677.jpg"
+  },
+  {
+   "annotation_id": 388,
+   "image_id": 228,
+   "file_name": "002325.jpg"
+  },
+  {
+   "annotation_id": 402,
+   "image_id": 236,
+   "file_name": "004807.jpg"
+  },
+  {
+   "annotation_id": 409,
+   "image_id": 240,
+   "file_name": "003157.jpg"
+  },
+  {
+   "annotation_id": 411,
+   "image_id": 242,
+   "file_name": "004549.jpg"
+  },
+  {
+   "annotation_id": 413,
+   "image_id": 243,
+   "file_name": "000909.jpg"
+  },
+  {
+   "annotation_id": 416,
+   "image_id": 244,
+   "file_name": "003230.jpg"
+  },
+  {
+   "annotation_id": 417,
+   "image_id": 245,
+   "file_name": "002443.jpg"
+  },
+  {
+   "annotation_id": 422,
+   "image_id": 249,
+   "file_name": "004055.jpg"
+  },
+  {
+   "annotation_id": 423,
+   "image_id": 249,
+   "file_name": "004055.jpg"
+  },
+  {
+   "annotation_id": 426,
+   "image_id": 251,
+   "file_name": "000568.jpg"
+  },
+  {
+   "annotation_id": 433,
+   "image_id": 256,
+   "file_name": "001569.jpg"
+  },
+  {
+   "annotation_id": 435,
+   "image_id": 257,
+   "file_name": "003773.jpg"
+  },
+  {
+   "annotation_id": 436,
+   "image_id": 258,
+   "file_name": "000971.jpg"
+  },
+  {
+   "annotation_id": 443,
+   "image_id": 262,
+   "file_name": "002311.jpg"
+  },
+  {
+   "annotation_id": 448,
+   "image_id": 265,
+   "file_name": "000814.jpg"
+  },
+  {
+   "annotation_id": 452,
+   "image_id": 267,
+   "file_name": "003862.jpg"
+  },
+  {
+   "annotation_id": 463,
+   "image_id": 273,
+   "file_name": "000883.jpg"
+  },
+  {
+   "annotation_id": 464,
+   "image_id": 274,
+   "file_name": "001300.jpg"
+  },
+  {
+   "annotation_id": 472,
+   "image_id": 279,
+   "file_name": "002427.jpg"
+  },
+  {
+   "annotation_id": 488,
+   "image_id": 289,
+   "file_name": "004479.jpg"
+  },
+  {
+   "annotation_id": 492,
+   "image_id": 291,
+   "file_name": "003795.jpg"
+  },
+  {
+   "annotation_id": 498,
+   "image_id": 294,
+   "file_name": "000150.jpg"
+  },
+  {
+   "annotation_id": 503,
+   "image_id": 297,
+   "file_name": "002348.jpg"
+  },
+  {
+   "annotation_id": 514,
+   "image_id": 305,
+   "file_name": "000952.jpg"
+  },
+  {
+   "annotation_id": 523,
+   "image_id": 309,
+   "file_name": "003756.jpg"
+  },
+  {
+   "annotation_id": 542,
+   "image_id": 321,
+   "file_name": "004296.jpg"
+  },
+  {
+   "annotation_id": 551,
+   "image_id": 326,
+   "file_name": "003121.jpg"
+  },
+  {
+   "annotation_id": 553,
+   "image_id": 327,
+   "file_name": "003143.jpg"
+  },
+  {
+   "annotation_id": 566,
+   "image_id": 336,
+   "file_name": "001353.jpg"
+  },
+  {
+   "annotation_id": 568,
+   "image_id": 337,
+   "file_name": "000919.jpg"
+  },
+  {
+   "annotation_id": 572,
+   "image_id": 339,
+   "file_name": "003450.jpg"
+  },
+  {
+   "annotation_id": 579,
+   "image_id": 344,
+   "file_name": "002047.jpg"
+  },
+  {
+   "annotation_id": 583,
+   "image_id": 346,
+   "file_name": "000187.jpg"
+  },
+  {
+   "annotation_id": 587,
+   "image_id": 349,
+   "file_name": "003774.jpg"
+  },
+  {
+   "annotation_id": 595,
+   "image_id": 355,
+   "file_name": "004806.jpg"
+  },
+  {
+   "annotation_id": 597,
+   "image_id": 357,
+   "file_name": "002736.jpg"
+  },
+  {
+   "annotation_id": 605,
+   "image_id": 363,
+   "file_name": "004573.jpg"
+  },
+  {
+   "annotation_id": 611,
+   "image_id": 366,
+   "file_name": "000485.jpg"
+  },
+  {
+   "annotation_id": 629,
+   "image_id": 375,
+   "file_name": "001293.jpg"
+  },
+  {
+   "annotation_id": 640,
+   "image_id": 382,
+   "file_name": "004894.jpg"
+  },
+  {
+   "annotation_id": 654,
+   "image_id": 389,
+   "file_name": "003718.jpg"
+  },
+  {
+   "annotation_id": 655,
+   "image_id": 389,
+   "file_name": "003718.jpg"
+  },
+  {
+   "annotation_id": 676,
+   "image_id": 402,
+   "file_name": "003317.jpg"
+  },
+  {
+   "annotation_id": 679,
+   "image_id": 404,
+   "file_name": "000159.jpg"
+  },
+  {
+   "annotation_id": 680,
+   "image_id": 404,
+   "file_name": "000159.jpg"
+  },
+  {
+   "annotation_id": 681,
+   "image_id": 405,
+   "file_name": "001895.jpg"
+  },
+  {
+   "annotation_id": 689,
+   "image_id": 409,
+   "file_name": "002310.jpg"
+  },
+  {
+   "annotation_id": 697,
+   "image_id": 413,
+   "file_name": "002846.jpg"
+  },
+  {
+   "annotation_id": 700,
+   "image_id": 414,
+   "file_name": "000663.jpg"
+  },
+  {
+   "annotation_id": 703,
+   "image_id": 416,
+   "file_name": "005063.jpg"
+  },
+  {
+   "annotation_id": 714,
+   "image_id": 422,
+   "file_name": "001197.jpg"
+  },
+  {
+   "annotation_id": 724,
+   "image_id": 428,
+   "file_name": "003095.jpg"
+  },
+  {
+   "annotation_id": 725,
+   "image_id": 429,
+   "file_name": "004934.jpg"
+  },
+  {
+   "annotation_id": 727,
+   "image_id": 430,
+   "file_name": "000446.jpg"
+  },
+  {
+   "annotation_id": 728,
+   "image_id": 430,
+   "file_name": "000446.jpg"
+  },
+  {
+   "annotation_id": 733,
+   "image_id": 432,
+   "file_name": "000170.jpg"
+  },
+  {
+   "annotation_id": 747,
+   "image_id": 440,
+   "file_name": "004815.jpg"
+  },
+  {
+   "annotation_id": 749,
+   "image_id": 441,
+   "file_name": "002472.jpg"
+  },
+  {
+   "annotation_id": 758,
+   "image_id": 446,
+   "file_name": "003786.jpg"
+  },
+  {
+   "annotation_id": 763,
+   "image_id": 449,
+   "file_name": "000540.jpg"
+  },
+  {
+   "annotation_id": 776,
+   "image_id": 459,
+   "file_name": "002091.jpg"
+  },
+  {
+   "annotation_id": 787,
+   "image_id": 465,
+   "file_name": "003387.jpg"
+  },
+  {
+   "annotation_id": 790,
+   "image_id": 467,
+   "file_name": "001083.jpg"
+  },
+  {
+   "annotation_id": 827,
+   "image_id": 491,
+   "file_name": "004281.jpg"
+  },
+  {
+   "annotation_id": 833,
+   "image_id": 494,
+   "file_name": "001240.jpg"
+  },
+  {
+   "annotation_id": 838,
+   "image_id": 497,
+   "file_name": "001189.jpg"
+  },
+  {
+   "annotation_id": 860,
+   "image_id": 511,
+   "file_name": "001924.jpg"
+  },
+  {
+   "annotation_id": 869,
+   "image_id": 516,
+   "file_name": "003692.jpg"
+  },
+  {
+   "annotation_id": 871,
+   "image_id": 517,
+   "file_name": "003650.jpg"
+  },
+  {
+   "annotation_id": 873,
+   "image_id": 518,
+   "file_name": "004784.jpg"
+  },
+  {
+   "annotation_id": 878,
+   "image_id": 522,
+   "file_name": "003846.jpg"
+  },
+  {
+   "annotation_id": 881,
+   "image_id": 523,
+   "file_name": "003193.jpg"
+  },
+  {
+   "annotation_id": 903,
+   "image_id": 536,
+   "file_name": "000332.jpg"
+  },
+  {
+   "annotation_id": 907,
+   "image_id": 538,
+   "file_name": "001286.jpg"
+  },
+  {
+   "annotation_id": 922,
+   "image_id": 546,
+   "file_name": "000291.jpg"
+  },
+  {
+   "annotation_id": 923,
+   "image_id": 547,
+   "file_name": "002106.jpg"
+  },
+  {
+   "annotation_id": 926,
+   "image_id": 548,
+   "file_name": "000448.jpg"
+  },
+  {
+   "annotation_id": 952,
+   "image_id": 564,
+   "file_name": "003993.jpg"
+  },
+  {
+   "annotation_id": 960,
+   "image_id": 569,
+   "file_name": "001506.jpg"
+  },
+  {
+   "annotation_id": 963,
+   "image_id": 571,
+   "file_name": "001998.jpg"
+  },
+  {
+   "annotation_id": 968,
+   "image_id": 574,
+   "file_name": "001912.jpg"
+  },
+  {
+   "annotation_id": 973,
+   "image_id": 576,
+   "file_name": "004826.jpg"
+  },
+  {
+   "annotation_id": 975,
+   "image_id": 577,
+   "file_name": "004255.jpg"
+  },
+  {
+   "annotation_id": 976,
+   "image_id": 578,
+   "file_name": "003043.jpg"
+  },
+  {
+   "annotation_id": 991,
+   "image_id": 587,
+   "file_name": "001485.jpg"
+  },
+  {
+   "annotation_id": 992,
+   "image_id": 587,
+   "file_name": "001485.jpg"
+  },
+  {
+   "annotation_id": 995,
+   "image_id": 589,
+   "file_name": "002481.jpg"
+  },
+  {
+   "annotation_id": 1004,
+   "image_id": 594,
+   "file_name": "002186.jpg"
+  },
+  {
+   "annotation_id": 1024,
+   "image_id": 605,
+   "file_name": "003001.jpg"
+  },
+  {
+   "annotation_id": 1028,
+   "image_id": 607,
+   "file_name": "003011.jpg"
+  },
+  {
+   "annotation_id": 1030,
+   "image_id": 608,
+   "file_name": "002923.jpg"
+  },
+  {
+   "annotation_id": 1034,
+   "image_id": 611,
+   "file_name": "002703.jpg"
+  },
+  {
+   "annotation_id": 1038,
+   "image_id": 613,
+   "file_name": "003329.jpg"
+  },
+  {
+   "annotation_id": 1056,
+   "image_id": 622,
+   "file_name": "003386.jpg"
+  },
+  {
+   "annotation_id": 1058,
+   "image_id": 623,
+   "file_name": "004775.jpg"
+  },
+  {
+   "annotation_id": 1062,
+   "image_id": 626,
+   "file_name": "003452.jpg"
+  },
+  {
+   "annotation_id": 1065,
+   "image_id": 627,
+   "file_name": "005064.jpg"
+  },
+  {
+   "annotation_id": 1066,
+   "image_id": 628,
+   "file_name": "003905.jpg"
+  },
+  {
+   "annotation_id": 1068,
+   "image_id": 629,
+   "file_name": "003422.jpg"
+  },
+  {
+   "annotation_id": 1070,
+   "image_id": 631,
+   "file_name": "004334.jpg"
+  },
+  {
+   "annotation_id": 1084,
+   "image_id": 639,
+   "file_name": "001604.jpg"
+  },
+  {
+   "annotation_id": 1090,
+   "image_id": 643,
+   "file_name": "001229.jpg"
+  },
+  {
+   "annotation_id": 1095,
+   "image_id": 647,
+   "file_name": "001621.jpg"
+  },
+  {
+   "annotation_id": 1109,
+   "image_id": 656,
+   "file_name": "002853.jpg"
+  },
+  {
+   "annotation_id": 1117,
+   "image_id": 659,
+   "file_name": "002058.jpg"
+  },
+  {
+   "annotation_id": 1136,
+   "image_id": 670,
+   "file_name": "002510.jpg"
+  },
+  {
+   "annotation_id": 1137,
+   "image_id": 671,
+   "file_name": "003144.jpg"
+  },
+  {
+   "annotation_id": 1144,
+   "image_id": 674,
+   "file_name": "004056.jpg"
+  },
+  {
+   "annotation_id": 1149,
+   "image_id": 677,
+   "file_name": "002138.jpg"
+  },
+  {
+   "annotation_id": 1155,
+   "image_id": 681,
+   "file_name": "003289.jpg"
+  },
+  {
+   "annotation_id": 1168,
+   "image_id": 689,
+   "file_name": "000060.jpg"
+  },
+  {
+   "annotation_id": 1170,
+   "image_id": 690,
+   "file_name": "001899.jpg"
+  },
+  {
+   "annotation_id": 1178,
+   "image_id": 695,
+   "file_name": "002174.jpg"
+  },
+  {
+   "annotation_id": 1179,
+   "image_id": 696,
+   "file_name": "004401.jpg"
+  },
+  {
+   "annotation_id": 1180,
+   "image_id": 696,
+   "file_name": "004401.jpg"
+  },
+  {
+   "annotation_id": 1182,
+   "image_id": 697,
+   "file_name": "000253.jpg"
+  },
+  {
+   "annotation_id": 1205,
+   "image_id": 709,
+   "file_name": "003012.jpg"
+  },
+  {
+   "annotation_id": 1210,
+   "image_id": 712,
+   "file_name": "004526.jpg"
+  },
+  {
+   "annotation_id": 1211,
+   "image_id": 713,
+   "file_name": "001782.jpg"
+  },
+  {
+   "annotation_id": 1215,
+   "image_id": 715,
+   "file_name": "002064.jpg"
+  },
+  {
+   "annotation_id": 1241,
+   "image_id": 731,
+   "file_name": "002728.jpg"
+  },
+  {
+   "annotation_id": 1254,
+   "image_id": 737,
+   "file_name": "000490.jpg"
+  },
+  {
+   "annotation_id": 1257,
+   "image_id": 739,
+   "file_name": "004342.jpg"
+  },
+  {
+   "annotation_id": 1327,
+   "image_id": 777,
+   "file_name": "004908.jpg"
+  },
+  {
+   "annotation_id": 1355,
+   "image_id": 794,
+   "file_name": "004859.jpg"
+  },
+  {
+   "annotation_id": 1359,
+   "image_id": 796,
+   "file_name": "002474.jpg"
+  },
+  {
+   "annotation_id": 1361,
+   "image_id": 797,
+   "file_name": "002136.jpg"
+  },
+  {
+   "annotation_id": 1363,
+   "image_id": 798,
+   "file_name": "004227.jpg"
+  },
+  {
+   "annotation_id": 1366,
+   "image_id": 800,
+   "file_name": "002618.jpg"
+  },
+  {
+   "annotation_id": 1378,
+   "image_id": 803,
+   "file_name": "001379.jpg"
+  },
+  {
+   "annotation_id": 1380,
+   "image_id": 804,
+   "file_name": "000098.jpg"
+  },
+  {
+   "annotation_id": 1382,
+   "image_id": 805,
+   "file_name": "003130.jpg"
+  },
+  {
+   "annotation_id": 1385,
+   "image_id": 807,
+   "file_name": "004287.jpg"
+  },
+  {
+   "annotation_id": 1386,
+   "image_id": 808,
+   "file_name": "002276.jpg"
+  },
+  {
+   "annotation_id": 1458,
+   "image_id": 850,
+   "file_name": "002575.jpg"
+  },
+  {
+   "annotation_id": 1498,
+   "image_id": 874,
+   "file_name": "004134.jpg"
+  },
+  {
+   "annotation_id": 1500,
+   "image_id": 876,
+   "file_name": "002597.jpg"
+  },
+  {
+   "annotation_id": 1503,
+   "image_id": 878,
+   "file_name": "001564.jpg"
+  },
+  {
+   "annotation_id": 1506,
+   "image_id": 880,
+   "file_name": "003613.jpg"
+  },
+  {
+   "annotation_id": 1521,
+   "image_id": 888,
+   "file_name": "003639.jpg"
+  },
+  {
+   "annotation_id": 1527,
+   "image_id": 891,
+   "file_name": "002224.jpg"
+  },
+  {
+   "annotation_id": 1531,
+   "image_id": 895,
+   "file_name": "000390.jpg"
+  },
+  {
+   "annotation_id": 1535,
+   "image_id": 897,
+   "file_name": "004446.jpg"
+  },
+  {
+   "annotation_id": 1542,
+   "image_id": 901,
+   "file_name": "004683.jpg"
+  },
+  {
+   "annotation_id": 1543,
+   "image_id": 901,
+   "file_name": "004683.jpg"
+  },
+  {
+   "annotation_id": 1546,
+   "image_id": 903,
+   "file_name": "001558.jpg"
+  },
+  {
+   "annotation_id": 1550,
+   "image_id": 905,
+   "file_name": "000311.jpg"
+  },
+  {
+   "annotation_id": 1553,
+   "image_id": 907,
+   "file_name": "001325.jpg"
+  },
+  {
+   "annotation_id": 1571,
+   "image_id": 917,
+   "file_name": "000294.jpg"
+  },
+  {
+   "annotation_id": 1572,
+   "image_id": 918,
+   "file_name": "001705.jpg"
+  },
+  {
+   "annotation_id": 1576,
+   "image_id": 921,
+   "file_name": "001666.jpg"
+  },
+  {
+   "annotation_id": 1581,
+   "image_id": 924,
+   "file_name": "003239.jpg"
+  },
+  {
+   "annotation_id": 1584,
+   "image_id": 926,
+   "file_name": "004768.jpg"
+  },
+  {
+   "annotation_id": 1598,
+   "image_id": 933,
+   "file_name": "003563.jpg"
+  },
+  {
+   "annotation_id": 1605,
+   "image_id": 937,
+   "file_name": "000264.jpg"
+  },
+  {
+   "annotation_id": 1613,
+   "image_id": 941,
+   "file_name": "001349.jpg"
+  },
+  {
+   "annotation_id": 1626,
+   "image_id": 948,
+   "file_name": "001371.jpg"
+  },
+  {
+   "annotation_id": 1631,
+   "image_id": 951,
+   "file_name": "001574.jpg"
+  },
+  {
+   "annotation_id": 1637,
+   "image_id": 955,
+   "file_name": "000733.jpg"
+  },
+  {
+   "annotation_id": 1656,
+   "image_id": 966,
+   "file_name": "000478.jpg"
+  },
+  {
+   "annotation_id": 1658,
+   "image_id": 968,
+   "file_name": "002625.jpg"
+  },
+  {
+   "annotation_id": 1660,
+   "image_id": 969,
+   "file_name": "002906.jpg"
+  },
+  {
+   "annotation_id": 1663,
+   "image_id": 970,
+   "file_name": "002578.jpg"
+  },
+  {
+   "annotation_id": 1666,
+   "image_id": 972,
+   "file_name": "005053.jpg"
+  },
+  {
+   "annotation_id": 1675,
+   "image_id": 977,
+   "file_name": "004243.jpg"
+  },
+  {
+   "annotation_id": 1678,
+   "image_id": 978,
+   "file_name": "000804.jpg"
+  },
+  {
+   "annotation_id": 1683,
+   "image_id": 979,
+   "file_name": "000442.jpg"
+  },
+  {
+   "annotation_id": 1692,
+   "image_id": 984,
+   "file_name": "003213.jpg"
+  },
+  {
+   "annotation_id": 1694,
+   "image_id": 985,
+   "file_name": "002263.jpg"
+  },
+  {
+   "annotation_id": 1713,
+   "image_id": 995,
+   "file_name": "002307.jpg"
+  },
+  {
+   "annotation_id": 1721,
+   "image_id": 1000,
+   "file_name": "003737.jpg"
+  },
+  {
+   "annotation_id": 1732,
+   "image_id": 1006,
+   "file_name": "000696.jpg"
+  },
+  {
+   "annotation_id": 1737,
+   "image_id": 1010,
+   "file_name": "000806.jpg"
+  },
+  {
+   "annotation_id": 1748,
+   "image_id": 1019,
+   "file_name": "000325.jpg"
+  },
+  {
+   "annotation_id": 1756,
+   "image_id": 1023,
+   "file_name": "004053.jpg"
+  },
+  {
+   "annotation_id": 1760,
+   "image_id": 1026,
+   "file_name": "001289.jpg"
+  },
+  {
+   "annotation_id": 1761,
+   "image_id": 1026,
+   "file_name": "001289.jpg"
+  },
+  {
+   "annotation_id": 1762,
+   "image_id": 1027,
+   "file_name": "003863.jpg"
+  },
+  {
+   "annotation_id": 1763,
+   "image_id": 1027,
+   "file_name": "003863.jpg"
+  },
+  {
+   "annotation_id": 1774,
+   "image_id": 1035,
+   "file_name": "002694.jpg"
+  },
+  {
+   "annotation_id": 1785,
+   "image_id": 1041,
+   "file_name": "001225.jpg"
+  },
+  {
+   "annotation_id": 1790,
+   "image_id": 1044,
+   "file_name": "001251.jpg"
+  },
+  {
+   "annotation_id": 1791,
+   "image_id": 1045,
+   "file_name": "003091.jpg"
+  },
+  {
+   "annotation_id": 1815,
+   "image_id": 1059,
+   "file_name": "002932.jpg"
+  },
+  {
+   "annotation_id": 1830,
+   "image_id": 1069,
+   "file_name": "002852.jpg"
+  },
+  {
+   "annotation_id": 1842,
+   "image_id": 1076,
+   "file_name": "004180.jpg"
+  },
+  {
+   "annotation_id": 1845,
+   "image_id": 1077,
+   "file_name": "004936.jpg"
+  },
+  {
+   "annotation_id": 1866,
+   "image_id": 1088,
+   "file_name": "003942.jpg"
+  },
+  {
+   "annotation_id": 1868,
+   "image_id": 1089,
+   "file_name": "002299.jpg"
+  },
+  {
+   "annotation_id": 1869,
+   "image_id": 1090,
+   "file_name": "001455.jpg"
+  },
+  {
+   "annotation_id": 1875,
+   "image_id": 1093,
+   "file_name": "000213.jpg"
+  },
+  {
+   "annotation_id": 1890,
+   "image_id": 1102,
+   "file_name": "003585.jpg"
+  },
+  {
+   "annotation_id": 1903,
+   "image_id": 1110,
+   "file_name": "001592.jpg"
+  },
+  {
+   "annotation_id": 1922,
+   "image_id": 1121,
+   "file_name": "001983.jpg"
+  },
+  {
+   "annotation_id": 1924,
+   "image_id": 1122,
+   "file_name": "004037.jpg"
+  },
+  {
+   "annotation_id": 1925,
+   "image_id": 1123,
+   "file_name": "004476.jpg"
+  },
+  {
+   "annotation_id": 1928,
+   "image_id": 1125,
+   "file_name": "001396.jpg"
+  },
+  {
+   "annotation_id": 1938,
+   "image_id": 1130,
+   "file_name": "000479.jpg"
+  },
+  {
+   "annotation_id": 1939,
+   "image_id": 1131,
+   "file_name": "000361.jpg"
+  },
+  {
+   "annotation_id": 1974,
+   "image_id": 1151,
+   "file_name": "001593.jpg"
+  },
+  {
+   "annotation_id": 1982,
+   "image_id": 1156,
+   "file_name": "004856.jpg"
+  },
+  {
+   "annotation_id": 1983,
+   "image_id": 1157,
+   "file_name": "001838.jpg"
+  },
+  {
+   "annotation_id": 1992,
+   "image_id": 1164,
+   "file_name": "001548.jpg"
+  },
+  {
+   "annotation_id": 1998,
+   "image_id": 1167,
+   "file_name": "002434.jpg"
+  },
+  {
+   "annotation_id": 2007,
+   "image_id": 1172,
+   "file_name": "002172.jpg"
+  },
+  {
+   "annotation_id": 2012,
+   "image_id": 1175,
+   "file_name": "005007.jpg"
+  },
+  {
+   "annotation_id": 2019,
+   "image_id": 1179,
+   "file_name": "001844.jpg"
+  },
+  {
+   "annotation_id": 2038,
+   "image_id": 1190,
+   "file_name": "000977.jpg"
+  },
+  {
+   "annotation_id": 2046,
+   "image_id": 1195,
+   "file_name": "003248.jpg"
+  },
+  {
+   "annotation_id": 2048,
+   "image_id": 1196,
+   "file_name": "000967.jpg"
+  },
+  {
+   "annotation_id": 2053,
+   "image_id": 1198,
+   "file_name": "002934.jpg"
+  },
+  {
+   "annotation_id": 2056,
+   "image_id": 1200,
+   "file_name": "000953.jpg"
+  },
+  {
+   "annotation_id": 2061,
+   "image_id": 1202,
+   "file_name": "003159.jpg"
+  },
+  {
+   "annotation_id": 2062,
+   "image_id": 1203,
+   "file_name": "000063.jpg"
+  },
+  {
+   "annotation_id": 2074,
+   "image_id": 1212,
+   "file_name": "002997.jpg"
+  },
+  {
+   "annotation_id": 2077,
+   "image_id": 1213,
+   "file_name": "004501.jpg"
+  },
+  {
+   "annotation_id": 2095,
+   "image_id": 1225,
+   "file_name": "004749.jpg"
+  },
+  {
+   "annotation_id": 2109,
+   "image_id": 1234,
+   "file_name": "001162.jpg"
+  },
+  {
+   "annotation_id": 2121,
+   "image_id": 1240,
+   "file_name": "003672.jpg"
+  },
+  {
+   "annotation_id": 2133,
+   "image_id": 1247,
+   "file_name": "001528.jpg"
+  },
+  {
+   "annotation_id": 2138,
+   "image_id": 1249,
+   "file_name": "003088.jpg"
+  },
+  {
+   "annotation_id": 2142,
+   "image_id": 1252,
+   "file_name": "000351.jpg"
+  },
+  {
+   "annotation_id": 2145,
+   "image_id": 1253,
+   "file_name": "001758.jpg"
+  },
+  {
+   "annotation_id": 2160,
+   "image_id": 1262,
+   "file_name": "000317.jpg"
+  },
+  {
+   "annotation_id": 2171,
+   "image_id": 1270,
+   "file_name": "003393.jpg"
+  },
+  {
+   "annotation_id": 2177,
+   "image_id": 1274,
+   "file_name": "000805.jpg"
+  },
+  {
+   "annotation_id": 2182,
+   "image_id": 1276,
+   "file_name": "004111.jpg"
+  },
+  {
+   "annotation_id": 2184,
+   "image_id": 1277,
+   "file_name": "005042.jpg"
+  },
+  {
+   "annotation_id": 2187,
+   "image_id": 1279,
+   "file_name": "000148.jpg"
+  },
+  {
+   "annotation_id": 2188,
+   "image_id": 1279,
+   "file_name": "000148.jpg"
+  },
+  {
+   "annotation_id": 2201,
+   "image_id": 1286,
+   "file_name": "000694.jpg"
+  },
+  {
+   "annotation_id": 2211,
+   "image_id": 1291,
+   "file_name": "000010.jpg"
+  },
+  {
+   "annotation_id": 2214,
+   "image_id": 1293,
+   "file_name": "005041.jpg"
+  },
+  {
+   "annotation_id": 2216,
+   "image_id": 1294,
+   "file_name": "000571.jpg"
+  },
+  {
+   "annotation_id": 2228,
+   "image_id": 1302,
+   "file_name": "003417.jpg"
+  },
+  {
+   "annotation_id": 2236,
+   "image_id": 1306,
+   "file_name": "001241.jpg"
+  },
+  {
+   "annotation_id": 2237,
+   "image_id": 1306,
+   "file_name": "001241.jpg"
+  },
+  {
+   "annotation_id": 2249,
+   "image_id": 1314,
+   "file_name": "001771.jpg"
+  },
+  {
+   "annotation_id": 2259,
+   "image_id": 1320,
+   "file_name": "003153.jpg"
+  },
+  {
+   "annotation_id": 2268,
+   "image_id": 1324,
+   "file_name": "004819.jpg"
+  },
+  {
+   "annotation_id": 2273,
+   "image_id": 1327,
+   "file_name": "004871.jpg"
+  },
+  {
+   "annotation_id": 2274,
+   "image_id": 1327,
+   "file_name": "004871.jpg"
+  },
+  {
+   "annotation_id": 2277,
+   "image_id": 1329,
+   "file_name": "000435.jpg"
+  },
+  {
+   "annotation_id": 2291,
+   "image_id": 1338,
+   "file_name": "001791.jpg"
+  },
+  {
+   "annotation_id": 2292,
+   "image_id": 1338,
+   "file_name": "001791.jpg"
+  },
+  {
+   "annotation_id": 2302,
+   "image_id": 1344,
+   "file_name": "000175.jpg"
+  },
+  {
+   "annotation_id": 2315,
+   "image_id": 1351,
+   "file_name": "003707.jpg"
+  },
+  {
+   "annotation_id": 2323,
+   "image_id": 1355,
+   "file_name": "004143.jpg"
+  },
+  {
+   "annotation_id": 2333,
+   "image_id": 1361,
+   "file_name": "004829.jpg"
+  },
+  {
+   "annotation_id": 2337,
+   "image_id": 1363,
+   "file_name": "001806.jpg"
+  },
+  {
+   "annotation_id": 2339,
+   "image_id": 1365,
+   "file_name": "003543.jpg"
+  },
+  {
+   "annotation_id": 2345,
+   "image_id": 1368,
+   "file_name": "005062.jpg"
+  },
+  {
+   "annotation_id": 2351,
+   "image_id": 1372,
+   "file_name": "001161.jpg"
+  },
+  {
+   "annotation_id": 2358,
+   "image_id": 1376,
+   "file_name": "002902.jpg"
+  },
+  {
+   "annotation_id": 2362,
+   "image_id": 1378,
+   "file_name": "000958.jpg"
+  },
+  {
+   "annotation_id": 2371,
+   "image_id": 1383,
+   "file_name": "002807.jpg"
+  },
+  {
+   "annotation_id": 2373,
+   "image_id": 1384,
+   "file_name": "003122.jpg"
+  },
+  {
+   "annotation_id": 2374,
+   "image_id": 1384,
+   "file_name": "003122.jpg"
+  },
+  {
+   "annotation_id": 2384,
+   "image_id": 1390,
+   "file_name": "000047.jpg"
+  },
+  {
+   "annotation_id": 2392,
+   "image_id": 1395,
+   "file_name": "004596.jpg"
+  },
+  {
+   "annotation_id": 2396,
+   "image_id": 1397,
+   "file_name": "001417.jpg"
+  },
+  {
+   "annotation_id": 2402,
+   "image_id": 1401,
+   "file_name": "001602.jpg"
+  },
+  {
+   "annotation_id": 2403,
+   "image_id": 1402,
+   "file_name": "000529.jpg"
+  },
+  {
+   "annotation_id": 2425,
+   "image_id": 1413,
+   "file_name": "001284.jpg"
+  },
+  {
+   "annotation_id": 2429,
+   "image_id": 1415,
+   "file_name": "000013.jpg"
+  },
+  {
+   "annotation_id": 2435,
+   "image_id": 1419,
+   "file_name": "003147.jpg"
+  },
+  {
+   "annotation_id": 2437,
+   "image_id": 1420,
+   "file_name": "003834.jpg"
+  },
+  {
+   "annotation_id": 2468,
+   "image_id": 1439,
+   "file_name": "004692.jpg"
+  },
+  {
+   "annotation_id": 2479,
+   "image_id": 1444,
+   "file_name": "002002.jpg"
+  },
+  {
+   "annotation_id": 2499,
+   "image_id": 1455,
+   "file_name": "001372.jpg"
+  },
+  {
+   "annotation_id": 2507,
+   "image_id": 1459,
+   "file_name": "004896.jpg"
+  },
+  {
+   "annotation_id": 2509,
+   "image_id": 1460,
+   "file_name": "001743.jpg"
+  },
+  {
+   "annotation_id": 2529,
+   "image_id": 1470,
+   "file_name": "003197.jpg"
+  },
+  {
+   "annotation_id": 2535,
+   "image_id": 1474,
+   "file_name": "002802.jpg"
+  },
+  {
+   "annotation_id": 2537,
+   "image_id": 1475,
+   "file_name": "001959.jpg"
+  },
+  {
+   "annotation_id": 2538,
+   "image_id": 1475,
+   "file_name": "001959.jpg"
+  },
+  {
+   "annotation_id": 2549,
+   "image_id": 1482,
+   "file_name": "004560.jpg"
+  },
+  {
+   "annotation_id": 2553,
+   "image_id": 1484,
+   "file_name": "004315.jpg"
+  },
+  {
+   "annotation_id": 2555,
+   "image_id": 1485,
+   "file_name": "000591.jpg"
+  },
+  {
+   "annotation_id": 2556,
+   "image_id": 1486,
+   "file_name": "002250.jpg"
+  },
+  {
+   "annotation_id": 2560,
+   "image_id": 1488,
+   "file_name": "002514.jpg"
+  },
+  {
+   "annotation_id": 2563,
+   "image_id": 1490,
+   "file_name": "002916.jpg"
+  },
+  {
+   "annotation_id": 2573,
+   "image_id": 1495,
+   "file_name": "004930.jpg"
+  },
+  {
+   "annotation_id": 2577,
+   "image_id": 1498,
+   "file_name": "004864.jpg"
+  },
+  {
+   "annotation_id": 2584,
+   "image_id": 1502,
+   "file_name": "003270.jpg"
+  },
+  {
+   "annotation_id": 2594,
+   "image_id": 1508,
+   "file_name": "002599.jpg"
+  },
+  {
+   "annotation_id": 2607,
+   "image_id": 1515,
+   "file_name": "005004.jpg"
+  },
+  {
+   "annotation_id": 2615,
+   "image_id": 1520,
+   "file_name": "002655.jpg"
+  },
+  {
+   "annotation_id": 2619,
+   "image_id": 1522,
+   "file_name": "003253.jpg"
+  },
+  {
+   "annotation_id": 2623,
+   "image_id": 1524,
+   "file_name": "004490.jpg"
+  },
+  {
+   "annotation_id": 2628,
+   "image_id": 1528,
+   "file_name": "001953.jpg"
+  },
+  {
+   "annotation_id": 2630,
+   "image_id": 1529,
+   "file_name": "001171.jpg"
+  },
+  {
+   "annotation_id": 2668,
+   "image_id": 1551,
+   "file_name": "000009.jpg"
+  },
+  {
+   "annotation_id": 2671,
+   "image_id": 1553,
+   "file_name": "000429.jpg"
+  },
+  {
+   "annotation_id": 2673,
+   "image_id": 1554,
+   "file_name": "003437.jpg"
+  },
+  {
+   "annotation_id": 2674,
+   "image_id": 1555,
+   "file_name": "001040.jpg"
+  },
+  {
+   "annotation_id": 2685,
+   "image_id": 1562,
+   "file_name": "003617.jpg"
+  },
+  {
+   "annotation_id": 2691,
+   "image_id": 1565,
+   "file_name": "003777.jpg"
+  },
+  {
+   "annotation_id": 2697,
+   "image_id": 1568,
+   "file_name": "002598.jpg"
+  },
+  {
+   "annotation_id": 2702,
+   "image_id": 1571,
+   "file_name": "004939.jpg"
+  },
+  {
+   "annotation_id": 2724,
+   "image_id": 1583,
+   "file_name": "002969.jpg"
+  },
+  {
+   "annotation_id": 2732,
+   "image_id": 1588,
+   "file_name": "000137.jpg"
+  },
+  {
+   "annotation_id": 2733,
+   "image_id": 1588,
+   "file_name": "000137.jpg"
+  },
+  {
+   "annotation_id": 2734,
+   "image_id": 1589,
+   "file_name": "003572.jpg"
+  },
+  {
+   "annotation_id": 2736,
+   "image_id": 1590,
+   "file_name": "002926.jpg"
+  },
+  {
+   "annotation_id": 2748,
+   "image_id": 1597,
+   "file_name": "002339.jpg"
+  },
+  {
+   "annotation_id": 2749,
+   "image_id": 1598,
+   "file_name": "002648.jpg"
+  },
+  {
+   "annotation_id": 2752,
+   "image_id": 1599,
+   "file_name": "004693.jpg"
+  },
+  {
+   "annotation_id": 2757,
+   "image_id": 1602,
+   "file_name": "001388.jpg"
+  },
+  {
+   "annotation_id": 2771,
+   "image_id": 1611,
+   "file_name": "001176.jpg"
+  },
+  {
+   "annotation_id": 2775,
+   "image_id": 1613,
+   "file_name": "000232.jpg"
+  },
+  {
+   "annotation_id": 2779,
+   "image_id": 1615,
+   "file_name": "002343.jpg"
+  },
+  {
+   "annotation_id": 2783,
+   "image_id": 1618,
+   "file_name": "004935.jpg"
+  },
+  {
+   "annotation_id": 2788,
+   "image_id": 1620,
+   "file_name": "000808.jpg"
+  },
+  {
+   "annotation_id": 2795,
+   "image_id": 1624,
+   "file_name": "000394.jpg"
+  },
+  {
+   "annotation_id": 2803,
+   "image_id": 1628,
+   "file_name": "002260.jpg"
+  },
+  {
+   "annotation_id": 2805,
+   "image_id": 1630,
+   "file_name": "004559.jpg"
+  },
+  {
+   "annotation_id": 2811,
+   "image_id": 1633,
+   "file_name": "000672.jpg"
+  },
+  {
+   "annotation_id": 2812,
+   "image_id": 1634,
+   "file_name": "001064.jpg"
+  },
+  {
+   "annotation_id": 2817,
+   "image_id": 1637,
+   "file_name": "003299.jpg"
+  },
+  {
+   "annotation_id": 2826,
+   "image_id": 1641,
+   "file_name": "002554.jpg"
+  },
+  {
+   "annotation_id": 2840,
+   "image_id": 1649,
+   "file_name": "003086.jpg"
+  },
+  {
+   "annotation_id": 2842,
+   "image_id": 1651,
+   "file_name": "003986.jpg"
+  },
+  {
+   "annotation_id": 2850,
+   "image_id": 1655,
+   "file_name": "001757.jpg"
+  },
+  {
+   "annotation_id": 2852,
+   "image_id": 1656,
+   "file_name": "000618.jpg"
+  },
+  {
+   "annotation_id": 2871,
+   "image_id": 1669,
+   "file_name": "002507.jpg"
+  },
+  {
+   "annotation_id": 2876,
+   "image_id": 1672,
+   "file_name": "005081.jpg"
+  },
+  {
+   "annotation_id": 2881,
+   "image_id": 1676,
+   "file_name": "000414.jpg"
+  },
+  {
+   "annotation_id": 2904,
+   "image_id": 1689,
+   "file_name": "003712.jpg"
+  },
+  {
+   "annotation_id": 2908,
+   "image_id": 1691,
+   "file_name": "003785.jpg"
+  },
+  {
+   "annotation_id": 2910,
+   "image_id": 1692,
+   "file_name": "000052.jpg"
+  },
+  {
+   "annotation_id": 2923,
+   "image_id": 1700,
+   "file_name": "000548.jpg"
+  },
+  {
+   "annotation_id": 2927,
+   "image_id": 1703,
+   "file_name": "003835.jpg"
+  },
+  {
+   "annotation_id": 2929,
+   "image_id": 1704,
+   "file_name": "001512.jpg"
+  },
+  {
+   "annotation_id": 2930,
+   "image_id": 1704,
+   "file_name": "001512.jpg"
+  },
+  {
+   "annotation_id": 2932,
+   "image_id": 1706,
+   "file_name": "002984.jpg"
+  },
+  {
+   "annotation_id": 2941,
+   "image_id": 1711,
+   "file_name": "000275.jpg"
+  },
+  {
+   "annotation_id": 2950,
+   "image_id": 1718,
+   "file_name": "001278.jpg"
+  },
+  {
+   "annotation_id": 2954,
+   "image_id": 1720,
+   "file_name": "003741.jpg"
+  },
+  {
+   "annotation_id": 2968,
+   "image_id": 1728,
+   "file_name": "004571.jpg"
+  },
+  {
+   "annotation_id": 2974,
+   "image_id": 1732,
+   "file_name": "000904.jpg"
+  },
+  {
+   "annotation_id": 2981,
+   "image_id": 1736,
+   "file_name": "003848.jpg"
+  },
+  {
+   "annotation_id": 2988,
+   "image_id": 1740,
+   "file_name": "004774.jpg"
+  },
+  {
+   "annotation_id": 2992,
+   "image_id": 1742,
+   "file_name": "001570.jpg"
+  },
+  {
+   "annotation_id": 2996,
+   "image_id": 1744,
+   "file_name": "003784.jpg"
+  },
+  {
+   "annotation_id": 3002,
+   "image_id": 1748,
+   "file_name": "002463.jpg"
+  },
+  {
+   "annotation_id": 3007,
+   "image_id": 1752,
+   "file_name": "002856.jpg"
+  },
+  {
+   "annotation_id": 3012,
+   "image_id": 1754,
+   "file_name": "004015.jpg"
+  },
+  {
+   "annotation_id": 3019,
+   "image_id": 1758,
+   "file_name": "001527.jpg"
+  },
+  {
+   "annotation_id": 3024,
+   "image_id": 1760,
+   "file_name": "000304.jpg"
+  },
+  {
+   "annotation_id": 3026,
+   "image_id": 1761,
+   "file_name": "000795.jpg"
+  },
+  {
+   "annotation_id": 3035,
+   "image_id": 1765,
+   "file_name": "001761.jpg"
+  },
+  {
+   "annotation_id": 3042,
+   "image_id": 1769,
+   "file_name": "003551.jpg"
+  },
+  {
+   "annotation_id": 3049,
+   "image_id": 1773,
+   "file_name": "003161.jpg"
+  },
+  {
+   "annotation_id": 3068,
+   "image_id": 1785,
+   "file_name": "001828.jpg"
+  },
+  {
+   "annotation_id": 3081,
+   "image_id": 1793,
+   "file_name": "003936.jpg"
+  },
+  {
+   "annotation_id": 3085,
+   "image_id": 1796,
+   "file_name": "001955.jpg"
+  },
+  {
+   "annotation_id": 3109,
+   "image_id": 1809,
+   "file_name": "001096.jpg"
+  },
+  {
+   "annotation_id": 3110,
+   "image_id": 1810,
+   "file_name": "004236.jpg"
+  },
+  {
+   "annotation_id": 3113,
+   "image_id": 1810,
+   "file_name": "004236.jpg"
+  },
+  {
+   "annotation_id": 3125,
+   "image_id": 1817,
+   "file_name": "004505.jpg"
+  },
+  {
+   "annotation_id": 3134,
+   "image_id": 1823,
+   "file_name": "001133.jpg"
+  },
+  {
+   "annotation_id": 3136,
+   "image_id": 1824,
+   "file_name": "003066.jpg"
+  },
+  {
+   "annotation_id": 3142,
+   "image_id": 1829,
+   "file_name": "000750.jpg"
+  },
+  {
+   "annotation_id": 3145,
+   "image_id": 1830,
+   "file_name": "004781.jpg"
+  },
+  {
+   "annotation_id": 3149,
+   "image_id": 1832,
+   "file_name": "003265.jpg"
+  },
+  {
+   "annotation_id": 3153,
+   "image_id": 1835,
+   "file_name": "002293.jpg"
+  },
+  {
+   "annotation_id": 3155,
+   "image_id": 1836,
+   "file_name": "004831.jpg"
+  },
+  {
+   "annotation_id": 3162,
+   "image_id": 1839,
+   "file_name": "004551.jpg"
+  },
+  {
+   "annotation_id": 3187,
+   "image_id": 1854,
+   "file_name": "003987.jpg"
+  },
+  {
+   "annotation_id": 3193,
+   "image_id": 1858,
+   "file_name": "002729.jpg"
+  },
+  {
+   "annotation_id": 3194,
+   "image_id": 1859,
+   "file_name": "000210.jpg"
+  },
+  {
+   "annotation_id": 3202,
+   "image_id": 1864,
+   "file_name": "000561.jpg"
+  },
+  {
+   "annotation_id": 3210,
+   "image_id": 1868,
+   "file_name": "001258.jpg"
+  },
+  {
+   "annotation_id": 3211,
+   "image_id": 1869,
+   "file_name": "004407.jpg"
+  },
+  {
+   "annotation_id": 3222,
+   "image_id": 1875,
+   "file_name": "001169.jpg"
+  },
+  {
+   "annotation_id": 3226,
+   "image_id": 1876,
+   "file_name": "002548.jpg"
+  },
+  {
+   "annotation_id": 3242,
+   "image_id": 1885,
+   "file_name": "003211.jpg"
+  },
+  {
+   "annotation_id": 3245,
+   "image_id": 1886,
+   "file_name": "003898.jpg"
+  },
+  {
+   "annotation_id": 3250,
+   "image_id": 1889,
+   "file_name": "003504.jpg"
+  },
+  {
+   "annotation_id": 3251,
+   "image_id": 1890,
+   "file_name": "003520.jpg"
+  },
+  {
+   "annotation_id": 3254,
+   "image_id": 1891,
+   "file_name": "001567.jpg"
+  },
+  {
+   "annotation_id": 3259,
+   "image_id": 1894,
+   "file_name": "004953.jpg"
+  },
+  {
+   "annotation_id": 3268,
+   "image_id": 1900,
+   "file_name": "002958.jpg"
+  },
+  {
+   "annotation_id": 3275,
+   "image_id": 1904,
+   "file_name": "002432.jpg"
+  },
+  {
+   "annotation_id": 3276,
+   "image_id": 1905,
+   "file_name": "002754.jpg"
+  },
+  {
+   "annotation_id": 3302,
+   "image_id": 1923,
+   "file_name": "004363.jpg"
+  },
+  {
+   "annotation_id": 3316,
+   "image_id": 1931,
+   "file_name": "000999.jpg"
+  },
+  {
+   "annotation_id": 3319,
+   "image_id": 1932,
+   "file_name": "000195.jpg"
+  },
+  {
+   "annotation_id": 3323,
+   "image_id": 1935,
+   "file_name": "002347.jpg"
+  },
+  {
+   "annotation_id": 3375,
+   "image_id": 1966,
+   "file_name": "003908.jpg"
+  },
+  {
+   "annotation_id": 3379,
+   "image_id": 1969,
+   "file_name": "001165.jpg"
+  },
+  {
+   "annotation_id": 3392,
+   "image_id": 1978,
+   "file_name": "004862.jpg"
+  },
+  {
+   "annotation_id": 3398,
+   "image_id": 1981,
+   "file_name": "004467.jpg"
+  },
+  {
+   "annotation_id": 3399,
+   "image_id": 1982,
+   "file_name": "002419.jpg"
+  },
+  {
+   "annotation_id": 3406,
+   "image_id": 1985,
+   "file_name": "004506.jpg"
+  },
+  {
+   "annotation_id": 3417,
+   "image_id": 1990,
+   "file_name": "003360.jpg"
+  },
+  {
+   "annotation_id": 3422,
+   "image_id": 1993,
+   "file_name": "002872.jpg"
+  },
+  {
+   "annotation_id": 3427,
+   "image_id": 1995,
+   "file_name": "003064.jpg"
+  },
+  {
+   "annotation_id": 3442,
+   "image_id": 2005,
+   "file_name": "001585.jpg"
+  },
+  {
+   "annotation_id": 3445,
+   "image_id": 2006,
+   "file_name": "003954.jpg"
+  },
+  {
+   "annotation_id": 3450,
+   "image_id": 2009,
+   "file_name": "000908.jpg"
+  },
+  {
+   "annotation_id": 3454,
+   "image_id": 2012,
+   "file_name": "001358.jpg"
+  },
+  {
+   "annotation_id": 3455,
+   "image_id": 2012,
+   "file_name": "001358.jpg"
+  },
+  {
+   "annotation_id": 3456,
+   "image_id": 2013,
+   "file_name": "001854.jpg"
+  },
+  {
+   "annotation_id": 3473,
+   "image_id": 2024,
+   "file_name": "002480.jpg"
+  },
+  {
+   "annotation_id": 3479,
+   "image_id": 2028,
+   "file_name": "001408.jpg"
+  },
+  {
+   "annotation_id": 3488,
+   "image_id": 2033,
+   "file_name": "001628.jpg"
+  },
+  {
+   "annotation_id": 3492,
+   "image_id": 2035,
+   "file_name": "004337.jpg"
+  },
+  {
+   "annotation_id": 3494,
+   "image_id": 2036,
+   "file_name": "001163.jpg"
+  },
+  {
+   "annotation_id": 3497,
+   "image_id": 2038,
+   "file_name": "002739.jpg"
+  },
+  {
+   "annotation_id": 3498,
+   "image_id": 2039,
+   "file_name": "002985.jpg"
+  },
+  {
+   "annotation_id": 3505,
+   "image_id": 2043,
+   "file_name": "003347.jpg"
+  },
+  {
+   "annotation_id": 3511,
+   "image_id": 2046,
+   "file_name": "002850.jpg"
+  },
+  {
+   "annotation_id": 3520,
+   "image_id": 2051,
+   "file_name": "002670.jpg"
+  },
+  {
+   "annotation_id": 3522,
+   "image_id": 2053,
+   "file_name": "004481.jpg"
+  },
+  {
+   "annotation_id": 3532,
+   "image_id": 2060,
+   "file_name": "002170.jpg"
+  },
+  {
+   "annotation_id": 3543,
+   "image_id": 2067,
+   "file_name": "004813.jpg"
+  },
+  {
+   "annotation_id": 3549,
+   "image_id": 2071,
+   "file_name": "004491.jpg"
+  },
+  {
+   "annotation_id": 3557,
+   "image_id": 2075,
+   "file_name": "004091.jpg"
+  },
+  {
+   "annotation_id": 3560,
+   "image_id": 2076,
+   "file_name": "001470.jpg"
+  },
+  {
+   "annotation_id": 3575,
+   "image_id": 2085,
+   "file_name": "002603.jpg"
+  },
+  {
+   "annotation_id": 3587,
+   "image_id": 2092,
+   "file_name": "002416.jpg"
+  },
+  {
+   "annotation_id": 3598,
+   "image_id": 2098,
+   "file_name": "001383.jpg"
+  },
+  {
+   "annotation_id": 3614,
+   "image_id": 2107,
+   "file_name": "000269.jpg"
+  },
+  {
+   "annotation_id": 3621,
+   "image_id": 2110,
+   "file_name": "003456.jpg"
+  },
+  {
+   "annotation_id": 3623,
+   "image_id": 2111,
+   "file_name": "003733.jpg"
+  },
+  {
+   "annotation_id": 3633,
+   "image_id": 2118,
+   "file_name": "004371.jpg"
+  },
+  {
+   "annotation_id": 3640,
+   "image_id": 2122,
+   "file_name": "001324.jpg"
+  },
+  {
+   "annotation_id": 3644,
+   "image_id": 2124,
+   "file_name": "002534.jpg"
+  },
+  {
+   "annotation_id": 3646,
+   "image_id": 2126,
+   "file_name": "000641.jpg"
+  },
+  {
+   "annotation_id": 3681,
+   "image_id": 2148,
+   "file_name": "002907.jpg"
+  },
+  {
+   "annotation_id": 3685,
+   "image_id": 2150,
+   "file_name": "002822.jpg"
+  },
+  {
+   "annotation_id": 3703,
+   "image_id": 2161,
+   "file_name": "003000.jpg"
+  },
+  {
+   "annotation_id": 3705,
+   "image_id": 2162,
+   "file_name": "003432.jpg"
+  },
+  {
+   "annotation_id": 3707,
+   "image_id": 2164,
+   "file_name": "003312.jpg"
+  },
+  {
+   "annotation_id": 3712,
+   "image_id": 2167,
+   "file_name": "002099.jpg"
+  },
+  {
+   "annotation_id": 3722,
+   "image_id": 2172,
+   "file_name": "003939.jpg"
+  },
+  {
+   "annotation_id": 3747,
+   "image_id": 2189,
+   "file_name": "002959.jpg"
+  },
+  {
+   "annotation_id": 3766,
+   "image_id": 2201,
+   "file_name": "001359.jpg"
+  },
+  {
+   "annotation_id": 3772,
+   "image_id": 2205,
+   "file_name": "000015.jpg"
+  },
+  {
+   "annotation_id": 3782,
+   "image_id": 2211,
+   "file_name": "001308.jpg"
+  },
+  {
+   "annotation_id": 3786,
+   "image_id": 2213,
+   "file_name": "001492.jpg"
+  },
+  {
+   "annotation_id": 3797,
+   "image_id": 2219,
+   "file_name": "004702.jpg"
+  },
+  {
+   "annotation_id": 3800,
+   "image_id": 2220,
+   "file_name": "000836.jpg"
+  },
+  {
+   "annotation_id": 3819,
+   "image_id": 2231,
+   "file_name": "002938.jpg"
+  }
+ ]
+}

@@ -1,0 +1,813 @@
+{
+ "benchmark": "M3D-Bench REC",
+ "split": "test-200",
+ "source": {
+  "annotations": "https://huggingface.co/datasets/GoodBaiBai88/M3D-Seg",
+  "ct_volumes": "AbdomenCT-1K (Zenodo 5903099, 5903846, 5903769)",
+  "questions_in_source": 799
+ },
+ "seed": 42,
+ "count": 200,
+ "items": [
+  {
+   "case": "Case_00002_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00003_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00020_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00026_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00040_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00040_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00053_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00057_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00061_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00069_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00080_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00084_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00088_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00092_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00099_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00105_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00110_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00114_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00118_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00126_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00129_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00139_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00140_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00141_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00143_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00144_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00169_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00173_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00177_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00179_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00188_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00191_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00199_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00200_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00204_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00231_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00237_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00243_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00247_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00252_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00254_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00260_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00268_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00270_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00273_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00276_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00277_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00278_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00282_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00289_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00290_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00291_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00292_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00300_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00303_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00315_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00328_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00329_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00337_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00339_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00342_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00346_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00356_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00359_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00364_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00369_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00377_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00381_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00382_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00389_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00392_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00393_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00399_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00417_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00419_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00421_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00432_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00434_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00451_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00452_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00460_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00464_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00472_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00474_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00482_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00483_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00487_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00499_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00506_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00509_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00514_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00515_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00525_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00529_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00541_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00542_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00543_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00547_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00551_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00561_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00564_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00566_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00567_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00579_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00585_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00589_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00590_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00595_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00597_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00614_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00622_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00623_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00626_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00628_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00630_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00643_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00644_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00653_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00656_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00663_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00674_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00679_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00686_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00690_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00693_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00697_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00714_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00715_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00719_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00722_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00729_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00732_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00734_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00735_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00749_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00756_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00771_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00773_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00775_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00776_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00778_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00794_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00798_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00799_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00799_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00800_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00802_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00806_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00809_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00814_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00818_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00824_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00832_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00833_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00837_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00846_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00851_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00859_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00862_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00865_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00869_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00870_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00870_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00879_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00882_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00892_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00895_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00895_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00901_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00918_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00933_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00935_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00945_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00950_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_00956_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00966_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00967_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00974_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00977_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00977_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_00978_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00983_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_00987_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_00999_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_01001_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_01003_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_01007_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_01008_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_01008_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_01019_0000",
+   "organ": "kidney"
+  },
+  {
+   "case": "Case_01019_0000",
+   "organ": "pancreas"
+  },
+  {
+   "case": "Case_01022_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_01035_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_01049_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_01050_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_01051_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_01052_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_01055_0000",
+   "organ": "liver"
+  },
+  {
+   "case": "Case_01056_0000",
+   "organ": "spleen"
+  },
+  {
+   "case": "Case_01057_0000",
+   "organ": "spleen"
+  }
+ ]
+}

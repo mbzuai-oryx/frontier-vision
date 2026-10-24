@@ -1,0 +1,2820 @@
+{
+ "benchmark": "DIODE",
+ "split": "val-350",
+ "source": {
+  "archive": "https://diode-dataset.s3.amazonaws.com/val.tar.gz",
+  "md5": "5c895d09201b88973c8fe4552a67dd85",
+  "images_in_source": 771
+ },
+ "seeds": {
+  "prompt_development_images": 20260919,
+  "random_sample": 20260920
+ },
+ "count": 350,
+ "per_domain": {
+  "indoor": 150,
+  "outdoor": 200
+ },
+ "items": [
+  {
+   "id": "00021_00188_indoors_200_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_200_020.png",
+   "prompt_development": true
+  },
+  {
+   "id": "00019_00183_indoors_240_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_240_000.png",
+   "prompt_development": true
+  },
+  {
+   "id": "00020_00186_indoors_330_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_330_010.png",
+   "prompt_development": true
+  },
+  {
+   "id": "00024_00201_outdoor_070_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_070_010.png",
+   "prompt_development": true
+  },
+  {
+   "id": "00023_00198_outdoor_200_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_200_010.png",
+   "prompt_development": true
+  },
+  {
+   "id": "00023_00198_outdoor_280_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_280_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_000_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_000_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_330_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_330_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_220_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_220_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_030_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_030_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_330_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_330_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_000_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_000_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_170_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_170_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_230_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_230_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_260_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_260_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_170_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_170_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_140_030",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_140_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_020_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_020_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_130_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_130_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_010_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_010_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_010_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_010_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_060_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_060_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_170_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_170_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_350_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_350_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_350_020",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_350_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_230_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_230_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_060_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_060_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_200_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_200_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_210_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_210_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_080_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_080_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_220_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_220_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_080_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_080_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_300_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_300_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_200_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_200_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_040_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_040_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_130_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_130_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_130_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_130_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_150_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_150_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_290_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_290_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_230_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_230_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_040_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_040_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_000_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_250_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_250_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_150_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_150_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_240_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_240_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_180_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_180_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_200_020",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_200_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_150_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_150_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_240_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_240_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_290_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_290_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_320_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_320_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_060_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_060_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_190_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_190_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_150_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_150_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_080_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_080_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_030_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_030_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_330_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_330_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_280_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_280_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_140_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_140_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_260_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_260_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_120_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_120_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_020_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_020_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_230_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_230_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_090_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_090_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_350_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_350_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_140_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_140_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_190_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_190_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_280_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_280_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_140_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_140_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_280_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_280_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_200_050",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_200_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_060_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_060_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_090_020",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_090_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_040_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_040_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_100_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_100_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_300_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_300_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_240_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_240_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_310_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_310_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_000_020",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_140_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_140_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_070_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_070_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_290_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_290_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_280_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_280_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_120_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_120_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_180_030",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_180_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_020_050",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_020_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_000_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_090_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_090_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_070_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_070_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_330_020",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_330_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_300_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_300_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_160_010",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_160_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_320_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_320_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_090_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_090_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_210_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_210_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_240_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_240_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_160_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_160_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_280_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_280_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_100_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_100_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_230_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_230_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_240_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_240_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_170_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_170_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_260_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_260_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_020_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_020_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_330_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_330_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_170_040",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_170_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_280_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_280_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_130_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_130_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_050_030",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_050_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_040_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_040_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_210_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_210_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_000_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_340_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_170_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_170_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_130_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_130_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_100_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_100_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_070_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_070_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_130_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_130_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_280_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_280_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_220_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_220_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_130_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_130_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_350_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_350_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_120_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_120_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_020_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_020_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_120_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_120_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_110_050",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_110_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_070_030",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_070_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_220_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_220_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_060_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_060_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_080_020",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_080_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_320_030",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_320_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_180_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_180_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_290_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_290_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_110_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_110_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_210_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_210_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_030_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_030_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_300_050",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_300_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_210_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_210_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_050_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_050_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_110_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_110_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_130_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_130_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_120_030",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_120_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_240_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_240_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_350_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_350_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_200_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_200_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_330_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_330_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_240_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_240_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_070_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_070_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_130_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_130_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_150_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_150_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_030_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_030_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_020_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_020_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_100_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_100_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_090_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_090_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_090_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_090_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_270_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_270_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_040_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_040_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_200_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_200_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_010_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_010_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_160_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_160_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_200_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_200_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_290_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_290_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_160_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_160_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_000_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_310_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_310_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_260_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_260_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_200_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_200_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_320_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_320_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_280_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_280_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_230_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_230_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_340_010",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_340_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_330_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_330_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_070_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_070_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_180_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_180_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_000_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_000_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_220_040",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_220_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_100_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_100_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_350_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_350_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_340_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_300_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_300_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_110_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_110_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_330_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_330_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_350_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_350_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_200_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_200_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_210_030",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_210_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_150_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_150_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_250_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_250_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_040_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_040_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_090_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_090_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_220_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_220_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_160_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_160_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_180_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_180_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_340_040",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_340_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_000_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_000_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_200_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_200_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_080_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_080_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_010_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_010_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_220_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_220_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_080_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_080_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_210_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_210_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_340_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_150_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_150_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_060_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_060_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_330_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_330_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_230_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_230_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_090_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_090_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_240_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_240_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_290_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_290_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_020_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_020_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_350_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_350_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00192_indoors_030_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00192",
+   "image": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_030_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_220_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_220_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_030_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_030_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_060_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_060_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_240_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_240_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_210_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_210_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_340_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_320_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_320_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_210_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_210_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_280_050",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_280_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_190_020",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_190_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_090_050",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_090_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_340_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_340_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_160_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_160_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_070_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_070_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_350_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_350_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_210_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_210_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_140_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_140_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_190_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_190_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_150_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_150_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_140_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_140_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_250_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_250_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_020_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_020_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_190_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_190_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_160_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_160_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_310_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_310_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_300_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_300_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_200_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_200_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_340_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_340_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_200_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_200_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_010_040",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_010_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_200_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_200_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_290_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_290_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_210_050",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_210_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_340_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_030_040",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_030_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_300_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_300_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_250_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_250_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_180_010",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_180_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_000_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_000_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_320_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_320_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_170_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_170_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_330_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_330_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_220_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_220_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_270_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_270_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_350_050",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_350_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_310_020",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_310_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_100_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_100_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_300_030",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_300_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_280_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_280_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_220_020",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_220_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_340_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_010_020",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_010_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_000_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_000_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_300_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_300_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_310_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_310_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_340_030",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_340_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_180_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_180_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_310_040",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_310_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_250_010",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_250_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_230_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_230_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_340_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_340_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_150_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_150_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_020_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_020_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_010_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_010_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_000_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_000_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_170_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_170_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_000_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_190_040",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_190_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_160_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_160_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_250_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_250_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_290_040",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_290_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_010_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_010_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_040_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_040_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_350_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_350_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_010_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_010_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_220_040",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_220_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_050_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_050_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_260_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_260_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_100_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_100_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_010_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_010_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_320_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_320_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_330_000",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_330_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_050_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_050_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_310_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_310_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_050_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_050_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_190_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_190_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_150_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_150_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_240_040",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_240_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_190_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_190_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_120_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_120_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_250_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_250_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00200_outdoor_030_000",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00200",
+   "image": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_030_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_180_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_180_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00199_outdoor_230_030",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00199",
+   "image": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_230_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_190_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_190_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_240_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_240_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_260_020",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_260_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00184_indoors_050_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00184",
+   "image": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_050_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_020_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_020_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_170_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_170_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_240_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_240_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_350_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_350_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_060_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_060_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_250_030",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_250_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_100_000",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_100_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_000_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_000_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00196_outdoor_090_040",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00196",
+   "image": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_090_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_060_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_060_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_130_040",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_130_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_020_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_020_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00193_outdoor_010_010",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00193",
+   "image": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_010_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_130_030",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_130_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_210_000",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_210_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_090_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_090_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_010_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_010_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00201_outdoor_230_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00201",
+   "image": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_230_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00188_indoors_170_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00188",
+   "image": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_170_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_160_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_160_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_190_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_190_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_080_010",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_080_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_130_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_130_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00019_00183_indoors_160_050",
+   "domain": "indoor",
+   "scene": "scene_00019",
+   "scan": "scan_00183",
+   "image": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_160_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_070_040",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_070_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_110_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_110_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00187_indoors_110_010",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00187",
+   "image": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_110_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00023_00198_outdoor_350_010",
+   "domain": "outdoor",
+   "scene": "scene_00023",
+   "scan": "scan_00198",
+   "image": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_350_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00190_indoors_140_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00190",
+   "image": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_140_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00189_indoors_210_020",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00189",
+   "image": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_210_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_080_030",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_080_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00021_00191_indoors_000_040",
+   "domain": "indoor",
+   "scene": "scene_00021",
+   "scan": "scan_00191",
+   "image": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_000_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_070_010",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_070_010.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00194_outdoor_140_030",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00194",
+   "image": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_140_030.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00185_indoors_340_020",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00185",
+   "image": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_340_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_090_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_090_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_150_050",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_150_050.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00020_00186_indoors_040_000",
+   "domain": "indoor",
+   "scene": "scene_00020",
+   "scan": "scan_00186",
+   "image": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_040_000.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00197_outdoor_350_020",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00197",
+   "image": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_350_020.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00024_00202_outdoor_170_040",
+   "domain": "outdoor",
+   "scene": "scene_00024",
+   "scan": "scan_00202",
+   "image": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_170_040.png",
+   "prompt_development": false
+  },
+  {
+   "id": "00022_00195_outdoor_140_000",
+   "domain": "outdoor",
+   "scene": "scene_00022",
+   "scan": "scan_00195",
+   "image": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_140_000.png",
+   "prompt_development": false
+  }
+ ]
+}

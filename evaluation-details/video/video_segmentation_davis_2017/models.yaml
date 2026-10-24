@@ -1,0 +1,38 @@
+# DAVIS-2017 (val): inference settings per model
+gpt-6-astra:
+  reasoning_effort: "max"
+  max_output_tokens: 128000
+  image_detail: "original"
+  tools: "none"
+  output_format: "JSON schema (strict)"
+qwen3.8-max:
+  reasoning_effort: "high"
+  max_output_tokens: 128000
+  image_detail: "not set (provider default)"
+  tools: "none"
+  output_format: "JSON schema (strict)"
+fable-5.1:
+  reasoning_effort: "max"
+  thinking: "adaptive"
+  max_output_tokens: 128000
+  image_detail: "not applicable"
+  tools: "none"
+  output_format: "JSON schema"
+gemini-3.1-pro:
+  reasoning_effort: "high"
+  max_output_tokens: 65536
+  image_detail: "high"
+  tools: "none"
+  output_format: "JSON schema"
+kimi-k3:
+  reasoning_effort: "high"
+  max_output_tokens: 128000
+  image_detail: "not set (provider default)"
+  tools: "none"
+  output_format: "JSON schema (strict)"
+muse-spark-1.3:
+  reasoning_effort: "high"
+  max_output_tokens: 128000
+  image_detail: "not set (provider default)"
+  tools: "none"
+  output_format: "JSON schema (strict)"

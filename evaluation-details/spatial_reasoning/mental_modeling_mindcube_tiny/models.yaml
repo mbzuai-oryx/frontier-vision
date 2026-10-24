@@ -1,0 +1,19 @@
+# MindCube-Tiny: inference settings per model
+gpt-6-astra:
+  reasoning_effort: "max"
+  max_output_tokens: 65536
+  image_detail: "high"
+  tools: "Python sandbox, function tool `python`"
+qwen3.8-max:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 65536
+  image_detail: "not set (provider default)"
+  tools: "Python sandbox, function tool `python`"
+  max_output_tokens_scope: "per item, summed over turns"
+fable-5:
+  reasoning_effort: "xhigh"
+  thinking: "adaptive"
+  max_output_tokens: 65536
+  max_output_tokens_scope: "per item, summed over turns"
+  image_detail: "not applicable"
+  tools: "Python sandbox, function tool `python`"

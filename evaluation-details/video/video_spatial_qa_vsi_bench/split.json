@@ -1,0 +1,2413 @@
+{
+ "benchmark": "VSI-Bench",
+ "split": "tiny-400",
+ "source": {
+  "dataset": "https://huggingface.co/datasets/nyu-visionx/VSI-Bench",
+  "questions_in_source": 5130,
+  "id_field": "official `id` (not a row index; ids run 0-5155 with gaps)"
+ },
+ "seed": 42,
+ "count": 400,
+ "items": [
+  {
+   "id": 25,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "42446151"
+  },
+  {
+   "id": 34,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "42897538"
+  },
+  {
+   "id": 36,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "42897564"
+  },
+  {
+   "id": 39,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "42897629"
+  },
+  {
+   "id": 54,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "42899461"
+  },
+  {
+   "id": 102,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47204578"
+  },
+  {
+   "id": 103,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47204607"
+  },
+  {
+   "id": 107,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47331063"
+  },
+  {
+   "id": 114,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47331644"
+  },
+  {
+   "id": 124,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47332886"
+  },
+  {
+   "id": 135,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47333940"
+  },
+  {
+   "id": 136,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47334096"
+  },
+  {
+   "id": 143,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47334254"
+  },
+  {
+   "id": 155,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47429977"
+  },
+  {
+   "id": 160,
+   "question_type": "object_counting",
+   "dataset": "arkitscenes",
+   "scene_name": "47430034"
+  },
+  {
+   "id": 187,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "41159541"
+  },
+  {
+   "id": 190,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "41159572"
+  },
+  {
+   "id": 201,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42444950"
+  },
+  {
+   "id": 210,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42445026"
+  },
+  {
+   "id": 211,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42445026"
+  },
+  {
+   "id": 226,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42446116"
+  },
+  {
+   "id": 241,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42446535"
+  },
+  {
+   "id": 268,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42897692"
+  },
+  {
+   "id": 288,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42898869"
+  },
+  {
+   "id": 304,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42899698"
+  },
+  {
+   "id": 315,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "44358436"
+  },
+  {
+   "id": 325,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "45260856"
+  },
+  {
+   "id": 347,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "45261575"
+  },
+  {
+   "id": 351,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "45261637"
+  },
+  {
+   "id": 405,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47331319"
+  },
+  {
+   "id": 439,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47332908"
+  },
+  {
+   "id": 440,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47332918"
+  },
+  {
+   "id": 461,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47333924"
+  },
+  {
+   "id": 494,
+   "question_type": "object_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47334380"
+  },
+  {
+   "id": 533,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "41125700"
+  },
+  {
+   "id": 545,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "41254402"
+  },
+  {
+   "id": 553,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42445981"
+  },
+  {
+   "id": 554,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42445984"
+  },
+  {
+   "id": 556,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42446056"
+  },
+  {
+   "id": 572,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42897647"
+  },
+  {
+   "id": 577,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42898544"
+  },
+  {
+   "id": 580,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42898826"
+  },
+  {
+   "id": 585,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42899617"
+  },
+  {
+   "id": 589,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42899712"
+  },
+  {
+   "id": 592,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "42899729"
+  },
+  {
+   "id": 598,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "44358518"
+  },
+  {
+   "id": 600,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "44358582"
+  },
+  {
+   "id": 610,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "45261594"
+  },
+  {
+   "id": 617,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "45663105"
+  },
+  {
+   "id": 619,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "45663154"
+  },
+  {
+   "id": 621,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47115460"
+  },
+  {
+   "id": 622,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47115469"
+  },
+  {
+   "id": 626,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47204566"
+  },
+  {
+   "id": 631,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47331262"
+  },
+  {
+   "id": 638,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47331668"
+  },
+  {
+   "id": 664,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47334372"
+  },
+  {
+   "id": 666,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47429904"
+  },
+  {
+   "id": 667,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47429912"
+  },
+  {
+   "id": 670,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47429992"
+  },
+  {
+   "id": 677,
+   "question_type": "room_size_estimation",
+   "dataset": "arkitscenes",
+   "scene_name": "47430422"
+  },
+  {
+   "id": 694,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "41159525"
+  },
+  {
+   "id": 734,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42446517"
+  },
+  {
+   "id": 759,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42898527"
+  },
+  {
+   "id": 790,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "44358442"
+  },
+  {
+   "id": 800,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "45260928"
+  },
+  {
+   "id": 816,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "45662924"
+  },
+  {
+   "id": 818,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "45662943"
+  },
+  {
+   "id": 828,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "45663164"
+  },
+  {
+   "id": 850,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47331068"
+  },
+  {
+   "id": 871,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47331972"
+  },
+  {
+   "id": 884,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47333441"
+  },
+  {
+   "id": 915,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47334107"
+  },
+  {
+   "id": 921,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47334117"
+  },
+  {
+   "id": 930,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47334239"
+  },
+  {
+   "id": 931,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47334362"
+  },
+  {
+   "id": 947,
+   "question_type": "object_abs_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47430038"
+  },
+  {
+   "id": 983,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "42446167"
+  },
+  {
+   "id": 988,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "42446529"
+  },
+  {
+   "id": 992,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "42897528"
+  },
+  {
+   "id": 998,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "42897688"
+  },
+  {
+   "id": 1017,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "44358499"
+  },
+  {
+   "id": 1025,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "45261121"
+  },
+  {
+   "id": 1059,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "47333899"
+  },
+  {
+   "id": 1083,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "arkitscenes",
+   "scene_name": "47429922"
+  },
+  {
+   "id": 1116,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "arkitscenes",
+   "scene_name": "42444976"
+  },
+  {
+   "id": 1118,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "arkitscenes",
+   "scene_name": "42444976"
+  },
+  {
+   "id": 1123,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "arkitscenes",
+   "scene_name": "42445031"
+  },
+  {
+   "id": 1126,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "arkitscenes",
+   "scene_name": "42445429"
+  },
+  {
+   "id": 1186,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "arkitscenes",
+   "scene_name": "47331316"
+  },
+  {
+   "id": 1225,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "arkitscenes",
+   "scene_name": "47430007"
+  },
+  {
+   "id": 1236,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "arkitscenes",
+   "scene_name": "41069025"
+  },
+  {
+   "id": 1258,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "arkitscenes",
+   "scene_name": "42446049"
+  },
+  {
+   "id": 1259,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "arkitscenes",
+   "scene_name": "42446103"
+  },
+  {
+   "id": 1277,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "arkitscenes",
+   "scene_name": "42899696"
+  },
+  {
+   "id": 1294,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "arkitscenes",
+   "scene_name": "47332899"
+  },
+  {
+   "id": 1341,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42446541"
+  },
+  {
+   "id": 1349,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42897629"
+  },
+  {
+   "id": 1364,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42898849"
+  },
+  {
+   "id": 1391,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42899685"
+  },
+  {
+   "id": 1393,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "42899685"
+  },
+  {
+   "id": 1405,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "45260928"
+  },
+  {
+   "id": 1420,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "45662987"
+  },
+  {
+   "id": 1424,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47204552"
+  },
+  {
+   "id": 1452,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47333457"
+  },
+  {
+   "id": 1467,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47334103"
+  },
+  {
+   "id": 1482,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47429977"
+  },
+  {
+   "id": 1496,
+   "question_type": "object_rel_distance",
+   "dataset": "arkitscenes",
+   "scene_name": "47430468"
+  },
+  {
+   "id": 1528,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannetpp",
+   "scene_name": "a24f64f7fb"
+  },
+  {
+   "id": 1549,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannetpp",
+   "scene_name": "f9f95681fd"
+  },
+  {
+   "id": 1555,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannetpp",
+   "scene_name": "40aec5fffa"
+  },
+  {
+   "id": 1558,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannetpp",
+   "scene_name": "e398684d27"
+  },
+  {
+   "id": 1574,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannetpp",
+   "scene_name": "f2dc06b1d2"
+  },
+  {
+   "id": 1582,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannetpp",
+   "scene_name": "bcd2436daf"
+  },
+  {
+   "id": 1601,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "7b6477cb95"
+  },
+  {
+   "id": 1622,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "fb5a96b1a2"
+  },
+  {
+   "id": 1628,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "fb5a96b1a2"
+  },
+  {
+   "id": 1638,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "1ada7a0617"
+  },
+  {
+   "id": 1646,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "3e8bba0176"
+  },
+  {
+   "id": 1648,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "3e8bba0176"
+  },
+  {
+   "id": 1654,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "3f15a9266d"
+  },
+  {
+   "id": 1661,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "38d58a7a31"
+  },
+  {
+   "id": 1667,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "5ee7c22ba0"
+  },
+  {
+   "id": 1686,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "13c3e046d7"
+  },
+  {
+   "id": 1707,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "7bc286c1b6"
+  },
+  {
+   "id": 1790,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "6115eddb86"
+  },
+  {
+   "id": 1800,
+   "question_type": "object_abs_distance",
+   "dataset": "scannetpp",
+   "scene_name": "c49a8c6cff"
+  },
+  {
+   "id": 1822,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannetpp",
+   "scene_name": "acd95847c5"
+  },
+  {
+   "id": 1853,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannetpp",
+   "scene_name": "3864514494"
+  },
+  {
+   "id": 1862,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannetpp",
+   "scene_name": "31a2c91c43"
+  },
+  {
+   "id": 1868,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannetpp",
+   "scene_name": "286b55a2bf"
+  },
+  {
+   "id": 1912,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "7b6477cb95"
+  },
+  {
+   "id": 1921,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "c50d2d1d42"
+  },
+  {
+   "id": 1928,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "cc5237fd77"
+  },
+  {
+   "id": 1950,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "a24f64f7fb"
+  },
+  {
+   "id": 1954,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "1ada7a0617"
+  },
+  {
+   "id": 1962,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "5eb31827b7"
+  },
+  {
+   "id": 1966,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "5eb31827b7"
+  },
+  {
+   "id": 1991,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "bde1e479ad"
+  },
+  {
+   "id": 2012,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "38d58a7a31"
+  },
+  {
+   "id": 2020,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "38d58a7a31"
+  },
+  {
+   "id": 2031,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "286b55a2bf"
+  },
+  {
+   "id": 2048,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "25f3b7a318"
+  },
+  {
+   "id": 2056,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "bcd2436daf"
+  },
+  {
+   "id": 2076,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "0d2ee665be"
+  },
+  {
+   "id": 2114,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "578511c8a9"
+  },
+  {
+   "id": 2135,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "09c1414f1b"
+  },
+  {
+   "id": 2157,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "9071e139d9"
+  },
+  {
+   "id": 2160,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "9071e139d9"
+  },
+  {
+   "id": 2163,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "6115eddb86"
+  },
+  {
+   "id": 2187,
+   "question_type": "object_rel_distance",
+   "dataset": "scannetpp",
+   "scene_name": "c49a8c6cff"
+  },
+  {
+   "id": 2238,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "3f15a9266d"
+  },
+  {
+   "id": 2244,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "5748ce6f01"
+  },
+  {
+   "id": 2246,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "c4c04e6d6c"
+  },
+  {
+   "id": 2247,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "7831862f02"
+  },
+  {
+   "id": 2254,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "5ee7c22ba0"
+  },
+  {
+   "id": 2261,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "f9f95681fd"
+  },
+  {
+   "id": 2262,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "f9f95681fd"
+  },
+  {
+   "id": 2277,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "a8bf42d646"
+  },
+  {
+   "id": 2303,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "a980334473"
+  },
+  {
+   "id": 2304,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "a980334473"
+  },
+  {
+   "id": 2305,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "f2dc06b1d2"
+  },
+  {
+   "id": 2365,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "c5439f4607"
+  },
+  {
+   "id": 2379,
+   "question_type": "object_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "99fa5c25e1"
+  },
+  {
+   "id": 2456,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "scannetpp",
+   "scene_name": "45b0dac5e3"
+  },
+  {
+   "id": 2472,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "scannetpp",
+   "scene_name": "f3d64c30f8"
+  },
+  {
+   "id": 2497,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "c50d2d1d42"
+  },
+  {
+   "id": 2499,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "cc5237fd77"
+  },
+  {
+   "id": 2505,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "acd95847c5"
+  },
+  {
+   "id": 2530,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "5eb31827b7"
+  },
+  {
+   "id": 2545,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "21d970d8de"
+  },
+  {
+   "id": 2546,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "21d970d8de"
+  },
+  {
+   "id": 2548,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "5748ce6f01"
+  },
+  {
+   "id": 2560,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "bde1e479ad"
+  },
+  {
+   "id": 2576,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "e7af285f7d"
+  },
+  {
+   "id": 2578,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "f3685d06a9"
+  },
+  {
+   "id": 2581,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "b0a08200c9"
+  },
+  {
+   "id": 2583,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "b0a08200c9"
+  },
+  {
+   "id": 2585,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "825d228aec"
+  },
+  {
+   "id": 2600,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "f3d64c30f8"
+  },
+  {
+   "id": 2612,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "ac48a9b736"
+  },
+  {
+   "id": 2613,
+   "question_type": "object_counting",
+   "dataset": "scannetpp",
+   "scene_name": "ac48a9b736"
+  },
+  {
+   "id": 2672,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "3f15a9266d"
+  },
+  {
+   "id": 2675,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "c4c04e6d6c"
+  },
+  {
+   "id": 2683,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "13c3e046d7"
+  },
+  {
+   "id": 2684,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "e398684d27"
+  },
+  {
+   "id": 2685,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "a8bf42d646"
+  },
+  {
+   "id": 2687,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "31a2c91c43"
+  },
+  {
+   "id": 2688,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "e7af285f7d"
+  },
+  {
+   "id": 2691,
+   "question_type": "room_size_estimation",
+   "dataset": "scannetpp",
+   "scene_name": "f3685d06a9"
+  },
+  {
+   "id": 2714,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "45b0dac5e3"
+  },
+  {
+   "id": 2715,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "5942004064"
+  },
+  {
+   "id": 2719,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "5942004064"
+  },
+  {
+   "id": 2721,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "5942004064"
+  },
+  {
+   "id": 2738,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "5942004064"
+  },
+  {
+   "id": 2757,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "25f3b7a318"
+  },
+  {
+   "id": 2779,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "0d2ee665be"
+  },
+  {
+   "id": 2786,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "3db0a1c8f3"
+  },
+  {
+   "id": 2798,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "3db0a1c8f3"
+  },
+  {
+   "id": 2802,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "3db0a1c8f3"
+  },
+  {
+   "id": 2812,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "578511c8a9"
+  },
+  {
+   "id": 2848,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "d755b3d9d8"
+  },
+  {
+   "id": 2863,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "d755b3d9d8"
+  },
+  {
+   "id": 2884,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "09c1414f1b"
+  },
+  {
+   "id": 2906,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "5f99900f09"
+  },
+  {
+   "id": 2910,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "5f99900f09"
+  },
+  {
+   "id": 2919,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "27dd4da69e"
+  },
+  {
+   "id": 2922,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannetpp",
+   "scene_name": "27dd4da69e"
+  },
+  {
+   "id": 2951,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0307_02"
+  },
+  {
+   "id": 2964,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0354_00"
+  },
+  {
+   "id": 2974,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0357_01"
+  },
+  {
+   "id": 3003,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0645_00"
+  },
+  {
+   "id": 3013,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0647_00"
+  },
+  {
+   "id": 3026,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0651_02"
+  },
+  {
+   "id": 3045,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0653_00"
+  },
+  {
+   "id": 3052,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0684_01"
+  },
+  {
+   "id": 3054,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0693_00"
+  },
+  {
+   "id": 3089,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0700_02"
+  },
+  {
+   "id": 3159,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0088_01"
+  },
+  {
+   "id": 3164,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0149_00"
+  },
+  {
+   "id": 3166,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0164_02"
+  },
+  {
+   "id": 3168,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0203_01"
+  },
+  {
+   "id": 3170,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0207_02"
+  },
+  {
+   "id": 3171,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0207_02"
+  },
+  {
+   "id": 3195,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0222_01"
+  },
+  {
+   "id": 3201,
+   "question_type": "object_rel_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0231_00"
+  },
+  {
+   "id": 3268,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0621_00"
+  },
+  {
+   "id": 3308,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0658_00"
+  },
+  {
+   "id": 3311,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0663_00"
+  },
+  {
+   "id": 3317,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0665_00"
+  },
+  {
+   "id": 3362,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0701_00"
+  },
+  {
+   "id": 3365,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0702_02"
+  },
+  {
+   "id": 3367,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0704_01"
+  },
+  {
+   "id": 3383,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0461_00"
+  },
+  {
+   "id": 3384,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0462_00"
+  },
+  {
+   "id": 3385,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0462_00"
+  },
+  {
+   "id": 3392,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0488_01"
+  },
+  {
+   "id": 3393,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0494_00"
+  },
+  {
+   "id": 3394,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0494_00"
+  },
+  {
+   "id": 3399,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0500_00"
+  },
+  {
+   "id": 3418,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0574_01"
+  },
+  {
+   "id": 3494,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0144_00"
+  },
+  {
+   "id": 3508,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0153_00"
+  },
+  {
+   "id": 3516,
+   "question_type": "object_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0169_01"
+  },
+  {
+   "id": 3565,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0304_00"
+  },
+  {
+   "id": 3576,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0354_00"
+  },
+  {
+   "id": 3580,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0357_01"
+  },
+  {
+   "id": 3605,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0658_00"
+  },
+  {
+   "id": 3628,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0700_02"
+  },
+  {
+   "id": 3631,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0458_00"
+  },
+  {
+   "id": 3636,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0550_00"
+  },
+  {
+   "id": 3642,
+   "question_type": "object_rel_direction_hard",
+   "dataset": "scannet",
+   "scene_name": "scene0575_01"
+  },
+  {
+   "id": 3750,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "scannet",
+   "scene_name": "scene0149_00"
+  },
+  {
+   "id": 3754,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "scannet",
+   "scene_name": "scene0221_01"
+  },
+  {
+   "id": 3759,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "scannet",
+   "scene_name": "scene0246_00"
+  },
+  {
+   "id": 3760,
+   "question_type": "object_rel_direction_easy",
+   "dataset": "scannet",
+   "scene_name": "scene0246_00"
+  },
+  {
+   "id": 3762,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0277_02"
+  },
+  {
+   "id": 3763,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0304_00"
+  },
+  {
+   "id": 3766,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0328_00"
+  },
+  {
+   "id": 3767,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0338_00"
+  },
+  {
+   "id": 3782,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0648_00"
+  },
+  {
+   "id": 3788,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0665_00"
+  },
+  {
+   "id": 3790,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0684_01"
+  },
+  {
+   "id": 3791,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0685_00"
+  },
+  {
+   "id": 3792,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0686_00"
+  },
+  {
+   "id": 3801,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0704_01"
+  },
+  {
+   "id": 3808,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0488_01"
+  },
+  {
+   "id": 3818,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0575_01"
+  },
+  {
+   "id": 3822,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0598_02"
+  },
+  {
+   "id": 3829,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0081_02"
+  },
+  {
+   "id": 3832,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0095_01"
+  },
+  {
+   "id": 3844,
+   "question_type": "room_size_estimation",
+   "dataset": "scannet",
+   "scene_name": "scene0208_00"
+  },
+  {
+   "id": 3859,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0353_00"
+  },
+  {
+   "id": 3884,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0378_01"
+  },
+  {
+   "id": 3896,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0426_00"
+  },
+  {
+   "id": 3907,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0426_00"
+  },
+  {
+   "id": 3927,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0643_00"
+  },
+  {
+   "id": 3931,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0643_00"
+  },
+  {
+   "id": 3947,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0645_00"
+  },
+  {
+   "id": 3970,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0648_00"
+  },
+  {
+   "id": 3993,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0653_00"
+  },
+  {
+   "id": 4011,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0695_00"
+  },
+  {
+   "id": 4025,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0697_01"
+  },
+  {
+   "id": 4027,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0697_01"
+  },
+  {
+   "id": 4035,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0697_01"
+  },
+  {
+   "id": 4038,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0699_00"
+  },
+  {
+   "id": 4041,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0699_00"
+  },
+  {
+   "id": 4048,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0568_02"
+  },
+  {
+   "id": 4050,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0580_01"
+  },
+  {
+   "id": 4080,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0591_01"
+  },
+  {
+   "id": 4092,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0591_01"
+  },
+  {
+   "id": 4095,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0591_01"
+  },
+  {
+   "id": 4110,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0593_00"
+  },
+  {
+   "id": 4115,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0593_00"
+  },
+  {
+   "id": 4117,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0593_00"
+  },
+  {
+   "id": 4121,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0593_00"
+  },
+  {
+   "id": 4124,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0608_00"
+  },
+  {
+   "id": 4154,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0030_02"
+  },
+  {
+   "id": 4169,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0046_01"
+  },
+  {
+   "id": 4177,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0050_01"
+  },
+  {
+   "id": 4182,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0164_02"
+  },
+  {
+   "id": 4202,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0207_02"
+  },
+  {
+   "id": 4218,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0222_01"
+  },
+  {
+   "id": 4228,
+   "question_type": "obj_appearance_order",
+   "dataset": "scannet",
+   "scene_name": "scene0231_00"
+  },
+  {
+   "id": 4251,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0353_00"
+  },
+  {
+   "id": 4265,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0378_01"
+  },
+  {
+   "id": 4271,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0629_01"
+  },
+  {
+   "id": 4286,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0664_02"
+  },
+  {
+   "id": 4295,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0695_00"
+  },
+  {
+   "id": 4312,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0458_00"
+  },
+  {
+   "id": 4344,
+   "question_type": "object_rel_direction_medium",
+   "dataset": "scannet",
+   "scene_name": "scene0025_01"
+  },
+  {
+   "id": 4387,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0251_00"
+  },
+  {
+   "id": 4395,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0338_00"
+  },
+  {
+   "id": 4409,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0412_00"
+  },
+  {
+   "id": 4415,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0616_01"
+  },
+  {
+   "id": 4436,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0647_00"
+  },
+  {
+   "id": 4444,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0651_02"
+  },
+  {
+   "id": 4458,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0663_00"
+  },
+  {
+   "id": 4460,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0664_02"
+  },
+  {
+   "id": 4464,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0671_01"
+  },
+  {
+   "id": 4468,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0685_00"
+  },
+  {
+   "id": 4492,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0441_00"
+  },
+  {
+   "id": 4506,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0496_00"
+  },
+  {
+   "id": 4511,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0518_00"
+  },
+  {
+   "id": 4517,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0565_00"
+  },
+  {
+   "id": 4519,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0565_00"
+  },
+  {
+   "id": 4557,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0077_01"
+  },
+  {
+   "id": 4564,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0088_01"
+  },
+  {
+   "id": 4566,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0095_01"
+  },
+  {
+   "id": 4571,
+   "question_type": "object_counting",
+   "dataset": "scannet",
+   "scene_name": "scene0169_01"
+  },
+  {
+   "id": 4611,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0277_02"
+  },
+  {
+   "id": 4624,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0307_02"
+  },
+  {
+   "id": 4626,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0316_00"
+  },
+  {
+   "id": 4630,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0328_00"
+  },
+  {
+   "id": 4650,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0356_00"
+  },
+  {
+   "id": 4652,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0356_00"
+  },
+  {
+   "id": 4683,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0633_00"
+  },
+  {
+   "id": 4730,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0686_00"
+  },
+  {
+   "id": 4733,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0693_00"
+  },
+  {
+   "id": 4743,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0696_01"
+  },
+  {
+   "id": 4780,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0435_02"
+  },
+  {
+   "id": 4793,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0474_04"
+  },
+  {
+   "id": 4811,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0553_00"
+  },
+  {
+   "id": 4858,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0025_01"
+  },
+  {
+   "id": 4881,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0086_02"
+  },
+  {
+   "id": 4886,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0100_00"
+  },
+  {
+   "id": 4889,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0144_00"
+  },
+  {
+   "id": 4898,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0146_01"
+  },
+  {
+   "id": 4908,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0153_00"
+  },
+  {
+   "id": 4922,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0193_01"
+  },
+  {
+   "id": 4925,
+   "question_type": "object_abs_distance",
+   "dataset": "scannet",
+   "scene_name": "scene0196_00"
+  },
+  {
+   "id": 4961,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47332005"
+  },
+  {
+   "id": 4967,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0316_00"
+  },
+  {
+   "id": 4969,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42897508"
+  },
+  {
+   "id": 4970,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42898581"
+  },
+  {
+   "id": 4975,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42897554"
+  },
+  {
+   "id": 4978,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "cc5237fd77"
+  },
+  {
+   "id": 4983,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47331990"
+  },
+  {
+   "id": 4984,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0696_01"
+  },
+  {
+   "id": 4985,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "45260905"
+  },
+  {
+   "id": 4994,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0251_00"
+  },
+  {
+   "id": 5000,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42899739"
+  },
+  {
+   "id": 5004,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "41125760"
+  },
+  {
+   "id": 5005,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42898486"
+  },
+  {
+   "id": 5007,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "45261182"
+  },
+  {
+   "id": 5009,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "41069048"
+  },
+  {
+   "id": 5018,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47430475"
+  },
+  {
+   "id": 5020,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "21d970d8de"
+  },
+  {
+   "id": 5024,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47115525"
+  },
+  {
+   "id": 5026,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0496_00"
+  },
+  {
+   "id": 5027,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "41125731"
+  },
+  {
+   "id": 5028,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "c5439f4607"
+  },
+  {
+   "id": 5038,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0574_01"
+  },
+  {
+   "id": 5040,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "41254432"
+  },
+  {
+   "id": 5045,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0169_01"
+  },
+  {
+   "id": 5048,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0568_02"
+  },
+  {
+   "id": 5052,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "286b55a2bf"
+  },
+  {
+   "id": 5057,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0553_00"
+  },
+  {
+   "id": 5059,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0500_00"
+  },
+  {
+   "id": 5066,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47430023"
+  },
+  {
+   "id": 5067,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0701_00"
+  },
+  {
+   "id": 5068,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0580_01"
+  },
+  {
+   "id": 5074,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "825d228aec"
+  },
+  {
+   "id": 5076,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47333932"
+  },
+  {
+   "id": 5077,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47429998"
+  },
+  {
+   "id": 5079,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "44358536"
+  },
+  {
+   "id": 5087,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0518_00"
+  },
+  {
+   "id": 5089,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0621_00"
+  },
+  {
+   "id": 5103,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47331331"
+  },
+  {
+   "id": 5110,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "5f99900f09"
+  },
+  {
+   "id": 5114,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0550_00"
+  },
+  {
+   "id": 5118,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0702_02"
+  },
+  {
+   "id": 5119,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0412_00"
+  },
+  {
+   "id": 5120,
+   "question_type": "route_planning",
+   "dataset": "scannetpp",
+   "scene_name": "a24f64f7fb"
+  },
+  {
+   "id": 5136,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42898817"
+  },
+  {
+   "id": 5138,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "42899725"
+  },
+  {
+   "id": 5140,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47332901"
+  },
+  {
+   "id": 5143,
+   "question_type": "route_planning",
+   "dataset": "scannet",
+   "scene_name": "scene0461_00"
+  },
+  {
+   "id": 5144,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47334238"
+  },
+  {
+   "id": 5148,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "41069043"
+  },
+  {
+   "id": 5153,
+   "question_type": "route_planning",
+   "dataset": "arkitscenes",
+   "scene_name": "47331654"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+# Anywhere3D-v2 (mini-1000): inference settings per model
+gpt-6-astra:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 8192
+  image_detail: "high"
+  tools: "local function tools `box_math`, `inspect_image`"
+  max_output_tokens_scope: "per attempt"
+qwen3.8-max:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "high"
+  tools: "local function tools `box_math`, `inspect_image`"
+fable-5:
+  reasoning_effort: "xhigh"
+  thinking: "adaptive"
+  max_output_tokens: 32768
+  max_output_tokens_scope: "per item, summed over turns"
+  image_detail: "not applicable"
+  tools: "local function tools `box_math`, `inspect_image`"
+gemini-3.1-pro:
+  reasoning_effort: "medium"
+  temperature: 1
+  max_output_tokens: 32768
+  max_output_tokens_scope: "per item, summed over turns"
+  image_detail: "high"
+  tools: "local function tools `box_math`, `inspect_image`"
+kimi-k3:
+  reasoning_effort: "max"
+  max_output_tokens: 32768
+  image_detail: "high"
+  tools: "local function tools `box_math`, `inspect_image`"
+muse-spark-1.3:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "high"
+  tools: "local function tools `box_math`, `inspect_image`"

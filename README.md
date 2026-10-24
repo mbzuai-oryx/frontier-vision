@@ -20,11 +20,32 @@
   <a href="https://mbzuai-oryx.github.io/frontier-vision/blog"><b>Blog</b></a>
 </p>
 
+## News
+
+**🔥 [Oct 2026]**
+
+- [x] 📊 **Benchmark-level results are out!** Scores of all six systems on every benchmark. [Explore them →](https://mbzuai-oryx.github.io/frontier-vision/benchmarks/)
+- [x] 🚀 **We release our evaluation details!** The exact prompts and model settings behind our evaluation. [See below ↓](#evaluation-details)
+- [x] 🎬 **Watch GPT-6 Astra reason!** New videos show it building detections, masks and depth maps step by step. [Check out the gallery →](https://mbzuai-oryx.github.io/frontier-vision/#gallery)
+
 <p align="center">
   <img src="assets/hero.png" alt="Overview of the 34 capabilities across nine areas of computer vision covered in the study" width="100%">
 </p>
 
 **Mapping the changing landscape of general-purpose vision.** Our study covers 34 capabilities across nine broad areas of computer vision, drawing on 55 benchmarks; representative tasks are illustrated here. We compare frontier systems with specialist models and human performance to examine how much of computer vision is now accessible through a general-purpose interface, where meaningful gaps remain, and where dedicated vision models are still necessary.
+
+## Evaluation details
+
+[`evaluation-details/`](evaluation-details/) holds the prompts and inference settings used in our evaluation, grouped by area. Each benchmark folder contains:
+
+| File | Contents |
+|---|---|
+| `README.md` | Data source, revision, split and size, and how answers are scored |
+| `prompt.md` | The prompt: system text, per-item user turn and, where used, tool definitions and output schema |
+| `models.yaml` | Settings per model: reasoning effort, output-token limit, image detail and tools |
+| `split.json` | For benchmarks evaluated on a fixed subset (Anywhere3D-v2, Omni3D, DIODE, VSI-Bench, RefSegRS, M3D-Bench REC, OCHuman): the item ids, with the selection described in the benchmark's README |
+
+No benchmark data is included; images, videos and annotations must be downloaded from the original sources under their own licences.
 
 ## Citation
 

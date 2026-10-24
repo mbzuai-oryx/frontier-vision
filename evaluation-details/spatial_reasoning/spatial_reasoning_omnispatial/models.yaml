@@ -1,0 +1,22 @@
+# OmniSpatial (test): inference settings per model
+gpt-6-astra:
+  reasoning_effort: "max"
+  max_output_tokens: 65536
+  image_detail: "high"
+  tools: "none"
+qwen3.8-max:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 65536
+  image_detail: "high"
+  tools: "none"
+fable-5:
+  reasoning_effort: "xhigh"
+  thinking: "adaptive"
+  max_output_tokens: 65536
+  image_detail: "not applicable"
+  tools: "none"
+gemini-3.1-pro:
+  reasoning_effort: "high"
+  max_output_tokens: 65536
+  image_detail: "high"
+  tools: "none"

@@ -1,0 +1,38 @@
+# ReasonSeg (val): inference settings per model
+gpt-6-astra:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "original"
+  tools: "Python sandbox (no network), function tool `python`"
+qwen3.8-max:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 16384
+  max_output_tokens_scope: "per request; 32,768 per item summed over turns"
+  image_detail: "high"
+  tools: "Python sandbox (no network), function tool `python`"
+fable-5.1:
+  reasoning_effort: "high"
+  thinking: "adaptive"
+  max_output_tokens: 16384
+  max_output_tokens_scope: "per request; 32,768 per item summed over turns"
+  image_detail: "not applicable"
+  tools: "Python sandbox (no network), function tool `python`"
+gemini-3.1-pro:
+  reasoning_effort: "medium"
+  max_output_tokens: 16384
+  max_output_tokens_scope: "per request; 32,768 per item summed over turns"
+  image_detail: "high"
+  tools: "Python sandbox (no network), function tool `python`"
+  output_format: "JSON schema on the final turn only"
+kimi-k3:
+  reasoning_effort: "high"
+  max_output_tokens: 16384
+  max_output_tokens_scope: "per request; 32,768 per item summed over turns"
+  image_detail: "high"
+  tools: "Python sandbox (no network), function tool `python`"
+muse-spark-1.3:
+  reasoning_effort: "high"
+  max_output_tokens: 16384
+  max_output_tokens_scope: "per request; 32,768 per item summed over turns"
+  image_detail: "high"
+  tools: "Python sandbox (no network), function tool `python`"

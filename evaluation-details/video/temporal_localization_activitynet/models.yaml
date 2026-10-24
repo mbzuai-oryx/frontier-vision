@@ -1,0 +1,31 @@
+# ActivityNet Captions (temporal localization): inference settings per model
+gpt-6-astra:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "original"
+  tools: "none"
+qwen3.8-max:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "not set (provider default)"
+  tools: "none"
+fable-5:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "not set (provider default)"
+  tools: "none"
+gemini-3.1-pro:
+  reasoning_effort: "high"
+  max_output_tokens: 32768
+  image_detail: "not set (provider default)"
+  tools: "none"
+kimi-k3:
+  reasoning_effort: "max"
+  max_output_tokens: 32768
+  image_detail: "not set (provider default)"
+  tools: "none"
+muse-spark-1.3:
+  reasoning_effort: "xhigh"
+  max_output_tokens: 32768
+  image_detail: "not set (provider default)"
+  tools: "none"

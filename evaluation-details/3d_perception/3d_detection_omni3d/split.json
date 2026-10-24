@@ -1,0 +1,5029 @@
+{
+ "benchmark": "Omni3D",
+ "split": "test mini-1000",
+ "source": {
+  "annotations": "https://dl.fbaipublicfiles.com/omni3d_data/Omni3D_json.zip",
+  "loader_and_filters": "https://github.com/facebookresearch/omni3d",
+  "loader_revision": "778bd0210e5e1b584cc52daeba57cae3a3ee8c4e",
+  "test_images_per_source": {
+   "ARKitScenes": 7610,
+   "Hypersim": 7690,
+   "KITTI": 3769,
+   "Objectron": 9314,
+   "SUNRGBD": 5050,
+   "nuScenes": 6019
+  }
+ },
+ "seed": 20260919,
+ "count": 1000,
+ "per_source": {
+  "ARKitScenes": 193,
+  "Hypersim": 191,
+  "KITTI": 96,
+  "Objectron": 237,
+  "SUNRGBD": 129,
+  "nuScenes": 154
+ },
+ "items": [
+  {
+   "source": "nuScenes",
+   "image_id": 40043,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298219912404.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6468,
+   "file_path": "KITTI_object/training/image_2/005494.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6369,
+   "file_path": "KITTI_object/training/image_2/005289.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232907,
+   "file_path": "ARKitScenes/Validation/47333899/81301.068_00003638.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86653,
+   "file_path": "objectron/test/laptop_batch_9_40_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233444,
+   "file_path": "ARKitScenes/Validation/47430043/20607.288_00001777.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233378,
+   "file_path": "ARKitScenes/Validation/47429992/16792.695_00001898.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83957,
+   "file_path": "objectron/test/chair_batch_24_42_0000300.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160255,
+   "file_path": "hypersim/ai_041_004/images/scene_cam_00_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159536,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0062.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226583,
+   "file_path": "ARKitScenes/Validation/41069021/419.364_00006886.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162807,
+   "file_path": "hypersim/ai_054_007/images/scene_cam_02_final_preview/frame.0014.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4365,
+   "file_path": "KITTI_object/training/image_2/001289.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36532,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151607012404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161830,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_03_final_preview/frame.0083.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171470,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0010978-000368150091//image/0010978-000368150091.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158141,
+   "file_path": "hypersim/ai_024_003/images/scene_cam_00_final_preview/frame.0060.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158305,
+   "file_path": "hypersim/ai_024_007/images/scene_cam_00_final_preview/frame.0024.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87664,
+   "file_path": "objectron/test/shoe_batch_17_33_0000300.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170285,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0604//image/NYU0604.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160058,
+   "file_path": "hypersim/ai_041_002/images/scene_cam_00_final_preview/frame.0088.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229308,
+   "file_path": "ARKitScenes/Validation/42899611/228362.715_00000817.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158763,
+   "file_path": "hypersim/ai_028_006/images/scene_cam_00_final_preview/frame.0082.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228724,
+   "file_path": "ARKitScenes/Validation/42897667/478120.079_00007419.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6791,
+   "file_path": "KITTI_object/training/image_2/006161.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227441,
+   "file_path": "ARKitScenes/Validation/42446103/78125.194_00004365.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40789,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852861612460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40488,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984962862460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169315,
+   "file_path": "SUNRGBD/kv2/kinect2data/002979_2014-06-08_18-31-42_094959634447_rgbf000075-resize/image/0000075.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229634,
+   "file_path": "ARKitScenes/Validation/45260854/593.078_00002209.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168645,
+   "file_path": "SUNRGBD/kv2/kinect2data/000958_2014-06-08_16-23-21_260595134347_rgbf000247-resize/image/0000247.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41129,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799412412460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169541,
+   "file_path": "SUNRGBD/kv2/kinect2data/003323_2014-05-15_18-47-20_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6214,
+   "file_path": "KITTI_object/training/image_2/004995.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81885,
+   "file_path": "objectron/test/camera_batch_4_40_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38089,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730323762404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161980,
+   "file_path": "hypersim/ai_052_009/images/scene_cam_00_final_preview/frame.0033.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158616,
+   "file_path": "hypersim/ai_028_005/images/scene_cam_00_final_preview/frame.0035.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161258,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_01_final_preview/frame.0091.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227699,
+   "file_path": "ARKitScenes/Validation/42446165/79724.728_00000577.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41377,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799596412460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40227,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984457512460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160048,
+   "file_path": "hypersim/ai_041_002/images/scene_cam_00_final_preview/frame.0078.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37859,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489147412404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170779,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0571//image/img_0571.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38912,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657545012404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230193,
+   "file_path": "ARKitScenes/Validation/45261150/4568.311_00002558.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83683,
+   "file_path": "objectron/test/chair_batch_30_20_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157677,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_01_final_preview/frame.0096.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158611,
+   "file_path": "hypersim/ai_028_005/images/scene_cam_00_final_preview/frame.0030.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38167,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730424012404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 35969,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-24-10-42-41+0800__CAM_FRONT__1532400202362460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81785,
+   "file_path": "objectron/test/bottle_batch_32_49_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161279,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_02_final_preview/frame.0012.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159900,
+   "file_path": "hypersim/ai_039_002/images/scene_cam_00_final_preview/frame.0030.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228252,
+   "file_path": "ARKitScenes/Validation/42897541/275436.527_00003686.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230057,
+   "file_path": "ARKitScenes/Validation/45261133/4144.258_00008259.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4656,
+   "file_path": "KITTI_object/training/image_2/001893.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232666,
+   "file_path": "ARKitScenes/Validation/47332910/12215.335_00001729.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87606,
+   "file_path": "objectron/test/shoe_batch_49_23_0000300.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4385,
+   "file_path": "KITTI_object/training/image_2/001334.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81653,
+   "file_path": "objectron/test/bottle_batch_8_40_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229001,
+   "file_path": "ARKitScenes/Validation/42898854/196224.723_00002528.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81840,
+   "file_path": "objectron/test/camera_batch_4_21_0000000.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6286,
+   "file_path": "KITTI_object/training/image_2/005133.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159218,
+   "file_path": "hypersim/ai_034_002/images/scene_cam_00_final_preview/frame.0043.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159751,
+   "file_path": "hypersim/ai_037_009/images/scene_cam_00_final_preview/frame.0077.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87319,
+   "file_path": "objectron/test/shoe_batch_29_15_0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168865,
+   "file_path": "SUNRGBD/kv2/kinect2data/001701_2014-06-26_19-21-41_260595134347_rgbf000049-resize/image/0000049.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233285,
+   "file_path": "ARKitScenes/Validation/47334105/93014.749_00007912.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159354,
+   "file_path": "hypersim/ai_034_002/images/scene_cam_01_final_preview/frame.0080.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87303,
+   "file_path": "objectron/test/shoe_batch_22_22_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229931,
+   "file_path": "ARKitScenes/Validation/45261121/3457.059_00002594.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5141,
+   "file_path": "KITTI_object/training/image_2/002863.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231300,
+   "file_path": "ARKitScenes/Validation/47115460/13150.779_00000829.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155384,
+   "file_path": "hypersim/ai_001_010/images/scene_cam_01_final_preview/frame.0081.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168731,
+   "file_path": "SUNRGBD/kv2/kinect2data/001146_2014-06-17_15-25-37_260595134347_rgbf000050-resize/image/0000050.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81503,
+   "file_path": "objectron/test/bottle_batch_34_12_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228499,
+   "file_path": "ARKitScenes/Validation/42897599/476548.211_00014815.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169621,
+   "file_path": "SUNRGBD/kv2/kinect2data/003408_2014-05-21_09-11-41_094959634447_rgbf000101-resize/image/0000101.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172223,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85_8/8_1/0001473-000049364622//image/0001473-000049364622.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161252,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_01_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85666,
+   "file_path": "objectron/test/cup_batch_20_17_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82428,
+   "file_path": "objectron/test/cereal_box_batch_5_29_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83860,
+   "file_path": "objectron/test/chair_batch_43_20_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162026,
+   "file_path": "hypersim/ai_052_009/images/scene_cam_00_final_preview/frame.0079.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5887,
+   "file_path": "KITTI_object/training/image_2/004373.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 78973,
+   "file_path": "objectron/test/bike_batch_1_48_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156579,
+   "file_path": "hypersim/ai_010_004/images/scene_cam_00_final_preview/frame.0081.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169248,
+   "file_path": "SUNRGBD/kv2/kinect2data/002869_2014-06-01_15-14-50_094959634447_rgbf000085-resize/image/0000085.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4137,
+   "file_path": "KITTI_object/training/image_2/000873.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84200,
+   "file_path": "objectron/test/chair_batch_38_44_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82303,
+   "file_path": "objectron/test/camera_batch_10_24_0000000.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168841,
+   "file_path": "SUNRGBD/kv2/kinect2data/001677_2014-06-26_19-13-41_260595134347_rgbf000059-resize/image/0000059.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160353,
+   "file_path": "hypersim/ai_041_006/images/scene_cam_00_final_preview/frame.0083.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171429,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0001258-000042209151//image/0001258-000042209151.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81445,
+   "file_path": "objectron/test/bottle_batch_45_15_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37849,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489142412404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161537,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_00_final_preview/frame.0078.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171259,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0002772-000092906352//image/0002772-000092906352.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233986,
+   "file_path": "ARKitScenes/Validation/48458484/111576.297_00000396.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5298,
+   "file_path": "KITTI_object/training/image_2/003170.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229336,
+   "file_path": "ARKitScenes/Validation/42899611/228401.716_00003158.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6726,
+   "file_path": "KITTI_object/training/image_2/006039.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87114,
+   "file_path": "objectron/test/shoe_batch_38_28_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172525,
+   "file_path": "SUNRGBD/xtion/xtion_align_data/2014_12_18_11_42_42//image/0000169.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232355,
+   "file_path": "ARKitScenes/Validation/47331988/170636.557_00002504.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79415,
+   "file_path": "objectron/test/book_batch_12_6_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40774,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852790162460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170295,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0621//image/NYU0621.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159410,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_00_final_preview/frame.0036.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228755,
+   "file_path": "ARKitScenes/Validation/42897688/479255.085_00006699.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226575,
+   "file_path": "ARKitScenes/Validation/41069021/410.368_00006346.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84730,
+   "file_path": "objectron/test/cup_batch_41_7_0000000.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3784,
+   "file_path": "KITTI_object/training/image_2/000170.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159680,
+   "file_path": "hypersim/ai_037_009/images/scene_cam_00_final_preview/frame.0006.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232262,
+   "file_path": "ARKitScenes/Validation/47331654/22817.832_00004899.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233168,
+   "file_path": "ARKitScenes/Validation/47333934/85661.762_00006771.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161319,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_02_final_preview/frame.0059.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232375,
+   "file_path": "ARKitScenes/Validation/47331988/170673.559_00004725.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168475,
+   "file_path": "SUNRGBD/kv2/kinect2data/000569_2014-06-09_22-51-47_260595134347_rgbf000141-resize/image/0000141.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156085,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_01_final_preview/frame.0082.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170630,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1329//image/NYU1329.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157491,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_00_final_preview/frame.0010.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37742,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-10-33-52-0400__CAM_FRONT__1535639710162404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80296,
+   "file_path": "objectron/test/book_batch_28_47_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159332,
+   "file_path": "hypersim/ai_034_002/images/scene_cam_01_final_preview/frame.0058.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80480,
+   "file_path": "objectron/test/book_batch_25_41_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229450,
+   "file_path": "ARKitScenes/Validation/42899620/228865.665_00001117.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168607,
+   "file_path": "SUNRGBD/kv2/kinect2data/000861_2014-06-09_20-37-56_260595134347_rgbf000099-resize/image/0000099.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87113,
+   "file_path": "objectron/test/shoe_batch_38_28_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230534,
+   "file_path": "ARKitScenes/Validation/45662921/21795.924_00002708.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159839,
+   "file_path": "hypersim/ai_037_009/images/scene_cam_01_final_preview/frame.0069.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232595,
+   "file_path": "ARKitScenes/Validation/47332901/11032.594_00000985.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156352,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_00_final_preview/frame.0054.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168993,
+   "file_path": "SUNRGBD/kv2/kinect2data/001832_2014-06-26_21-43-38_260595134347_rgbf000111-resize/image/0000111.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230931,
+   "file_path": "ARKitScenes/Validation/45662987/27902.197_00002150.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3741,
+   "file_path": "KITTI_object/training/image_2/000061.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84202,
+   "file_path": "objectron/test/chair_batch_38_22_0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169493,
+   "file_path": "SUNRGBD/kv2/kinect2data/003267_2014-05-14_15-51-58_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170898,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0754//image/img_0754.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86044,
+   "file_path": "objectron/test/laptop_batch_32_16_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82163,
+   "file_path": "objectron/test/camera_batch_1_2_0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171681,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_313/dorm_mcc_313_oct_31_2012_scan1_erika/0001796-000078022459//image/0001796-000078022459.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169253,
+   "file_path": "SUNRGBD/kv2/kinect2data/002875_2014-06-01_15-19-00_094959634447_rgbf000151-resize/image/0000151.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158112,
+   "file_path": "hypersim/ai_024_003/images/scene_cam_00_final_preview/frame.0031.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229258,
+   "file_path": "ARKitScenes/Validation/42899471/195701.520_00002618.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169506,
+   "file_path": "SUNRGBD/kv2/kinect2data/003280_2014-05-14_16-13-18_094959634447_rgbf001198-resize/image/0001198.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168740,
+   "file_path": "SUNRGBD/kv2/kinect2data/001155_2014-06-17_15-30-16_260595134347_rgbf000061-resize/image/0000061.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40663,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985049912460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39542,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-02-10-50-40+0800__CAM_FRONT__1538448850112460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4508,
+   "file_path": "KITTI_object/training/image_2/001592.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79592,
+   "file_path": "objectron/test/book_batch_48_4_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169877,
+   "file_path": "SUNRGBD/kv2/kinect2data/003674_2014-05-24_21-16-29_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227537,
+   "file_path": "ARKitScenes/Validation/42446114/78252.993_00003879.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80873,
+   "file_path": "objectron/test/bottle_batch_33_11_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162891,
+   "file_path": "hypersim/ai_054_007/images/scene_cam_02_final_preview/frame.0098.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39495,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-02-10-50-40+0800__CAM_FRONT__1538448826762460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230029,
+   "file_path": "ARKitScenes/Validation/45261133/4113.271_00006399.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228112,
+   "file_path": "ARKitScenes/Validation/42897504/269846.486_00000259.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227679,
+   "file_path": "ARKitScenes/Validation/42446163/79607.524_00002498.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227983,
+   "file_path": "ARKitScenes/Validation/42446540/201527.338_00004592.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85994,
+   "file_path": "objectron/test/laptop_batch_13_35_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157763,
+   "file_path": "hypersim/ai_022_006/images/scene_cam_00_final_preview/frame.0082.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156551,
+   "file_path": "hypersim/ai_010_004/images/scene_cam_00_final_preview/frame.0053.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229082,
+   "file_path": "ARKitScenes/Validation/42898862/196338.728_00001652.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38570,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295950862404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162084,
+   "file_path": "hypersim/ai_052_009/images/scene_cam_01_final_preview/frame.0088.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227754,
+   "file_path": "ARKitScenes/Validation/42446167/79709.734_00004005.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81169,
+   "file_path": "objectron/test/bottle_batch_8_43_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4031,
+   "file_path": "KITTI_object/training/image_2/000636.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231317,
+   "file_path": "ARKitScenes/Validation/47115460/13167.772_00001849.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229652,
+   "file_path": "ARKitScenes/Validation/45260856/635.277_00000576.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169170,
+   "file_path": "SUNRGBD/kv2/kinect2data/002774_2014-06-22_19-23-17_094959634447_rgbf000085-resize/image/0000085.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86262,
+   "file_path": "objectron/test/laptop_batch_32_31_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232682,
+   "file_path": "ARKitScenes/Validation/47332911/12353.828_00005685.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 234045,
+   "file_path": "ARKitScenes/Validation/48458656/7652.593_00001537.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83824,
+   "file_path": "objectron/test/chair_batch_34_24_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156286,
+   "file_path": "hypersim/ai_008_007/images/scene_cam_01_final_preview/frame.0086.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39498,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-02-10-50-40+0800__CAM_FRONT__1538448828162460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227179,
+   "file_path": "ARKitScenes/Validation/42445441/50221.794_00000457.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233776,
+   "file_path": "ARKitScenes/Validation/48018368/389564.278_00001850.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38846,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296197362404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160484,
+   "file_path": "hypersim/ai_044_004/images/scene_cam_00_final_preview/frame.0014.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232702,
+   "file_path": "ARKitScenes/Validation/47332915/13538.977_00004365.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227760,
+   "file_path": "ARKitScenes/Validation/42446517/197446.270_00001717.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87281,
+   "file_path": "objectron/test/shoe_batch_47_18_0000500.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229900,
+   "file_path": "ARKitScenes/Validation/45260928/2374.222_00002198.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84061,
+   "file_path": "objectron/test/chair_batch_41_29_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233351,
+   "file_path": "ARKitScenes/Validation/47429922/136630.254_00000877.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7312,
+   "file_path": "KITTI_object/training/image_2/007174.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156714,
+   "file_path": "hypersim/ai_011_007/images/scene_cam_01_final_preview/frame.0031.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156909,
+   "file_path": "hypersim/ai_014_006/images/scene_cam_00_final_preview/frame.0028.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227113,
+   "file_path": "ARKitScenes/Validation/42445028/49655.695_00003230.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160084,
+   "file_path": "hypersim/ai_041_002/images/scene_cam_01_final_preview/frame.0014.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37077,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281652862460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86606,
+   "file_path": "objectron/test/laptop_batch_36_14_0000400.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83899,
+   "file_path": "objectron/test/chair_batch_41_40_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226931,
+   "file_path": "ARKitScenes/Validation/42444966/40365.784_00002203.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80446,
+   "file_path": "objectron/test/book_batch_14_49_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161493,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_00_final_preview/frame.0034.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82304,
+   "file_path": "objectron/test/camera_batch_10_24_0000100.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5558,
+   "file_path": "KITTI_object/training/image_2/003707.png"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171710,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_flr1/dorm_mcc_flr1_oct_31_2012_scan1_erika/0007387-000337088554//image/0007387-000337088554.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157501,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_00_final_preview/frame.0020.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172329,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0002002-000067065516//image/0002002-000067065516.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172619,
+   "file_path": "SUNRGBD/xtion/xtion_align_data/2014_12_18_12_9_46//image/0000115.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231728,
+   "file_path": "ARKitScenes/Validation/47204573/5039.606_00004959.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79645,
+   "file_path": "objectron/test/book_batch_21_44_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155352,
+   "file_path": "hypersim/ai_001_010/images/scene_cam_01_final_preview/frame.0049.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232487,
+   "file_path": "ARKitScenes/Validation/47332885/7511.871_00001664.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158693,
+   "file_path": "hypersim/ai_028_006/images/scene_cam_00_final_preview/frame.0012.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83488,
+   "file_path": "objectron/test/chair_batch_6_10_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230226,
+   "file_path": "ARKitScenes/Validation/45261182/2976.726_00003758.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229080,
+   "file_path": "ARKitScenes/Validation/42898862/196335.712_00001471.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6431,
+   "file_path": "KITTI_object/training/image_2/005426.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80699,
+   "file_path": "objectron/test/bottle_batch_46_11_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36701,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151739512404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169571,
+   "file_path": "SUNRGBD/kv2/kinect2data/003356_2014-05-20_14-07-41_094959634447_rgbf000050-resize/image/0000050.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170335,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0708//image/NYU0708.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171646,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0002322-000107034281//image/0002322-000107034281.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84351,
+   "file_path": "objectron/test/chair_batch_27_49_0000300.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158503,
+   "file_path": "hypersim/ai_026_002/images/scene_cam_00_final_preview/frame.0022.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4354,
+   "file_path": "KITTI_object/training/image_2/001269.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81648,
+   "file_path": "objectron/test/bottle_batch_12_36_0000000.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172357,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85h/h4_1/0000226-000007558083//image/0000226-000007558083.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170881,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0736//image/img_0736.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40584,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985010412460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158428,
+   "file_path": "hypersim/ai_024_007/images/scene_cam_01_final_preview/frame.0047.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88119,
+   "file_path": "objectron/test/shoe_batch_33_10_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158933,
+   "file_path": "hypersim/ai_031_008/images/scene_cam_00_final_preview/frame.0052.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228911,
+   "file_path": "ARKitScenes/Validation/42898849/196517.923_00004359.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159526,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0052.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172148,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0001442-000048765780//image/0001442-000048765780.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6003,
+   "file_path": "KITTI_object/training/image_2/004603.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159481,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0007.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159939,
+   "file_path": "hypersim/ai_039_002/images/scene_cam_00_final_preview/frame.0069.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227967,
+   "file_path": "ARKitScenes/Validation/42446540/201499.350_00002912.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228299,
+   "file_path": "ARKitScenes/Validation/42897559/277434.600_00000241.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230954,
+   "file_path": "ARKitScenes/Validation/45663113/55325.671_00001298.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37182,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281868112460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232023,
+   "file_path": "ARKitScenes/Validation/47331322/179167.326_00003230.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84853,
+   "file_path": "objectron/test/cup_batch_41_16_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39194,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657825412404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82982,
+   "file_path": "objectron/test/cereal_box_batch_11_22_0000300.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170596,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1261//image/NYU1261.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226954,
+   "file_path": "ARKitScenes/Validation/42444966/40388.791_00003584.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82863,
+   "file_path": "objectron/test/cereal_box_batch_30_49_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156767,
+   "file_path": "hypersim/ai_011_007/images/scene_cam_01_final_preview/frame.0086.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38563,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295947362404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37842,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489138912404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38457,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295841912404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169778,
+   "file_path": "SUNRGBD/kv2/kinect2data/003574_2014-05-23_11-12-12_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161100,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_00_final_preview/frame.0030.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156108,
+   "file_path": "hypersim/ai_008_007/images/scene_cam_00_final_preview/frame.0005.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40092,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298364012404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80659,
+   "file_path": "objectron/test/book_batch_11_3_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81788,
+   "file_path": "objectron/test/bottle_batch_32_49_0000400.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169023,
+   "file_path": "SUNRGBD/kv2/kinect2data/001863_2014-06-22_13-42-03_260595134347_rgbf000056-resize/image/0000056.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155917,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_00_final_preview/frame.0014.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161413,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_03_final_preview/frame.0053.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168935,
+   "file_path": "SUNRGBD/kv2/kinect2data/001774_2014-06-26_20-00-11_260595134347_rgbf000023-resize/image/0000023.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171176,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d429/d4_lounge_1/0005500-000184304484//image/0005500-000184304484.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161825,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_03_final_preview/frame.0078.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40993,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537853037162460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168752,
+   "file_path": "SUNRGBD/kv2/kinect2data/001167_2014-06-17_15-38-07_260595134347_rgbf000108-resize/image/0000108.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6573,
+   "file_path": "KITTI_object/training/image_2/005724.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160890,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_02_final_preview/frame.0020.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36637,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151706162404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36835,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151897862404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38574,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295952762404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37615,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-10-33-52-0400__CAM_FRONT__1535639647662404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84777,
+   "file_path": "objectron/test/cup_batch_34_3_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170131,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0202//image/NYU0202.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168574,
+   "file_path": "SUNRGBD/kv2/kinect2data/000817_2014-06-08_22-58-14_260595134347_rgbf000072-resize/image/0000072.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5648,
+   "file_path": "KITTI_object/training/image_2/003907.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161067,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_03_final_preview/frame.0097.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36077,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-24-10-42-41+0800__CAM_FRONT__1532400526662460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4434,
+   "file_path": "KITTI_object/training/image_2/001439.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156232,
+   "file_path": "hypersim/ai_008_007/images/scene_cam_01_final_preview/frame.0029.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6308,
+   "file_path": "KITTI_object/training/image_2/005167.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156529,
+   "file_path": "hypersim/ai_010_004/images/scene_cam_00_final_preview/frame.0031.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87690,
+   "file_path": "objectron/test/shoe_batch_37_11_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230198,
+   "file_path": "ARKitScenes/Validation/45261179/2873.634_00000157.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231587,
+   "file_path": "ARKitScenes/Validation/47204554/3262.198_00003098.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40462,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984949862460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 173005,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_28-15_41_41-1311000073//image/0000063.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41181,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799438412463.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157286,
+   "file_path": "hypersim/ai_021_001/images/scene_cam_01_final_preview/frame.0005.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159447,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_00_final_preview/frame.0073.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169609,
+   "file_path": "SUNRGBD/kv2/kinect2data/003396_2014-05-20_15-39-39_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228179,
+   "file_path": "ARKitScenes/Validation/42897521/273961.894_00000541.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7391,
+   "file_path": "KITTI_object/training/image_2/007323.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87582,
+   "file_path": "objectron/test/shoe_batch_1_28_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158653,
+   "file_path": "hypersim/ai_028_005/images/scene_cam_00_final_preview/frame.0072.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82383,
+   "file_path": "objectron/test/cereal_box_batch_5_28_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4135,
+   "file_path": "KITTI_object/training/image_2/000863.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6968,
+   "file_path": "KITTI_object/training/image_2/006524.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85487,
+   "file_path": "objectron/test/cup_batch_27_10_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231981,
+   "file_path": "ARKitScenes/Validation/47331266/89875.506_00003261.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41515,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799664612460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84893,
+   "file_path": "objectron/test/cup_batch_32_10_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80554,
+   "file_path": "objectron/test/book_batch_25_39_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157669,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_01_final_preview/frame.0088.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169421,
+   "file_path": "SUNRGBD/kv2/kinect2data/003191_2014-05-12_22-12-45_094959634447_rgbf000101-resize/image/0000101.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82917,
+   "file_path": "objectron/test/cereal_box_batch_5_13_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172694,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_24-12_49_51-1311000073//image/0000063.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36422,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151480112404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226720,
+   "file_path": "ARKitScenes/Validation/41069042/3140.232_00005847.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227003,
+   "file_path": "ARKitScenes/Validation/42444968/40298.395_00003230.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4114,
+   "file_path": "KITTI_object/training/image_2/000811.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5225,
+   "file_path": "KITTI_object/training/image_2/003027.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38676,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296052412404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168918,
+   "file_path": "SUNRGBD/kv2/kinect2data/001755_2014-06-26_19-53-05_260595134347_rgbf000045-resize/image/0000045.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37214,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281915162460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80732,
+   "file_path": "objectron/test/bottle_batch_18_13_0000000.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171796,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0001455-000062641404//image/0001455-000062641404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87505,
+   "file_path": "objectron/test/shoe_batch_12_10_0000100.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6842,
+   "file_path": "KITTI_object/training/image_2/006280.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81808,
+   "file_path": "objectron/test/camera_batch_7_44_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36166,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151200112404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83897,
+   "file_path": "objectron/test/chair_batch_9_48_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 35647,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-08-02-17-16-37+0800__CAM_FRONT__1533201488262460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38330,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730639512404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161820,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_03_final_preview/frame.0073.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170558,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1195//image/NYU1195.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80890,
+   "file_path": "objectron/test/bottle_batch_28_23_0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170736,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0474//image/img_0474.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227467,
+   "file_path": "ARKitScenes/Validation/42446103/78165.195_00006766.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85343,
+   "file_path": "objectron/test/cup_batch_12_4_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80730,
+   "file_path": "objectron/test/bottle_batch_33_40_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79558,
+   "file_path": "objectron/test/book_batch_9_10_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83844,
+   "file_path": "objectron/test/chair_batch_5_23_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38586,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295958662404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171002,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_d6_lounge/d6_lounge_1/0006416-000215038656//image/0006416-000215038656.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168872,
+   "file_path": "SUNRGBD/kv2/kinect2data/001708_2014-06-26_19-23-19_260595134347_rgbf000044-resize/image/0000044.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155234,
+   "file_path": "hypersim/ai_001_010/images/scene_cam_00_final_preview/frame.0031.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83186,
+   "file_path": "objectron/test/cereal_box_batch_6_32_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37937,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489325412404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162843,
+   "file_path": "hypersim/ai_054_007/images/scene_cam_02_final_preview/frame.0050.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231085,
+   "file_path": "ARKitScenes/Validation/45663154/63403.861_00000313.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38376,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730662362404.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3922,
+   "file_path": "KITTI_object/training/image_2/000414.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40493,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984965412460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226595,
+   "file_path": "ARKitScenes/Validation/41069021/433.358_00007726.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87402,
+   "file_path": "objectron/test/shoe_batch_40_26_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158551,
+   "file_path": "hypersim/ai_026_002/images/scene_cam_00_final_preview/frame.0070.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80182,
+   "file_path": "objectron/test/book_batch_30_5_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233266,
+   "file_path": "ARKitScenes/Validation/47334105/92954.757_00004311.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168514,
+   "file_path": "SUNRGBD/kv2/kinect2data/000662_2014-06-08_17-14-44_260595134347_rgbf000090-resize/image/0000090.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87780,
+   "file_path": "objectron/test/shoe_batch_25_41_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86378,
+   "file_path": "objectron/test/laptop_batch_27_30_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169353,
+   "file_path": "SUNRGBD/kv2/kinect2data/003121_2014-05-12_10-28-58_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226589,
+   "file_path": "ARKitScenes/Validation/41069021/425.362_00007246.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172044,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0001447-000048464136//image/0001447-000048464136.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84320,
+   "file_path": "objectron/test/chair_batch_37_46_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161714,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_02_final_preview/frame.0065.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39003,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657667912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155468,
+   "file_path": "hypersim/ai_001_010/images/scene_cam_02_final_preview/frame.0065.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83016,
+   "file_path": "objectron/test/cereal_box_batch_2_32_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39020,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657700912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156350,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_00_final_preview/frame.0052.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170364,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0769//image/NYU0769.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39091,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657774612404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40195,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984441912460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157028,
+   "file_path": "hypersim/ai_015_010/images/scene_cam_00_final_preview/frame.0047.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156067,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_01_final_preview/frame.0064.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228012,
+   "file_path": "ARKitScenes/Validation/42446541/201590.445_00002564.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231246,
+   "file_path": "ARKitScenes/Validation/45663175/65917.624_00002774.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83598,
+   "file_path": "objectron/test/chair_batch_45_10_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158307,
+   "file_path": "hypersim/ai_024_007/images/scene_cam_00_final_preview/frame.0026.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228311,
+   "file_path": "ARKitScenes/Validation/42897559/277473.601_00002582.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162191,
+   "file_path": "hypersim/ai_053_007/images/scene_cam_00_final_preview/frame.0098.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232697,
+   "file_path": "ARKitScenes/Validation/47332915/13509.972_00002624.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227550,
+   "file_path": "ARKitScenes/Validation/42446114/78272.986_00005079.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36656,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151715912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157516,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_00_final_preview/frame.0035.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7358,
+   "file_path": "KITTI_object/training/image_2/007265.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157412,
+   "file_path": "hypersim/ai_022_001/images/scene_cam_00_final_preview/frame.0031.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158844,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0063.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170959,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0831//image/img_0831.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168558,
+   "file_path": "SUNRGBD/kv2/kinect2data/000747_2014-06-08_21-54-10_260595134347_rgbf000033-resize/image/0000033.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227078,
+   "file_path": "ARKitScenes/Validation/42445022/49010.258_00000168.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36889,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281443862460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 35765,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885413662460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79130,
+   "file_path": "objectron/test/bike_batch_1_9_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228363,
+   "file_path": "ARKitScenes/Validation/42897564/279013.315_00002558.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170503,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1103//image/NYU1103.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84567,
+   "file_path": "objectron/test/cup_batch_31_4_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84177,
+   "file_path": "objectron/test/chair_batch_20_15_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85423,
+   "file_path": "objectron/test/cup_batch_43_35_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162405,
+   "file_path": "hypersim/ai_054_005/images/scene_cam_00_final_preview/frame.0012.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80007,
+   "file_path": "objectron/test/book_batch_47_0_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230644,
+   "file_path": "ARKitScenes/Validation/45662926/21693.317_00003308.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159602,
+   "file_path": "hypersim/ai_035_005/images/scene_cam_00_final_preview/frame.0028.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158329,
+   "file_path": "hypersim/ai_024_007/images/scene_cam_00_final_preview/frame.0048.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39807,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298042412404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38670,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296049412405.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168255,
+   "file_path": "SUNRGBD/kv2/kinect2data/000133_2014-04-12_16-54-31_094959634447_rgbf000158-resize/image/0000158.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37104,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281692012460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158487,
+   "file_path": "hypersim/ai_026_002/images/scene_cam_00_final_preview/frame.0006.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157752,
+   "file_path": "hypersim/ai_022_006/images/scene_cam_00_final_preview/frame.0071.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40371,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984718512460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87215,
+   "file_path": "objectron/test/shoe_batch_47_34_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232151,
+   "file_path": "ARKitScenes/Validation/47331653/23025.331_00002438.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160221,
+   "file_path": "hypersim/ai_041_004/images/scene_cam_00_final_preview/frame.0051.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159299,
+   "file_path": "hypersim/ai_034_002/images/scene_cam_01_final_preview/frame.0025.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4890,
+   "file_path": "KITTI_object/training/image_2/002359.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87017,
+   "file_path": "objectron/test/shoe_batch_32_32_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232276,
+   "file_path": "ARKitScenes/Validation/47331661/23621.585_00002150.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171289,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_3_270/classroom_3270_oct_30_2012_scan1_erika/0006480-000281467368//image/0006480-000281467368.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5749,
+   "file_path": "KITTI_object/training/image_2/004120.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233116,
+   "file_path": "ARKitScenes/Validation/47333932/84184.206_00007300.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37043,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281635662460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88062,
+   "file_path": "objectron/test/shoe_batch_30_1_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232503,
+   "file_path": "ARKitScenes/Validation/47332886/7567.265_00001555.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229480,
+   "file_path": "ARKitScenes/Validation/44358446/43009.901_00000097.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79102,
+   "file_path": "objectron/test/bike_batch_12_44_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87785,
+   "file_path": "objectron/test/shoe_batch_40_24_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161920,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_04_final_preview/frame.0073.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170533,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1154//image/NYU1154.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172181,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0007499-000251336484//image/0007499-000251336484.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169368,
+   "file_path": "SUNRGBD/kv2/kinect2data/003136_2014-05-12_10-58-05_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229776,
+   "file_path": "ARKitScenes/Validation/45260899/892.791_00002684.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37253,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281937612460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36737,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151832762404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41332,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799573912460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228958,
+   "file_path": "ARKitScenes/Validation/42898849/196573.918_00007720.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160381,
+   "file_path": "hypersim/ai_041_007/images/scene_cam_00_final_preview/frame.0011.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81833,
+   "file_path": "objectron/test/camera_batch_10_33_0000300.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168505,
+   "file_path": "SUNRGBD/kv2/kinect2data/000653_2014-06-08_17-09-24_260595134347_rgbf000091-resize/image/0000091.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83769,
+   "file_path": "objectron/test/chair_batch_35_27_0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171692,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0007889-000346801287//image/0007889-000346801287.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87269,
+   "file_path": "objectron/test/shoe_batch_48_48_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79918,
+   "file_path": "objectron/test/book_batch_10_30_0000300.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88092,
+   "file_path": "objectron/test/shoe_batch_33_8_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82885,
+   "file_path": "objectron/test/cereal_box_batch_38_2_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157568,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_00_final_preview/frame.0087.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227029,
+   "file_path": "ARKitScenes/Validation/42444976/40169.382_00001717.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160615,
+   "file_path": "hypersim/ai_044_004/images/scene_cam_01_final_preview/frame.0045.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158829,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0048.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82872,
+   "file_path": "objectron/test/cereal_box_batch_28_25_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229949,
+   "file_path": "ARKitScenes/Validation/45261128/3499.158_00000577.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161078,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_00_final_preview/frame.0008.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84378,
+   "file_path": "objectron/test/chair_batch_6_24_0000300.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162228,
+   "file_path": "hypersim/ai_053_007/images/scene_cam_01_final_preview/frame.0035.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82882,
+   "file_path": "objectron/test/cereal_box_batch_4_2_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6180,
+   "file_path": "KITTI_object/training/image_2/004931.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156906,
+   "file_path": "hypersim/ai_014_006/images/scene_cam_00_final_preview/frame.0025.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4008,
+   "file_path": "KITTI_object/training/image_2/000589.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230330,
+   "file_path": "ARKitScenes/Validation/45261575/77475.507_00000397.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39583,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-02-10-50-40+0800__CAM_FRONT__1538448890512460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3910,
+   "file_path": "KITTI_object/training/image_2/000396.png"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171408,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_46_6lounge/bcs_floor6_long/0002016-000067823421//image/0002016-000067823421.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230956,
+   "file_path": "ARKitScenes/Validation/45663113/55332.668_00001718.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79284,
+   "file_path": "objectron/test/bike_batch_6_27_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155711,
+   "file_path": "hypersim/ai_005_001/images/scene_cam_00_final_preview/frame.0008.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40508,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984972362460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161238,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_01_final_preview/frame.0071.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162707,
+   "file_path": "hypersim/ai_054_007/images/scene_cam_01_final_preview/frame.0014.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160371,
+   "file_path": "hypersim/ai_041_007/images/scene_cam_00_final_preview/frame.0001.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38967,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657650012404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162350,
+   "file_path": "hypersim/ai_053_010/images/scene_cam_00_final_preview/frame.0057.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155972,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_00_final_preview/frame.0069.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84933,
+   "file_path": "objectron/test/cup_batch_6_5_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81446,
+   "file_path": "objectron/test/bottle_batch_45_15_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82603,
+   "file_path": "objectron/test/cereal_box_batch_4_24_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40770,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852788262460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39823,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298050262404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85295,
+   "file_path": "objectron/test/cup_batch_12_2_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226895,
+   "file_path": "ARKitScenes/Validation/42444949/223729.664_00001417.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232403,
+   "file_path": "ARKitScenes/Validation/47331989/170421.860_00000457.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41043,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799329662460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228640,
+   "file_path": "ARKitScenes/Validation/42897651/478472.284_00013680.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232523,
+   "file_path": "ARKitScenes/Validation/47332890/7645.367_00002918.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229357,
+   "file_path": "ARKitScenes/Validation/42899612/228443.516_00001069.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41541,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799677612460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233059,
+   "file_path": "ARKitScenes/Validation/47333927/84006.212_00001004.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38732,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296080362404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82789,
+   "file_path": "objectron/test/cereal_box_batch_4_30_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227650,
+   "file_path": "ARKitScenes/Validation/42446156/79229.119_00005619.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158018,
+   "file_path": "hypersim/ai_024_002/images/scene_cam_00_final_preview/frame.0037.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85279,
+   "file_path": "objectron/test/cup_batch_46_31_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231301,
+   "file_path": "ARKitScenes/Validation/47115460/13151.779_00000889.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157129,
+   "file_path": "hypersim/ai_018_001/images/scene_cam_00_final_preview/frame.0048.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37201,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281908762460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37430,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968047912404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81679,
+   "file_path": "objectron/test/bottle_batch_45_10_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227894,
+   "file_path": "ARKitScenes/Validation/42446532/198827.935_00001219.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169819,
+   "file_path": "SUNRGBD/kv2/kinect2data/003615_2014-05-23_18-03-30_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37777,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-10-33-52-0400__CAM_FRONT__1535639727662404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79641,
+   "file_path": "objectron/test/book_batch_24_32_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40849,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852910912460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85732,
+   "file_path": "objectron/test/cup_batch_43_5_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81555,
+   "file_path": "objectron/test/bottle_batch_41_1_0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170121,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0192//image/NYU0192.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228642,
+   "file_path": "ARKitScenes/Validation/42897651/478474.283_00013800.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82407,
+   "file_path": "objectron/test/cereal_box_batch_35_38_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81317,
+   "file_path": "objectron/test/bottle_batch_7_45_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158526,
+   "file_path": "hypersim/ai_026_002/images/scene_cam_00_final_preview/frame.0045.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84854,
+   "file_path": "objectron/test/cup_batch_41_16_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37334,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967840912404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228939,
+   "file_path": "ARKitScenes/Validation/42898849/196550.927_00006340.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160689,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_00_final_preview/frame.0019.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83284,
+   "file_path": "objectron/test/cereal_box_batch_8_15_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7028,
+   "file_path": "KITTI_object/training/image_2/006638.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160323,
+   "file_path": "hypersim/ai_041_006/images/scene_cam_00_final_preview/frame.0053.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6051,
+   "file_path": "KITTI_object/training/image_2/004692.png"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171972,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_hood_nov_2_2012_scan1_erika/0002670-000113797426//image/0002670-000113797426.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38740,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296084412404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84093,
+   "file_path": "objectron/test/chair_batch_45_1_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158131,
+   "file_path": "hypersim/ai_024_003/images/scene_cam_00_final_preview/frame.0050.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170570,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1211//image/NYU1211.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85436,
+   "file_path": "objectron/test/cup_batch_47_26_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169918,
+   "file_path": "SUNRGBD/kv2/align_kv2/2014-12-18_11-48-08_260595134347//image/0000064.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82010,
+   "file_path": "objectron/test/camera_batch_19_1_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230600,
+   "file_path": "ARKitScenes/Validation/45662924/21607.919_00003158.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172376,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85h/h4_1/0005984-000200576727//image/0005984-000200576727.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168328,
+   "file_path": "SUNRGBD/kv2/kinect2data/000284_2014-06-02_16-15-46_260595134347_rgbf000019-resize/image/0000019.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161205,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_01_final_preview/frame.0037.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159148,
+   "file_path": "hypersim/ai_033_002/images/scene_cam_01_final_preview/frame.0073.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80652,
+   "file_path": "objectron/test/book_batch_30_0_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86431,
+   "file_path": "objectron/test/laptop_batch_12_20_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37864,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489149912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157455,
+   "file_path": "hypersim/ai_022_001/images/scene_cam_00_final_preview/frame.0074.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171179,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d429/d4_lounge_1/0007687-000257637492//image/0007687-000257637492.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161421,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_03_final_preview/frame.0061.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159384,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_00_final_preview/frame.0010.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6284,
+   "file_path": "KITTI_object/training/image_2/005127.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3870,
+   "file_path": "KITTI_object/training/image_2/000335.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158821,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0040.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232294,
+   "file_path": "ARKitScenes/Validation/47331661/23682.593_00005812.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158923,
+   "file_path": "hypersim/ai_031_008/images/scene_cam_00_final_preview/frame.0042.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229872,
+   "file_path": "ARKitScenes/Validation/45260925/2445.827_00003098.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82165,
+   "file_path": "objectron/test/camera_batch_13_47_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85340,
+   "file_path": "objectron/test/cup_batch_9_29_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84401,
+   "file_path": "objectron/test/chair_batch_17_6_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228572,
+   "file_path": "ARKitScenes/Validation/42897651/478312.283_00004076.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159955,
+   "file_path": "hypersim/ai_039_002/images/scene_cam_00_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 226602,
+   "file_path": "ARKitScenes/Validation/41069021/448.369_00008627.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6021,
+   "file_path": "KITTI_object/training/image_2/004638.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231177,
+   "file_path": "ARKitScenes/Validation/45663164/65998.825_00004076.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40410,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984843862460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80473,
+   "file_path": "objectron/test/book_batch_11_11_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230568,
+   "file_path": "ARKitScenes/Validation/45662924/21566.919_00000697.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82962,
+   "file_path": "objectron/test/cereal_box_batch_38_31_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40127,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984248912460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156508,
+   "file_path": "hypersim/ai_010_004/images/scene_cam_00_final_preview/frame.0010.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3887,
+   "file_path": "KITTI_object/training/image_2/000361.png"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168259,
+   "file_path": "SUNRGBD/kv2/kinect2data/000137_2014-05-20_17-04-49_260595134347_rgbf000120-resize/image/0000120.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5880,
+   "file_path": "KITTI_object/training/image_2/004362.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36864,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-16-11-49-16+0800__CAM_FRONT__1531713380362460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162486,
+   "file_path": "hypersim/ai_054_005/images/scene_cam_00_final_preview/frame.0093.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4303,
+   "file_path": "KITTI_object/training/image_2/001188.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7104,
+   "file_path": "KITTI_object/training/image_2/006778.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39804,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298040912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157119,
+   "file_path": "hypersim/ai_018_001/images/scene_cam_00_final_preview/frame.0038.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40759,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852782612460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233048,
+   "file_path": "ARKitScenes/Validation/47333925/83573.613_00001964.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232673,
+   "file_path": "ARKitScenes/Validation/47332911/12285.839_00001604.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172422,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0008939-000299576363//image/0008939-000299576363.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159369,
+   "file_path": "hypersim/ai_034_002/images/scene_cam_01_final_preview/frame.0095.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156089,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_01_final_preview/frame.0086.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6059,
+   "file_path": "KITTI_object/training/image_2/004705.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7212,
+   "file_path": "KITTI_object/training/image_2/006989.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159387,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_00_final_preview/frame.0013.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86720,
+   "file_path": "objectron/test/laptop_batch_27_32_0000300.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84183,
+   "file_path": "objectron/test/chair_batch_14_6_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84526,
+   "file_path": "objectron/test/cup_batch_44_20_0000300.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80762,
+   "file_path": "objectron/test/bottle_batch_7_5_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39190,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657823412404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36384,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151426512404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169377,
+   "file_path": "SUNRGBD/kv2/kinect2data/003146_2014-05-12_11-16-12_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41584,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799719364581.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169305,
+   "file_path": "SUNRGBD/kv2/kinect2data/002968_2014-06-08_17-49-15_094959634447_rgbf000063-resize/image/0000063.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 35759,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885410662460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88021,
+   "file_path": "objectron/test/shoe_batch_47_25_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231072,
+   "file_path": "ARKitScenes/Validation/45663150/63582.957_00004550.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4085,
+   "file_path": "KITTI_object/training/image_2/000754.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37323,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967835362404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81769,
+   "file_path": "objectron/test/bottle_batch_4_7_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80116,
+   "file_path": "objectron/test/book_batch_23_16_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6247,
+   "file_path": "KITTI_object/training/image_2/005057.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159466,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_00_final_preview/frame.0092.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156474,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_01_final_preview/frame.0076.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38827,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296187862404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229468,
+   "file_path": "ARKitScenes/Validation/44358442/42911.092_00001243.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156084,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_01_final_preview/frame.0081.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227911,
+   "file_path": "ARKitScenes/Validation/42446532/198901.938_00005661.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40246,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984466862460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169616,
+   "file_path": "SUNRGBD/kv2/kinect2data/003403_2014-05-20_16-03-54_094959634447_rgbf000101-resize/image/0000101.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230741,
+   "file_path": "ARKitScenes/Validation/45662943/23170.255_00009100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229966,
+   "file_path": "ARKitScenes/Validation/45261128/3534.160_00002678.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41083,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799349612460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158253,
+   "file_path": "hypersim/ai_024_005/images/scene_cam_00_final_preview/frame.0072.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158074,
+   "file_path": "hypersim/ai_024_002/images/scene_cam_00_final_preview/frame.0093.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86162,
+   "file_path": "objectron/test/laptop_batch_24_32_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40216,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984452362460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5854,
+   "file_path": "KITTI_object/training/image_2/004311.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84218,
+   "file_path": "objectron/test/chair_batch_35_41_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172373,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85h/h4_1/0005193-000174065571//image/0005193-000174065571.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38969,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657651012404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87109,
+   "file_path": "objectron/test/shoe_batch_4_4_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156129,
+   "file_path": "hypersim/ai_008_007/images/scene_cam_00_final_preview/frame.0026.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37166,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281860162460.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172860,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_26-15_22_40-1311000073//image/0000063.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 35919,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885805912465.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162099,
+   "file_path": "hypersim/ai_053_007/images/scene_cam_00_final_preview/frame.0006.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232112,
+   "file_path": "ARKitScenes/Validation/47331651/22944.230_00005679.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232312,
+   "file_path": "ARKitScenes/Validation/47331661/23707.583_00007312.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229209,
+   "file_path": "ARKitScenes/Validation/42899461/195861.421_00004598.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80813,
+   "file_path": "objectron/test/bottle_batch_22_22_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 234027,
+   "file_path": "ARKitScenes/Validation/48458650/7104.603_00002737.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4342,
+   "file_path": "KITTI_object/training/image_2/001253.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228465,
+   "file_path": "ARKitScenes/Validation/42897599/476471.210_00010193.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158857,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0076.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156457,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_01_final_preview/frame.0059.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86961,
+   "file_path": "objectron/test/shoe_batch_23_29_0000000.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169721,
+   "file_path": "SUNRGBD/kv2/kinect2data/003508_2014-05-21_17-31-17_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81094,
+   "file_path": "objectron/test/bottle_batch_2_7_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85552,
+   "file_path": "objectron/test/cup_batch_35_17_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227696,
+   "file_path": "ARKitScenes/Validation/42446165/79720.729_00000337.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155588,
+   "file_path": "hypersim/ai_003_007/images/scene_cam_00_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170246,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0524//image/NYU0524.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227827,
+   "file_path": "ARKitScenes/Validation/42446522/197361.871_00002887.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37920,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489316912404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227271,
+   "file_path": "ARKitScenes/Validation/42446038/347924.968_00003944.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83184,
+   "file_path": "objectron/test/cereal_box_batch_20_12_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169511,
+   "file_path": "SUNRGBD/kv2/kinect2data/003286_2014-05-14_21-47-04_094959634447_rgbf000100-resize/image/0000100.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170546,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1174//image/NYU1174.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227503,
+   "file_path": "ARKitScenes/Validation/42446114/78216.991_00001718.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38598,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295964662404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39946,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298131662404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171627,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_md/dorm_masseeh_md_scan1_oct_26_2012_erika/0000567-000025943530//image/0000567-000025943530.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232809,
+   "file_path": "ARKitScenes/Validation/47333452/54973.214_00001303.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40714,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852760662460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38170,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730425512404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85928,
+   "file_path": "objectron/test/laptop_batch_24_13_0000300.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231492,
+   "file_path": "ARKitScenes/Validation/47204552/3407.088_00003278.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38984,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657658412404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172189,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85_2floor/k_stair/0001019-000034119288//image/0001019-000034119288.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172798,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_26-14_03_55-1311000073//image/0000064.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6483,
+   "file_path": "KITTI_object/training/image_2/005538.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157604,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_01_final_preview/frame.0023.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84370,
+   "file_path": "objectron/test/chair_batch_13_42_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160929,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_02_final_preview/frame.0059.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227426,
+   "file_path": "ARKitScenes/Validation/42446103/78110.183_00003464.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228435,
+   "file_path": "ARKitScenes/Validation/42897599/476413.200_00006711.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37271,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281946362460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231063,
+   "file_path": "ARKitScenes/Validation/45663150/63572.961_00003950.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37151,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281852512460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7264,
+   "file_path": "KITTI_object/training/image_2/007079.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157314,
+   "file_path": "hypersim/ai_021_001/images/scene_cam_01_final_preview/frame.0033.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37708,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-10-33-52-0400__CAM_FRONT__1535639693112404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86315,
+   "file_path": "objectron/test/laptop_batch_37_28_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86672,
+   "file_path": "objectron/test/laptop_batch_25_30_0000300.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39800,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298038912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160677,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_00_final_preview/frame.0007.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160724,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_00_final_preview/frame.0054.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81751,
+   "file_path": "objectron/test/bottle_batch_33_22_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83874,
+   "file_path": "objectron/test/chair_batch_44_29_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85163,
+   "file_path": "objectron/test/cup_batch_45_24_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162387,
+   "file_path": "hypersim/ai_053_010/images/scene_cam_00_final_preview/frame.0094.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36418,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151478112404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87209,
+   "file_path": "objectron/test/shoe_batch_2_10_0000600.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36158,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151195862404.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5886,
+   "file_path": "KITTI_object/training/image_2/004370.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79513,
+   "file_path": "objectron/test/book_batch_5_5_0000600.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170606,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1280//image/NYU1280.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38648,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296038362404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171588,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_76_studyroom/76-1studyroom1/0000571-000019104120//image/0000571-000019104120.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232173,
+   "file_path": "ARKitScenes/Validation/47331653/23061.333_00004599.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82644,
+   "file_path": "objectron/test/cereal_box_batch_29_9_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83529,
+   "file_path": "objectron/test/chair_batch_46_29_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4644,
+   "file_path": "KITTI_object/training/image_2/001875.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230811,
+   "file_path": "ARKitScenes/Validation/45662970/26136.540_00001808.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231027,
+   "file_path": "ARKitScenes/Validation/45663149/63345.709_00002978.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83434,
+   "file_path": "objectron/test/chair_batch_16_14_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162330,
+   "file_path": "hypersim/ai_053_010/images/scene_cam_00_final_preview/frame.0037.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81351,
+   "file_path": "objectron/test/bottle_batch_43_9_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86318,
+   "file_path": "objectron/test/laptop_batch_37_28_0000300.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87026,
+   "file_path": "objectron/test/shoe_batch_47_10_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82229,
+   "file_path": "objectron/test/camera_batch_16_29_0000300.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79999,
+   "file_path": "objectron/test/book_batch_12_42_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39684,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537297981662404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79637,
+   "file_path": "objectron/test/book_batch_10_16_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88038,
+   "file_path": "objectron/test/shoe_batch_6_6_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41216,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799495662460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3813,
+   "file_path": "KITTI_object/training/image_2/000226.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157151,
+   "file_path": "hypersim/ai_018_001/images/scene_cam_00_final_preview/frame.0070.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172743,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_25-17_18_42-1311000073//image/0000063.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172219,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w85_5/5_1/0001590-000053331837//image/0001590-000053331837.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6890,
+   "file_path": "KITTI_object/training/image_2/006380.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4678,
+   "file_path": "KITTI_object/training/image_2/001940.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233119,
+   "file_path": "ARKitScenes/Validation/47333934/85556.772_00000469.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232359,
+   "file_path": "ARKitScenes/Validation/47331988/170646.553_00003104.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83481,
+   "file_path": "objectron/test/chair_batch_26_18_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231423,
+   "file_path": "ARKitScenes/Validation/47115473/14116.783_00002690.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172450,
+   "file_path": "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0001061-000035526960//image/0001061-000035526960.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170787,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0584//image/img_0584.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170838,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0669//image/img_0669.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82258,
+   "file_path": "objectron/test/camera_batch_12_42_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158799,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0018.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158151,
+   "file_path": "hypersim/ai_024_003/images/scene_cam_00_final_preview/frame.0070.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7115,
+   "file_path": "KITTI_object/training/image_2/006796.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229905,
+   "file_path": "ARKitScenes/Validation/45260928/2382.219_00002678.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5395,
+   "file_path": "KITTI_object/training/image_2/003366.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86931,
+   "file_path": "objectron/test/shoe_batch_30_39_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37670,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-10-33-52-0400__CAM_FRONT__1535639674412404.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4575,
+   "file_path": "KITTI_object/training/image_2/001729.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83563,
+   "file_path": "objectron/test/chair_batch_39_14_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158839,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0058.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231299,
+   "file_path": "ARKitScenes/Validation/47115460/13149.779_00000769.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230629,
+   "file_path": "ARKitScenes/Validation/45662926/21678.323_00002408.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232942,
+   "file_path": "ARKitScenes/Validation/47333904/81443.376_00002498.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82650,
+   "file_path": "objectron/test/cereal_box_batch_5_35_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38578,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295954662404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233281,
+   "file_path": "ARKitScenes/Validation/47334105/93004.754_00007312.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158079,
+   "file_path": "hypersim/ai_024_002/images/scene_cam_00_final_preview/frame.0098.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81536,
+   "file_path": "objectron/test/bottle_batch_36_2_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227586,
+   "file_path": "ARKitScenes/Validation/42446114/78322.982_00008080.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157237,
+   "file_path": "hypersim/ai_021_001/images/scene_cam_00_final_preview/frame.0056.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231987,
+   "file_path": "ARKitScenes/Validation/47331266/89889.500_00004101.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171789,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0002009-000088113564//image/0002009-000088113564.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81860,
+   "file_path": "objectron/test/camera_batch_18_19_0000200.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161211,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_01_final_preview/frame.0044.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37633,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-10-33-52-0400__CAM_FRONT__1535639656612404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170599,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU1264//image/NYU1264.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80004,
+   "file_path": "objectron/test/book_batch_42_16_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40198,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984443412460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80135,
+   "file_path": "objectron/test/book_batch_16_13_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232454,
+   "file_path": "ARKitScenes/Validation/47332004/171938.432_00000997.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156400,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_01_final_preview/frame.0002.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229554,
+   "file_path": "ARKitScenes/Validation/44358451/43662.884_00003458.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233423,
+   "file_path": "ARKitScenes/Validation/47430036/19520.277_00001297.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4107,
+   "file_path": "KITTI_object/training/image_2/000803.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79293,
+   "file_path": "objectron/test/bike_batch_0_5_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156061,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_01_final_preview/frame.0058.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 173039,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_29-16_14_36-1311000073//image/0000069.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79616,
+   "file_path": "objectron/test/book_batch_7_8_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159484,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0010.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162258,
+   "file_path": "hypersim/ai_053_007/images/scene_cam_01_final_preview/frame.0065.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39833,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298055412404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228254,
+   "file_path": "ARKitScenes/Validation/42897541/275438.526_00003806.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36651,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151713362404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81246,
+   "file_path": "objectron/test/bottle_batch_2_48_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84592,
+   "file_path": "objectron/test/cup_batch_41_29_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39592,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-02-10-50-40+0800__CAM_FRONT__1538448894862480.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159827,
+   "file_path": "hypersim/ai_037_009/images/scene_cam_01_final_preview/frame.0057.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171992,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_ne47_2biolab/ne47_floor2/0000005-000000165128//image/0000005-000000165128.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155388,
+   "file_path": "hypersim/ai_001_010/images/scene_cam_01_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158926,
+   "file_path": "hypersim/ai_031_008/images/scene_cam_00_final_preview/frame.0045.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168262,
+   "file_path": "SUNRGBD/kv2/kinect2data/000141_2014-05-20_17-12-29_260595134347_rgbf000050-resize/image/0000050.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39080,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657731162404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155889,
+   "file_path": "hypersim/ai_005_010/images/scene_cam_00_final_preview/frame.0086.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6879,
+   "file_path": "KITTI_object/training/image_2/006357.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231495,
+   "file_path": "ARKitScenes/Validation/47204552/3410.087_00003458.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232459,
+   "file_path": "ARKitScenes/Validation/47332005/172095.735_00001963.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171278,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_3_270/classroom_3270_oct_30_2012_scan1_erika/0001194-000049905324//image/0001194-000049905324.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171164,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d429/d4_lounge_1/0001754-000058753548//image/0001754-000058753548.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168986,
+   "file_path": "SUNRGBD/kv2/kinect2data/001825_2014-06-26_20-56-47_260595134347_rgbf000102-resize/image/0000102.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169908,
+   "file_path": "SUNRGBD/kv2/align_kv2/2014-12-18_11-43-17_260595134347//image/0000026.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160700,
+   "file_path": "hypersim/ai_048_008/images/scene_cam_00_final_preview/frame.0030.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169512,
+   "file_path": "SUNRGBD/kv2/kinect2data/003288_2014-05-14_21-50-30_094959634447_rgbf000028-resize/image/0000028.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171759,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0007393-000329836478//image/0007393-000329836478.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159259,
+   "file_path": "hypersim/ai_034_002/images/scene_cam_00_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233766,
+   "file_path": "ARKitScenes/Validation/48018368/389539.272_00000349.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4318,
+   "file_path": "KITTI_object/training/image_2/001217.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80745,
+   "file_path": "objectron/test/bottle_batch_44_26_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86638,
+   "file_path": "objectron/test/laptop_batch_35_24_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86308,
+   "file_path": "objectron/test/laptop_batch_33_24_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227904,
+   "file_path": "ARKitScenes/Validation/42446532/198871.950_00003861.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227450,
+   "file_path": "ARKitScenes/Validation/42446103/78135.190_00004965.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233408,
+   "file_path": "ARKitScenes/Validation/47430026/18819.040_00000457.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159520,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0046.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85406,
+   "file_path": "objectron/test/cup_batch_32_35_0000300.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230740,
+   "file_path": "ARKitScenes/Validation/45662943/23169.256_00009040.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38605,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295988012404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41327,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799571412460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79112,
+   "file_path": "objectron/test/bike_batch_2_19_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79646,
+   "file_path": "objectron/test/book_batch_21_44_0000300.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228669,
+   "file_path": "ARKitScenes/Validation/42897651/478520.281_00016561.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161571,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_01_final_preview/frame.0012.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6708,
+   "file_path": "KITTI_object/training/image_2/006009.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158303,
+   "file_path": "hypersim/ai_024_007/images/scene_cam_00_final_preview/frame.0022.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 155937,
+   "file_path": "hypersim/ai_008_005/images/scene_cam_00_final_preview/frame.0034.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171912,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_lab_hj/lab_hj_tea_nov_2_2012_scan1_erika/0001280-000051815736//image/0001280-000051815736.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82670,
+   "file_path": "objectron/test/cereal_box_batch_6_47_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230875,
+   "file_path": "ARKitScenes/Validation/45662981/28017.085_00004850.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38658,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537296043412404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82422,
+   "file_path": "objectron/test/cereal_box_batch_4_36_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82039,
+   "file_path": "objectron/test/camera_batch_7_36_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39713,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537297996262404.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40625,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985030862460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158488,
+   "file_path": "hypersim/ai_026_002/images/scene_cam_00_final_preview/frame.0007.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4404,
+   "file_path": "KITTI_object/training/image_2/001375.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37898,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489306412404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171090,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0002526-000084695554//image/0002526-000084695554.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40719,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852763162460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37917,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-28-16-43-51-0400__CAM_FRONT__1535489315912404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233870,
+   "file_path": "ARKitScenes/Validation/48018571/3904.037_00000379.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82734,
+   "file_path": "objectron/test/cereal_box_batch_1_36_0000000.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6071,
+   "file_path": "KITTI_object/training/image_2/004720.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159673,
+   "file_path": "hypersim/ai_035_005/images/scene_cam_00_final_preview/frame.0099.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83909,
+   "file_path": "objectron/test/chair_batch_2_30_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37204,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281910262460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86457,
+   "file_path": "objectron/test/laptop_batch_19_11_0000100.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6662,
+   "file_path": "KITTI_object/training/image_2/005916.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227916,
+   "file_path": "ARKitScenes/Validation/42446532/198913.933_00006381.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83566,
+   "file_path": "objectron/test/chair_batch_11_13_0000000.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6417,
+   "file_path": "KITTI_object/training/image_2/005378.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229841,
+   "file_path": "ARKitScenes/Validation/45260920/2540.423_00004430.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7307,
+   "file_path": "KITTI_object/training/image_2/007165.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5955,
+   "file_path": "KITTI_object/training/image_2/004501.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159540,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0066.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79274,
+   "file_path": "objectron/test/bike_batch_4_17_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229135,
+   "file_path": "ARKitScenes/Validation/42898862/196404.718_00005613.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85788,
+   "file_path": "objectron/test/cup_batch_45_36_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231835,
+   "file_path": "ARKitScenes/Validation/47204607/2554.806_00002078.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158780,
+   "file_path": "hypersim/ai_028_006/images/scene_cam_00_final_preview/frame.0099.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171130,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0001452-000048930499//image/0001452-000048930499.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38611,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295991112404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171016,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0000568-000019049178//image/0000568-000019049178.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 229971,
+   "file_path": "ARKitScenes/Validation/45261128/3542.157_00003158.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81856,
+   "file_path": "objectron/test/camera_batch_3_20_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86176,
+   "file_path": "objectron/test/laptop_batch_22_31_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231343,
+   "file_path": "ARKitScenes/Validation/47115463/13221.466_00000156.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156612,
+   "file_path": "hypersim/ai_011_007/images/scene_cam_00_final_preview/frame.0019.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157574,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_00_final_preview/frame.0093.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171913,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_lab_hj/lab_hj_tea_nov_2_2012_scan1_erika/0001444-000058552452//image/0001444-000058552452.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84803,
+   "file_path": "objectron/test/cup_batch_22_24_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228701,
+   "file_path": "ARKitScenes/Validation/42897667/478064.085_00004058.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40629,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985032862460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227308,
+   "file_path": "ARKitScenes/Validation/42446100/77912.295_00000337.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4606,
+   "file_path": "KITTI_object/training/image_2/001797.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80967,
+   "file_path": "objectron/test/bottle_batch_1_27_0000500.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86097,
+   "file_path": "objectron/test/laptop_batch_34_4_0000300.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160576,
+   "file_path": "hypersim/ai_044_004/images/scene_cam_01_final_preview/frame.0006.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5130,
+   "file_path": "KITTI_object/training/image_2/002840.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80012,
+   "file_path": "objectron/test/book_batch_42_8_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79597,
+   "file_path": "objectron/test/book_batch_29_6_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36965,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281549112460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233384,
+   "file_path": "ARKitScenes/Validation/47429998/17255.357_00000757.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228301,
+   "file_path": "ARKitScenes/Validation/42897559/277438.598_00000481.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5452,
+   "file_path": "KITTI_object/training/image_2/003481.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6810,
+   "file_path": "KITTI_object/training/image_2/006204.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87888,
+   "file_path": "objectron/test/shoe_batch_23_10_0000200.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7069,
+   "file_path": "KITTI_object/training/image_2/006720.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230471,
+   "file_path": "ARKitScenes/Validation/45261631/56090.397_00003818.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87550,
+   "file_path": "objectron/test/shoe_batch_49_50_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85003,
+   "file_path": "objectron/test/cup_batch_42_7_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230260,
+   "file_path": "ARKitScenes/Validation/45261190/3690.879_00000282.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86349,
+   "file_path": "objectron/test/laptop_batch_13_12_0000000.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228623,
+   "file_path": "ARKitScenes/Validation/42897651/478433.283_00011339.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85852,
+   "file_path": "objectron/test/laptop_batch_25_24_0000000.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169211,
+   "file_path": "SUNRGBD/kv2/kinect2data/002827_2014-06-22_20-24-55_094959634447_rgbf000076-resize/image/0000076.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157578,
+   "file_path": "hypersim/ai_022_003/images/scene_cam_00_final_preview/frame.0097.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38336,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730642412404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81870,
+   "file_path": "objectron/test/camera_batch_19_18_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86595,
+   "file_path": "objectron/test/laptop_batch_29_32_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231560,
+   "file_path": "ARKitScenes/Validation/47204554/3216.201_00000337.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86474,
+   "file_path": "objectron/test/laptop_batch_21_36_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159716,
+   "file_path": "hypersim/ai_037_009/images/scene_cam_00_final_preview/frame.0042.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88077,
+   "file_path": "objectron/test/shoe_batch_32_11_0000000.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168180,
+   "file_path": "SUNRGBD/kv2/kinect2data/000008_2014-05-26_14-30-06_260595134347_rgbf000060-resize/image/0000060.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171659,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_wm/dorm_masseeh_wm_oct_29_2012_scan1_erika/0004307-000194032505//image/0004307-000194032505.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38484,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295875362404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86732,
+   "file_path": "objectron/test/laptop_batch_39_29_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81749,
+   "file_path": "objectron/test/bottle_batch_3_10_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36574,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151674162404.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168606,
+   "file_path": "SUNRGBD/kv2/kinect2data/000860_2014-06-09_20-30-52_260595134347_rgbf000115-resize/image/0000115.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86510,
+   "file_path": "objectron/test/laptop_batch_16_3_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156507,
+   "file_path": "hypersim/ai_010_004/images/scene_cam_00_final_preview/frame.0009.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170202,
+   "file_path": "SUNRGBD/kv1/NYUdata/NYU0414//image/NYU0414.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7026,
+   "file_path": "KITTI_object/training/image_2/006636.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39074,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657728162404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228291,
+   "file_path": "ARKitScenes/Validation/42897554/277321.996_00000474.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169690,
+   "file_path": "SUNRGBD/kv2/kinect2data/003477_2014-05-21_15-28-00_094959634447_rgbf000101-resize/image/0000101.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158093,
+   "file_path": "hypersim/ai_024_003/images/scene_cam_00_final_preview/frame.0012.tonemap.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 170698,
+   "file_path": "SUNRGBD/kv1/b3dodata/img_0415//image/img_0415.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156424,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_01_final_preview/frame.0026.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80542,
+   "file_path": "objectron/test/book_batch_28_1_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172738,
+   "file_path": "SUNRGBD/realsense/lg/2014_10_25-17_15_11-1311000073//image/0000063.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86952,
+   "file_path": "objectron/test/shoe_batch_27_37_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87542,
+   "file_path": "objectron/test/shoe_batch_11_12_0000300.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228626,
+   "file_path": "ARKitScenes/Validation/42897651/478443.279_00011939.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81432,
+   "file_path": "objectron/test/bottle_batch_8_1_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40417,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538984847362460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161244,
+   "file_path": "hypersim/ai_048_010/images/scene_cam_01_final_preview/frame.0077.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40647,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985042012460.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160457,
+   "file_path": "hypersim/ai_041_007/images/scene_cam_00_final_preview/frame.0087.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79893,
+   "file_path": "objectron/test/book_batch_33_4_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81337,
+   "file_path": "objectron/test/bottle_batch_21_32_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40251,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984469412460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4470,
+   "file_path": "KITTI_object/training/image_2/001524.png"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156966,
+   "file_path": "hypersim/ai_014_006/images/scene_cam_00_final_preview/frame.0085.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80364,
+   "file_path": "objectron/test/book_batch_2_30_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82227,
+   "file_path": "objectron/test/camera_batch_16_29_0000100.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4763,
+   "file_path": "KITTI_object/training/image_2/002102.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6392,
+   "file_path": "KITTI_object/training/image_2/005330.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7338,
+   "file_path": "KITTI_object/training/image_2/007227.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230907,
+   "file_path": "ARKitScenes/Validation/45662983/27846.885_00003038.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228081,
+   "file_path": "ARKitScenes/Validation/42446541/201707.447_00009587.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 234151,
+   "file_path": "ARKitScenes/Validation/48458667/8421.649_00003998.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157478,
+   "file_path": "hypersim/ai_022_001/images/scene_cam_00_final_preview/frame.0097.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 80208,
+   "file_path": "objectron/test/book_batch_28_44_0000200.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 36029,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-24-10-42-41+0800__CAM_FRONT__1532400348612460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37155,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281854612460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233455,
+   "file_path": "ARKitScenes/Validation/47430047/21122.842_00001898.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158462,
+   "file_path": "hypersim/ai_024_007/images/scene_cam_01_final_preview/frame.0081.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162786,
+   "file_path": "hypersim/ai_054_007/images/scene_cam_01_final_preview/frame.0093.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37402,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968033912404.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159480,
+   "file_path": "hypersim/ai_035_001/images/scene_cam_01_final_preview/frame.0006.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87246,
+   "file_path": "objectron/test/shoe_batch_15_8_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39322,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-02-10-50-40+0800__CAM_FRONT__1538448720162460.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231456,
+   "file_path": "ARKitScenes/Validation/47115474/13989.686_00001783.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233548,
+   "file_path": "ARKitScenes/Validation/47895350/96595.813_00002677.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232415,
+   "file_path": "ARKitScenes/Validation/47331989/170457.862_00002618.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 35880,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885779412465.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40969,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537853025012460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6132,
+   "file_path": "KITTI_object/training/image_2/004835.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5892,
+   "file_path": "KITTI_object/training/image_2/004385.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6786,
+   "file_path": "KITTI_object/training/image_2/006148.png"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 41184,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-11-21-19-21-35+0800__CAM_FRONT__1542799439912460.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38447,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295836912404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233719,
+   "file_path": "ARKitScenes/Validation/47895364/100288.931_00007179.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87661,
+   "file_path": "objectron/test/shoe_batch_17_33_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 37115,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281697762460.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5092,
+   "file_path": "KITTI_object/training/image_2/002760.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82763,
+   "file_path": "objectron/test/cereal_box_batch_15_23_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38111,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-31-11-37-23-0400__CAM_FRONT__1535730334612404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 227476,
+   "file_path": "ARKitScenes/Validation/42446103/78174.191_00007306.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233466,
+   "file_path": "ARKitScenes/Validation/47895341/96403.324_00001057.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 169127,
+   "file_path": "SUNRGBD/kv2/kinect2data/002723_2014-06-22_11-47-19_094959634447_rgbf000043-resize/image/0000043.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228942,
+   "file_path": "ARKitScenes/Validation/42898849/196553.926_00006520.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3727,
+   "file_path": "KITTI_object/training/image_2/000031.png"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172130,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_w59_conference/conference_w59_nov_6_2012_scan1_erika/0003462-000149347296//image/0003462-000149347296.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158212,
+   "file_path": "hypersim/ai_024_005/images/scene_cam_00_final_preview/frame.0031.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79161,
+   "file_path": "objectron/test/bike_batch_11_34_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228927,
+   "file_path": "ARKitScenes/Validation/42898849/196538.915_00005619.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156437,
+   "file_path": "hypersim/ai_010_003/images/scene_cam_01_final_preview/frame.0039.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4935,
+   "file_path": "KITTI_object/training/image_2/002454.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84433,
+   "file_path": "objectron/test/chair_batch_5_25_0000000.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39010,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-08-30-15-31-50-0400__CAM_FRONT__1535657696012404.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 87328,
+   "file_path": "objectron/test/shoe_batch_15_39_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88003,
+   "file_path": "objectron/test/shoe_batch_39_34_0000100.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157020,
+   "file_path": "hypersim/ai_015_010/images/scene_cam_00_final_preview/frame.0039.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 162708,
+   "file_path": "hypersim/ai_054_007/images/scene_cam_01_final_preview/frame.0015.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38579,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295955162404.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 7166,
+   "file_path": "KITTI_object/training/image_2/006889.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6179,
+   "file_path": "KITTI_object/training/image_2/004929.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88230,
+   "file_path": "objectron/test/shoe_batch_11_1_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 38561,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-14-35-12-0400__CAM_FRONT__1537295933412404.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228683,
+   "file_path": "ARKitScenes/Validation/42897667/478004.076_00000456.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171849,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_lab_16/lab_16_nov_2_2012_scan1_erika/0003793-000159469128//image/0003793-000159469128.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40653,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985045012460.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 85673,
+   "file_path": "objectron/test/cup_batch_38_23_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82979,
+   "file_path": "objectron/test/cereal_box_batch_11_22_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88219,
+   "file_path": "objectron/test/shoe_batch_33_29_0000000.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 4405,
+   "file_path": "KITTI_object/training/image_2/001376.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 233524,
+   "file_path": "ARKitScenes/Validation/47895348/96542.518_00005018.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 171538,
+   "file_path": "SUNRGBD/xtion/sun3ddata/mit_76_417/76-417a/0013365-000447974856//image/0013365-000447974856.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 88186,
+   "file_path": "objectron/test/shoe_batch_44_40_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228766,
+   "file_path": "ARKitScenes/Validation/42897688/479292.087_00008920.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160191,
+   "file_path": "hypersim/ai_041_004/images/scene_cam_00_final_preview/frame.0021.tonemap.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 230204,
+   "file_path": "ARKitScenes/Validation/45261181/2827.052_00000038.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 232622,
+   "file_path": "ARKitScenes/Validation/47332904/11096.385_00001123.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84751,
+   "file_path": "objectron/test/cup_batch_44_16_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79354,
+   "file_path": "objectron/test/book_batch_2_45_0000500.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 157025,
+   "file_path": "hypersim/ai_015_010/images/scene_cam_00_final_preview/frame.0044.tonemap.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 39950,
+   "file_path": "nuScenes/samples/CAM_FRONT/n008-2018-09-18-15-12-01-0400__CAM_FRONT__1537298133662653.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 159665,
+   "file_path": "hypersim/ai_035_005/images/scene_cam_00_final_preview/frame.0091.tonemap.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 5624,
+   "file_path": "KITTI_object/training/image_2/003864.png"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83987,
+   "file_path": "objectron/test/chair_batch_25_16_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79970,
+   "file_path": "objectron/test/book_batch_14_32_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79565,
+   "file_path": "objectron/test/book_batch_12_36_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 158782,
+   "file_path": "hypersim/ai_030_001/images/scene_cam_00_final_preview/frame.0001.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 160605,
+   "file_path": "hypersim/ai_044_004/images/scene_cam_01_final_preview/frame.0035.tonemap.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 156181,
+   "file_path": "hypersim/ai_008_007/images/scene_cam_00_final_preview/frame.0078.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83914,
+   "file_path": "objectron/test/chair_batch_21_0_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 83309,
+   "file_path": "objectron/test/cereal_box_batch_31_6_0000100.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231387,
+   "file_path": "ARKitScenes/Validation/47115469/14016.291_00000337.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 228021,
+   "file_path": "ARKitScenes/Validation/42446541/201611.437_00003824.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161691,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_02_final_preview/frame.0040.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79203,
+   "file_path": "objectron/test/bike_batch_3_43_0000000.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84973,
+   "file_path": "objectron/test/cup_batch_8_47_0000300.jpg"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 3714,
+   "file_path": "KITTI_object/training/image_2/000004.png"
+  },
+  {
+   "source": "KITTI",
+   "image_id": 6532,
+   "file_path": "KITTI_object/training/image_2/005635.png"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231562,
+   "file_path": "ARKitScenes/Validation/47204554/3218.200_00000457.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 84349,
+   "file_path": "objectron/test/chair_batch_27_49_0000100.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81104,
+   "file_path": "objectron/test/bottle_batch_13_45_0000000.jpg"
+  },
+  {
+   "source": "Hypersim",
+   "image_id": 161566,
+   "file_path": "hypersim/ai_051_001/images/scene_cam_01_final_preview/frame.0007.tonemap.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 86609,
+   "file_path": "objectron/test/laptop_batch_34_9_0000200.jpg"
+  },
+  {
+   "source": "ARKitScenes",
+   "image_id": 231797,
+   "file_path": "ARKitScenes/Validation/47204605/2413.295_00000661.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 172545,
+   "file_path": "SUNRGBD/xtion/xtion_align_data/2014_12_18_11_52_47//image/0000091.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 82252,
+   "file_path": "objectron/test/camera_batch_5_32_0000200.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 81488,
+   "file_path": "objectron/test/bottle_batch_35_22_0000200.jpg"
+  },
+  {
+   "source": "SUNRGBD",
+   "image_id": 168968,
+   "file_path": "SUNRGBD/kv2/kinect2data/001807_2014-06-26_20-50-33_260595134347_rgbf000033-resize/image/0000033.jpg"
+  },
+  {
+   "source": "Objectron",
+   "image_id": 79282,
+   "file_path": "objectron/test/bike_batch_11_7_0000100.jpg"
+  },
+  {
+   "source": "nuScenes",
+   "image_id": 40649,
+   "file_path": "nuScenes/samples/CAM_FRONT/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985043012460.jpg"
+  }
+ ]
+}
