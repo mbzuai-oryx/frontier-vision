@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fa">
+  <meta name="description" content="Benchmark-level scores of six frontier systems across 50 computer vision benchmarks.">
+  <title>Hard Vision, Easy Vision · Benchmarks</title>
+  <link rel="preload" href="../assets/fonts/optimistic-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .bench-page { padding-top: 120px; }
+    .results th.task:not(.grp):not(.cap), .results td.task:not(.grp):not(.cap) { text-align: left; white-space: normal; width: 220px; min-width: 200px; max-width: 240px; padding-left: 14px; font-size: 12.5px; color: var(--muted); border-left: 1px solid var(--line-2); border-right: 1px solid var(--line-2); }
+    .results thead th.task { background: #edf3f8; color: inherit; font-size: 13px; }
+    .results td.task { background: #fff; line-height: 1.25; }
+    .results tbody tr:not(.grp-start) td.task { border-top: 1px solid var(--line); }
+    .results td.cap { min-width: 230px; }
+    @media (max-width: 760px) { .bench-page { padding-top: 96px; } .results th.task, .results td.task { display: none; } }
+  </style>
+  <script defer src="../js/data.js"></script>
+  <script defer src="../js/benchmarks.js"></script>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="nav-wrap">
+      <a class="brand" href="../" aria-label="Back to the project page">
+        <img src="../assets/brand/mbzuai.svg" alt="MBZUAI">
+      </a>
+      <nav class="site-nav" aria-label="Links">
+        <a href="../">Project page</a>
+        <a href="../#results">Capabilities</a>
+        <a href="../blog/">Blog</a>
+        <a href="https://arxiv.org/abs/2609.35718" target="_blank" rel="noopener">Paper</a>
+        <a href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="section bench-page" id="benchmarks">
+      <div class="shell">
+        <div class="section-head reveal">
+          <h2 class="one-line">Benchmark-level results</h2>
+          <p class="lede">
+            Scores of 6 frontier general-purpose systems on each individual benchmark, grouped by the 9 areas of computer&nbsp;vision.
+            The capability-level view on the <a href="../#results">project page</a> aggregates these scores into 34 capabilities.
+          </p>
+        </div>
+
+        <div class="table-toolbar reveal">
+          <div class="chips" data-area-filter></div>
+          <div class="toolbar-right">
+            <label class="switch">
+              <input type="checkbox" data-heat-toggle checked>
+              <span class="switch-track"><span class="switch-thumb"></span></span>
+              Shading
+            </label>
+            <div class="scale-legend" aria-hidden="true"><span>Lowest</span><i></i><span>Highest</span></div>
+          </div>
+        </div>
+
+        <div class="table-card reveal">
+          <div class="table-scroll">
+            <table class="results" data-bench></table>
+          </div>
+          <p class="table-notes">
+            Higher is better unless marked <b>↓</b>. The best score in each row is in <b>bold</b>, and shading is relative to that best score.
+            Fractional scores are reported as percentages. <b>n/s</b>: the model does not support the required output type (image generation or editing).
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <img src="../assets/brand/mbzuai.svg" alt="MBZUAI">
+      <p>Mohamed bin Zayed University of Artificial Intelligence · Apertix</p>
+      <nav><a href="../">Project page</a><a href="../blog/">Blog</a><a href="https://arxiv.org/abs/2609.35718" target="_blank" rel="noopener">Paper</a><a href="https://github.com/mbzuai-oryx/frontier-vision" target="_blank" rel="noopener">GitHub</a></nav>
+    </div>
+  </footer>
+  <script data-goatcounter="https://hanoona.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
