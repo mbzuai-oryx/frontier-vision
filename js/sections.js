@@ -260,13 +260,25 @@
     void r.getBoundingClientRect();
     if (!staticMode) r.classList.add("draw");
   });
-  const detPanel = $('[data-panel="det"]');
-  const detIO = new IntersectionObserver((es) => es.forEach((e) => {
-    if (e.isIntersecting) { drawBoxes(detPanel); detIO.disconnect(); }
-  }), { threshold: 0.3 });
-  detIO.observe(detPanel);
-  segGroup($("[data-box-mode]"), "mode", (m) => { detPanel.dataset.modeShow = m; drawBoxes(detPanel); });
-  onOpen.det = () => drawBoxes(detPanel);
+
+  // Result / step-by-step switches inside gallery panels
+  document.querySelectorAll("[data-view-switch]").forEach((sw) => {
+    const panel = sw.closest("[data-panel]");
+    segGroup(sw, "view", (v) => {
+      panel.dataset.view = v;
+      panel.querySelectorAll("[data-pane]").forEach((p) => (p.hidden = p.dataset.pane !== v));
+    });
+  });
+
+  // Gallery videos load on first view and play only while on screen (hidden panes never intersect)
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const videoIO = new IntersectionObserver((es) => es.forEach(({ target: v, isIntersecting }) => {
+    if (!isIntersecting) return v.pause();
+    if (!v.getAttribute("src")) { v.poster = v.dataset.poster; v.src = v.dataset.src; }
+    v.muted = true;
+    if (!staticMode && !reduceMotion) v.play().catch(() => {});
+  }), { threshold: 0.25 });
+  document.querySelectorAll("video[data-src]").forEach((v) => videoIO.observe(v));
 
   // Video: GT vs prediction sliders
   const CLIPS = [["gold-fish", "Gold-fish · 5 instances"], ["motocross-jump", "Motocross jump"], ["horsejump-high", "Horse jump"], ["scooter-black", "Scooter"]];

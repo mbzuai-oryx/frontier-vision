@@ -268,70 +268,73 @@
           <button role="tab" data-tab="medical" aria-selected="false">Medical &amp; pathology</button>
           <button role="tab" data-tab="remote" aria-selected="false">Remote sensing</button>
           <button role="tab" data-tab="restoration" aria-selected="false">Restoration</button>
+          <button role="tab" data-tab="generation" aria-selected="false">Generation</button>
+          <button role="tab" data-tab="navigation" aria-selected="false">Navigation</button>
         </div>
 
         <div class="panels reveal">
           <!-- Detection & segmentation -->
           <div class="panel" role="tabpanel" data-panel="det">
             <div class="panel-bar">
-              <div class="seg" data-box-mode>
-                <button data-mode="gt">Ground truth</button>
-                <button data-mode="pred">GPT-6 Astra</button>
-                <button data-mode="both" aria-pressed="true">Both</button>
-              </div>
-              <div class="key"><span class="sw sw-gt"></span>Ground truth <span class="sw sw-pred"></span>Prediction</div>
+              <div class="key"><span class="sw sw-pred"></span>Pink: GPT-6 Astra prediction <span class="sw sw-gt"></span>Green: ground truth</div>
             </div>
-            <div class="grid-3">
-              <figure class="boxfig" data-boxes="det_parking"><img src="assets/gallery/det_parking.jpg" alt="Aerial parking lot with densely packed cars"><figcaption>2D Detection · 146 densely packed “cars”</figcaption></figure>
-              <figure class="boxfig" data-boxes="det_buns"><img src="assets/gallery/det_buns.jpg" alt="Tray of steamed buns"><figcaption>2D Detection · crowded “buns”</figcaption></figure>
-              <figure class="maskfig">
-                <div class="mask-stack">
-                  <img src="assets/gallery/seg_rabbit.jpg" alt="Rabbit tattoo on a woman's back">
-                  <img class="mask gt" src="assets/gallery/seg_rabbit_gt.png" alt="">
-                  <img class="mask pred" src="assets/gallery/seg_rabbit_pred.png" alt="">
-                  <img class="mask gt-edge" src="assets/gallery/seg_rabbit_gt_edge.png" alt="">
-                </div>
-                <figcaption>Segmentation · “the rabbit on the woman's back”</figcaption>
-              </figure>
+            <div class="vrow">
+              <figure class="vfig" style="--ar:1.500"><video data-src="assets/videos/dense200-074_bun_sequential.mp4" data-poster="assets/videos/posters/dense200-074_bun_sequential.jpg" width="1200" height="800" muted loop playsinline controls preload="none" aria-label="Detection boxes drawn one by one on a tray of buns"></video><figcaption>2D Detection · crowded “buns”</figcaption></figure>
+              <figure class="vfig" style="--ar:1.500"><video data-src="assets/videos/dense200-101_car_sequential.mp4" data-poster="assets/videos/posters/dense200-101_car_sequential.jpg" width="1200" height="800" muted loop playsinline controls preload="none" aria-label="Detection boxes drawn one by one on a parking lot"></video><figcaption>2D Detection · 146 densely packed “cars”</figcaption></figure>
             </div>
-            <p class="panel-cap one-line">GPT-6 Astra detects objects in crowded scenes and segments intricate shapes, extending general-purpose vision to tasks traditionally handled by specialist models.</p>
+            <div class="vrow">
+              <figure class="vfig" style="--ar:1.357"><video data-src="assets/videos/seg_rabbit_progression_sam3.mp4" data-poster="assets/videos/posters/seg_rabbit_progression_sam3.jpg" width="760" height="560" muted loop playsinline controls preload="none" aria-label="Step-by-step segmentation of a rabbit tattoo"></video><figcaption>Segmentation · “the rabbit on the woman's back”</figcaption></figure>
+              <figure class="vfig" style="--ar:1.333"><video data-src="assets/videos/seg_table_progression_sam3.mp4" data-poster="assets/videos/posters/seg_table_progression_sam3.jpg" width="760" height="570" muted loop playsinline controls preload="none" aria-label="Step-by-step segmentation of a table occluded by chairs"></video><figcaption>Segmentation · a table partly hidden by chairs</figcaption></figure>
+            </div>
+            <p class="panel-cap">GPT-6 Astra detects objects in crowded scenes and segments intricate shapes, extending general-purpose vision to tasks traditionally handled by specialist models. Detection boxes appear in the order Astra outputs them, with the ground truth overlaid at the end. For segmentation, Astra writes polygon vertices, then refines and revises them against the image (final IoU 0.979 and 0.929); SAM&nbsp;3's masks are shown for comparison.</p>
           </div>
 
           <!-- 3D -->
           <div class="panel" role="tabpanel" data-panel="3d" hidden>
-            <div class="grid-3">
-              <figure>
-                <div class="compare" data-compare>
-                  <img src="assets/gallery/depth_pred.jpg" alt="Predicted depth map">
-                  <div class="c-top"><img src="assets/gallery/depth_gt.jpg" alt="Ground-truth depth map"></div>
-                  <span class="c-tag l">Ground truth</span><span class="c-tag r">GPT-6 Astra</span>
-                  <input class="c-range" type="range" min="0" max="100" value="50" aria-label="Compare ground truth and prediction">
-                  <span class="c-handle" aria-hidden="true"></span>
-                </div>
-                <figcaption>Depth estimation · Layout captured, fine detail smoothed</figcaption>
-              </figure>
-              <figure><img src="assets/gallery/ground3d.jpg" alt="3D visual grounding of a blackboard in a point cloud"><figcaption>3D visual grounding · “the thin, 4-meter blackboard”</figcaption></figure>
-              <figure><img src="assets/gallery/det3d.jpg" alt="3D bounding boxes on a street scene"><figcaption>3D object detection · Coherent 3D boxes</figcaption></figure>
+            <div class="panel-bar">
+              <div class="key"><span class="sw sw-pred"></span>Pink: GPT-6 Astra prediction <span class="sw sw-gt"></span>Green: ground truth</div>
             </div>
-            <p class="panel-cap">General-purpose models show emerging strengths in 3D grounding and detection, while gaps remain in precise object geometry, depth estimation, and geometrically consistent reconstruction.</p>
+            <div class="vrow">
+              <figure class="vfig" style="--ar:2.689"><video data-src="assets/videos/depth_progression.mp4" data-poster="assets/videos/posters/depth_progression.jpg" width="968" height="360" muted loop playsinline controls preload="none" aria-label="Step-by-step depth estimation in an auditorium"></video><figcaption>Depth estimation · from room layout to final depth map</figcaption></figure>
+              <figure class="vfig" style="--ar:1.097"><img src="assets/gallery/ground3d.jpg" width="1062" height="968" alt="3D visual grounding of a blackboard in a point cloud"><figcaption>3D visual grounding · “the thin, 4-meter blackboard”</figcaption></figure>
+            </div>
+            <div class="vrow">
+              <figure class="vfig" style="--ar:1.778"><video data-src="assets/videos/nuScenes_39091_sequential.mp4" data-poster="assets/videos/posters/nuScenes_39091_sequential.jpg" width="1600" height="900" muted loop playsinline controls preload="none" aria-label="3D boxes drawn one by one on a street scene"></video><figcaption>3D object detection · street scene</figcaption></figure>
+              <figure class="vfig" style="--ar:1.377"><video data-src="assets/videos/SUNRGBD_169541_sequential.mp4" data-poster="assets/videos/posters/SUNRGBD_169541_sequential.jpg" width="730" height="530" muted loop playsinline controls preload="none" aria-label="3D boxes drawn one by one on an indoor scene"></video><figcaption>3D object detection · indoor scene</figcaption></figure>
+            </div>
+            <p class="panel-cap">General-purpose models show emerging strengths in 3D grounding and detection, while gaps remain in precise object geometry, depth estimation, and geometrically consistent reconstruction. For depth, GPT-6 Astra builds the depth map as a program, fitting the room layout first and then placing the chairs row by row (AbsRel 0.111 on this image).</p>
           </div>
 
           <!-- Video -->
-          <div class="panel" role="tabpanel" data-panel="video" hidden>
+          <div class="panel" role="tabpanel" data-panel="video" data-view="clips" hidden>
+            <div class="panel-bar"><div class="seg view-seg" data-view-switch><button data-view="clips" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>Video</button><button data-view="frames" aria-pressed="false">Key frames</button></div></div>
+            <div data-pane="clips">
+              <div class="vrow">
+                <figure class="vfig" style="--ar:1.333"><video data-src="assets/videos/vos_gold-fish_progression.mp4" data-poster="assets/videos/posters/vos_gold-fish_progression.jpg" width="640" height="480" muted loop playsinline controls preload="none" aria-label="Gold-fish video with five tracked fish"></video><figcaption>Gold-fish · 5 instances</figcaption></figure>
+                <figure class="vfig" style="--ar:1.779"><video data-src="assets/videos/vos_horsejump-high_progression.mp4" data-poster="assets/videos/posters/vos_horsejump-high_progression.jpg" width="854" height="480" muted loop playsinline controls preload="none" aria-label="Horse-jump video with rider and horse tracked"></video><figcaption>Horse jump · 2 instances</figcaption></figure>
+              </div>
+              <p class="panel-cap">Given only the mask of the first frame, GPT-6 Astra tracks every object through the clip (J&amp;F 85.5 on gold-fish, 84.8 on horse jump).</p>
+            </div>
+            <div data-pane="frames" hidden>
             <div class="grid-4" data-video-grid></div>
             <p class="panel-cap wide">GPT-6 Astra shows substantial progress in video segmentation, capturing main object shapes and distinguishing multiple instances.<br>Precise boundaries, small structures, and separation of nearby objects remain challenging.</p>
+            </div>
           </div>
 
           <!-- Medical -->
-          <div class="panel" role="tabpanel" data-panel="medical" hidden>
+          <div class="panel" role="tabpanel" data-panel="medical" data-view="result" hidden>
             <div class="panel-bar">
-              <div class="seg" data-poly-mode>
-                <button data-mode="gt">Ground truth</button>
-                <button data-mode="pred">GPT-6 Astra</button>
-                <button data-mode="both" aria-pressed="true">Both</button>
+              <div class="bar-left">
+                <div class="seg view-seg" data-view-switch><button data-view="result" aria-pressed="true">Result</button><button data-view="steps" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>Pathology step by step</button></div>
+                <div class="seg" data-poly-mode data-result-only>
+                  <button data-mode="gt">Ground truth</button>
+                  <button data-mode="pred">GPT-6 Astra</button>
+                  <button data-mode="both" aria-pressed="true">Both</button>
+                </div>
               </div>
-              <div class="key"><span class="sw sw-gtd"></span>Ground truth <span class="sw" style="--sw:#ff3b30"></span>GPT-6 Astra <span class="sw" style="--sw:#0a84ff"></span>Qwen 3.8-Max <span class="sw" style="--sw:#00e05a"></span>GT nucleus boundary <span class="sw" style="--sw:#ffd600"></span>Predicted boundary</div>
+              <div class="key" data-result-only><span class="sw sw-gtd"></span>Ground truth <span class="sw" style="--sw:#ff3b30"></span>GPT-6 Astra <span class="sw" style="--sw:#0a84ff"></span>Qwen 3.8-Max <span class="sw" style="--sw:#00e05a"></span>GT nucleus boundary <span class="sw" style="--sw:#ffd600"></span>Predicted boundary</div>
             </div>
+            <div data-pane="result">
             <div class="med-row">
               <figure class="med-ct">
                 <div class="ct-views">
@@ -349,6 +352,13 @@
               <figure class="polyfig" data-puma="zoom"><img src="assets/gallery/puma_zoom.jpg" alt="Zoomed pathology crop"><figcaption>Zoom-in (dashed box)</figcaption></figure>
             </div>
             <p class="panel-cap">Organs and findings can be localized in CT and X-ray. In pathology, nuclei are localized and delineated accurately, yet assigning the correct nucleus type remains substantially harder.</p>
+            </div>
+            <div data-pane="steps" hidden>
+              <div class="vrow vsolo" style="--maxw:780px">
+                <figure class="vfig" style="--ar:1.333"><video data-src="assets/videos/pathology_astra_vs_gt.mp4" data-poster="assets/videos/posters/pathology_astra_vs_gt.jpg" width="1200" height="900" muted loop playsinline controls preload="none" aria-label="Nucleus segmentation on a pathology tile, GPT-6 Astra against ground truth"></video></figure>
+              </div>
+              <p class="panel-cap">Nucleus segmentation on a PUMA H&amp;E tile: GPT-6 Astra outlines 783 nuclei against 813 in the ground truth, shown for the full tile and a 4× zoom.</p>
+            </div>
           </div>
 
           <!-- Remote sensing -->
@@ -389,6 +399,31 @@
               <div class="crops" data-rest-crops></div>
             </div>
             <p class="panel-cap">Restorations can look plausible but hallucinate content: in the low-light case, four bowling pins become five, extra pins appear on an empty lane, and the banner text changes, while the specialist (MIRAGE) stays faithful. PSNR/SSIM are computed on full images; the crops enlarge the red box 4×.</p>
+          </div>
+
+          <!-- Generation & editing -->
+          <div class="panel" role="tabpanel" data-panel="generation" hidden>
+            <div class="vrow vsolo" style="--maxw:780px">
+              <figure class="vfig" style="--ar:1.333"><video data-src="assets/videos/astra_generation_editing_4x3.mp4" data-poster="assets/videos/posters/astra_generation_editing_4x3.jpg" width="1200" height="900" muted loop playsinline controls preload="none" aria-label="Image generation checked question by question, and two instruction-guided edits"></video></figure>
+            </div>
+            <p class="panel-cap">Text-to-image generation on GenEval2, where each image is checked with questions about object counts, attributes and relations, and instruction-guided editing. GPT-6 Astra scores 96.2 Soft-TIFA GM on GenEval2 and 4.80 out of 5 on ImgEdit-Bench, the highest among the six systems.</p>
+          </div>
+
+          <!-- Navigation -->
+          <div class="panel" role="tabpanel" data-panel="navigation" data-view="astra" hidden>
+            <div class="panel-bar"><div class="seg view-seg" data-view-switch><button data-view="astra" aria-pressed="true">GPT-6 Astra</button><button data-view="six" aria-pressed="false">All six models</button></div></div>
+            <div data-pane="astra">
+              <div class="vrow">
+                <figure class="vfig" style="--ar:1.778"><video data-src="assets/videos/astra_navigation_hard1.mp4" data-poster="assets/videos/posters/astra_navigation_hard1.jpg" width="1920" height="1080" muted loop playsinline controls preload="none" aria-label="GPT-6 Astra navigating to a pillow, first-person and top-down views"></video></figure>
+              </div>
+              <p class="panel-cap">EB-Navigation, long-horizon episode: “navigate to the Pillow in the room and be as close as possible to it”. The model sees only the first-person view; the top-down map is for illustration. GPT-6 Astra reaches the target in 17 steps.</p>
+            </div>
+            <div data-pane="six" hidden>
+              <div class="vrow">
+                <figure class="vfig" style="--ar:1.778"><video data-src="assets/videos/six_model_comparison_hard1.mp4" data-poster="assets/videos/posters/six_model_comparison_hard1.jpg" width="1920" height="1080" muted loop playsinline controls preload="none" aria-label="The same navigation episode attempted by all six models"></video></figure>
+              </div>
+              <p class="panel-cap">The same episode from the same start for all six models: only GPT-6 Astra reaches the target within 20 steps.</p>
+            </div>
           </div>
         </div>
       </div>

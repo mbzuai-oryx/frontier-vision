@@ -608,7 +608,7 @@ html.no-anim *, html.no-anim *::before, html.no-anim *::after { transition: none
 /* Gallery -------------------------------------------------------------------- */
 .tabs { display: flex; flex-wrap: wrap; gap: 6px; padding: 5px; background: #fff; border: 1px solid var(--line); border-radius: 999px; width: fit-content; max-width: 100%; }
 .tabs button {
-  font: inherit; font-size: 14px; padding: 8px 16px; border: 0; border-radius: 999px; background: transparent;
+  font: inherit; font-size: 14px; padding: 8px 13px; border: 0; border-radius: 999px; background: transparent;
   color: var(--ink-2); cursor: pointer; transition: background .25s, color .25s;
 }
 .tabs button:hover { color: var(--tide); }
@@ -632,6 +632,18 @@ html.no-anim *, html.no-anim *::before, html.no-anim *::after { transition: none
 .panel-cap { margin: 18px 0 0; max-width: 900px; font-size: 14.5px; color: var(--muted); }
 .panel-cap.one-line, .panel-cap.wide { max-width: none; }
 @media (min-width: 1200px) { .panel-cap.one-line { white-space: nowrap; } }
+/* Result / step-by-step switch and gallery videos */
+.bar-left { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.view-seg button { display: inline-flex; align-items: center; gap: 6px; }
+.view-seg button svg { width: 12px; height: 12px; fill: currentColor; }
+.view-seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.panel[data-view]:not([data-view="result"]) [data-result-only] { display: none; }
+.vrow { display: flex; gap: 14px; align-items: flex-start; }
+.vrow + .vrow { margin-top: 14px; }
+.vrow .vfig { flex: var(--ar, 1.5) 1 0; min-width: 0; } /* grow by aspect ratio so videos in a row share one height */
+.vrow.vsolo { max-width: var(--maxw, 100%); margin-left: auto; margin-right: auto; }
+.vfig video, .panel .vfig > img { display: block; width: 100%; height: auto; border-radius: 12px; background: #0f1a24; }
+@media (max-width: 760px) { .vrow { flex-direction: column; } .vrow .vfig { flex: none; width: 100%; } }
 .grid-2, .grid-3, .grid-4 { display: grid; gap: 14px; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); align-items: start; }
